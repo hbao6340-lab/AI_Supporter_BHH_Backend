@@ -28,8 +28,6 @@ app.add_middleware(
 
 # Serve frontend static files
 
-<<<<<<< HEAD
-
 @app.post("/chat")
 async def chat_handler(request: dict):
     """Simple chat endpoint - accepts { message: "text" } returns { text: "reply", audio: "base64" }"""
@@ -64,8 +62,6 @@ async def chat_handler(request: dict):
             status_code=500,
             content={"error": str(e)}
         )
-=======
->>>>>>> 2d44f32380c045df8eb6fcfac49318e36de3152c
 
 @app.post("/api")
 async def api_handler(request: dict):
