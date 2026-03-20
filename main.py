@@ -18,6 +18,45 @@ from lipsync import generate_visemes, estimate_word_timing
 
 app = FastAPI()
 
+# Debug endpoint to check ALL files in the project
+@app.get("/debug/files")
+async def debug_files():
+    """Debug endpoint to list all files in the project."""
+    import os
+    try:
+        # List root directory
+        root_files = os.listdir(".")
+        
+        # List knowledge directory if exists
+        knowledge_files = []
+        if os.path.exists("knowledge"):
+            knowledge_files = os.listdir("knowledge")
+        
+        # List backend directory if exists
+        backend_files = []
+        if os.path.exists("backend"):
+            backend_files = os.listdir("backend")
+        
+        # Check if knowledge folder exists
+        knowledge_path = os.path.join(os.getcwd(), "knowledge")
+        knowledge_exists = os.path.exists(knowledge_path)
+        is_knowledge_dir = os.path.isdir(knowledge_path) if knowledge_exists else False
+        
+        return {
+            "cwd": os.getcwd(),
+            "root_files": root_files,
+            "knowledge_exists": knowledge_exists,
+            "is_directory": is_knowledge_dir,
+            "knowledge_files": knowledge_files,
+            "backend_files": backend_files,
+        }
+    except Exception as e:
+        import traceback
+        return {
+            "error": str(e),
+            "trace": traceback.format_exc()
+        }
+
 # Debug endpoint to check knowledge base status
 @app.get("/debug/knowledge")
 async def debug_knowledge():
