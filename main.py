@@ -29,9 +29,15 @@ async def debug_knowledge():
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
         
+        # List files in knowledge directory
+        files_in_knowledge = []
+        if retriever.knowledge_dir.exists():
+            files_in_knowledge = [f.name for f in retriever.knowledge_dir.iterdir()]
+        
         return {
             "knowledge_dir": str(retriever.knowledge_dir),
             "knowledge_exists": retriever.knowledge_dir.exists(),
+            "files_in_knowledge_dir": files_in_knowledge,
             "num_documents": len(retriever.documents),
             "has_knowledge": retriever.has_knowledge(),
             "sklearn_available": retriever.vectorizer is not None,
