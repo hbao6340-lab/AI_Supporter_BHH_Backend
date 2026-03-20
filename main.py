@@ -27,19 +27,7 @@ app.add_middleware(
 )
 
 # Serve frontend static files
-frontend_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")
-app.mount("/static", StaticFiles(directory=frontend_path), name="static")
 
-@app.get("/")
-async def serve_index():
-    return FileResponse(os.path.join(frontend_path, "index.html"))
-
-@app.get("/vrm/{path:path}")
-async def serve_vrm(path: str):
-    vrm_path = os.path.join(frontend_path, "vrm", path)
-    if os.path.exists(vrm_path):
-        return FileResponse(vrm_path)
-    return {"error": "VRM file not found"}, 404
 
 @app.post("/api")
 async def api_handler(request: dict):
