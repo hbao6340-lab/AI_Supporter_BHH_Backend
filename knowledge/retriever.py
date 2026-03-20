@@ -38,18 +38,22 @@ class KnowledgeRetriever:
             # Try multiple possible locations for knowledge files
             # Order matters! Check root knowledge folder first (more likely to be deployed)
             possible_paths = [
-                # Option 1: knowledge (root folder - most likely to be deployed)
+                # Option 1: knowledge/data (Render deployment - docs are in data subfolder)
+                project_root / "knowledge" / "data",
+                # Option 2: knowledge (root folder - documents directly in folder)
                 project_root / "knowledge",
-                # Option 2: backend/knowledge/data (local development)
+                # Option 3: backend/knowledge/data (local development)
                 project_root / "backend" / "knowledge" / "data",
-                # Option 3: backend/knowledge/data directly
+                # Option 4: backend/knowledge/data directly
                 knowledge_parent / "data",
-                # Option 4: /var/task (Render/Vercel typical deployment)
+                # Option 5: /var/task (Render/Vercel typical deployment)
                 Path("/var/task"),
                 Path("/var/task/knowledge"),
+                Path("/var/task/knowledge/data"),
                 Path("/var/task/backend/knowledge/data"),
-                # Option 5: Current working directory
+                # Option 6: Current working directory
                 Path(".") / "knowledge",
+                Path(".") / "knowledge" / "data",
                 Path(".") / "backend" / "knowledge" / "data",
             ]
             
