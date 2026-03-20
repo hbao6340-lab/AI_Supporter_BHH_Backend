@@ -102,6 +102,68 @@ def _load_knowledge():
         # Don't set _knowledge_loaded to True so it can retry
 
 
+# Keywords that indicate user is asking about the AI system itself
+AI_QUESTION_KEYWORDS = [
+    "ai là gì",
+    "bạn là ai",
+    "em là ai",
+    "who are you",
+    "what are you",
+    "who made",
+    "ai made",
+    "who created",
+    "created by",
+    "made by",
+    "được ai làm",
+    "do ai làm",
+    "ai tạo",
+    "ai xây dựng",
+    "ai phát triển",
+    "hệ thống ai",
+    "về ai",
+    "thông tin về",
+    "giới thiệu",
+    "giới thiệu về",
+    "người tạo",
+    "người làm",
+    "lập trình",
+    " Developer",
+    "developer",
+    "programmer",
+    "programmed",
+]
+
+def _load_ai_system_info():
+    """Load the AI system info file content."""
+    try:
+        # Try multiple paths for the AI system info file
+        possible_paths = [
+            os.path.join(project_root, "backend", "knowledge", "data", "HỆ THỐNG AI.txt"),
+            os.path.join(project_root, "knowledge", "data", "HỆ THỐNG AI.txt"),
+            os.path.join(project_root, "knowledge", "HỆ THỐNG AI.txt"),
+        ]
+        
+        for path in possible_paths:
+            if os.path.exists(path):
+                with open(path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    logger.info(f"Loaded AI system info from: {path}")
+                    return content
+        
+        logger.warning("AI system info file not found")
+        return None
+    except Exception as e:
+        logger.warning(f"Failed to load AI system info: {e}")
+        return None
+
+def _is_ai_question(text):
+    """Check if the question is about the AI system itself."""
+    text_lower = text.lower()
+    for keyword in AI_QUESTION_KEYWORDS:
+        if keyword.lower() in text_lower:
+            return True
+    return False
+
 def get_reply(text):
     """
     Get AI reply using knowledge-augmented generation.
@@ -110,6 +172,28 @@ def get_reply(text):
     # Filter out promotional/spam content
     if _is_promotional_content(text):
         return "Xin lỗi, tôi không nghe rõ. Bạn có thể nói lại không?"
+    
+    # Check if user is asking about the AI system itself
+    if _is_ai_question(text):
+        logger.info(f"Detected AI question: {text[:50]}...")
+        ai_info = _load_ai_system_info()
+        
+        if ai_info:
+            try:
+                response = client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=[
+                        {"role": "system", "content": 
+                         "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                         "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                         "Sử dụng THÔNG TIN được cung cấp để trả lời câu hỏi về hệ thống AI."},
+                        {"role": "system", "content": "THÔNG TIN:\n" + ai_info},
+                        {"role": "user", "content": text}
+                    ]
+                )
+                return response.choices[0].message.content
+            except Exception as e:
+                logger.warning(f"Failed to get AI info response: {e}")
     
     # Load knowledge if not loaded
     _load_knowledge()
