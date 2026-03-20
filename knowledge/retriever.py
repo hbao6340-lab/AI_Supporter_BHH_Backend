@@ -28,15 +28,23 @@ class KnowledgeRetriever:
     """Retrieves relevant documents using TF-IDF similarity search."""
     
     def __init__(self, knowledge_dir: str = None):
-        # Default to knowledge folder in backend directory
+        # Default to knowledge folder - use absolute path from project root
         if knowledge_dir is None:
-            # Look for knowledge in backend/knowledge/ directory
-            knowledge_dir = Path(__file__).parent / "data"
+            # Go up from backend/knowledge/retriever.py to project root, then to backend/knowledge/data
+            project_root = Path(__file__).parent.parent.parent
+            knowledge_dir = project_root / "backend" / "knowledge" / "data"
+        
+        # Convert to absolute path if relative
+        if not Path(knowledge_dir).is_absolute():
+            knowledge_dir = Path(__file__).parent.parent.parent / knowledge_dir
+            
         self.knowledge_dir = Path(knowledge_dir)
         self.documents = []
         self.vectorizer = None
         self.tfidf_matrix = None
         self.document_sources = []
+        
+        logger.info(f"Knowledge directory: {self.knowledge_dir}")
         
         # Cache file for processed documents
         cache_path = Path(__file__).parent / ".cache"
@@ -93,7 +101,7 @@ class KnowledgeRetriever:
             try:
                 self.vectorizer = TfidfVectorizer(
                     lowercase=True,
-                    stop_words='english',
+                    stop_words=None,  # Don't use English stop words for Vietnamese
                     ngram_range=(1, 2),
                     max_features=10000,
                     min_df=1
