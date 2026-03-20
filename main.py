@@ -106,7 +106,20 @@ async def debug_reload_knowledge():
     """Debug endpoint to reload knowledge base."""
     try:
         success = reload_knowledge(force=True)
-        return {"success": success, "message": "Knowledge reloaded" if success else "Failed to reload"}
+        
+        # Get updated status
+        try:
+            from backend.knowledge.retriever import retriever
+        except ModuleNotFoundError:
+            from knowledge.retriever import retriever
+        
+        return {
+            "success": success,
+            "knowledge_dir": str(retriever.knowledge_dir),
+            "knowledge_exists": retriever.knowledge_dir.exists(),
+            "num_documents": len(retriever.documents),
+            "has_knowledge": retriever.has_knowledge(),
+        }
     except Exception as e:
         import traceback
         return {
