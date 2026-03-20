@@ -30,9 +30,26 @@ class KnowledgeRetriever:
     def __init__(self, knowledge_dir: str = None):
         # Default to knowledge folder - use absolute path from project root
         if knowledge_dir is None:
-            # Go up from backend/knowledge/retriever.py to project root, then to backend/knowledge/data
+            # Go up from backend/knowledge/retriever.py to project root
             project_root = Path(__file__).parent.parent.parent
-            knowledge_dir = project_root / "backend" / "knowledge" / "data"
+            
+            # Try multiple possible locations for knowledge files
+            possible_paths = [
+                project_root / "backend" / "knowledge" / "data",  # Local development
+                project_root / "knowledge",  # Alternative location
+                Path(__file__).parent / "data",  # Relative to retriever.py
+            ]
+            
+            # Use the first path that exists
+            knowledge_dir = None
+            for path in possible_paths:
+                if path.exists():
+                    knowledge_dir = path
+                    break
+            
+            # Fallback to first option if none exist (will log warning later)
+            if knowledge_dir is None:
+                knowledge_dir = possible_paths[0]
         
         # Convert to absolute path if relative
         if not Path(knowledge_dir).is_absolute():
