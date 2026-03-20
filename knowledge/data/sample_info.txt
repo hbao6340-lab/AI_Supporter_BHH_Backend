@@ -1,0 +1,26 @@
+# Thông tin về Công ty ABC
+
+## Giới thiệu
+Công ty ABC được thành lập vào năm 2020, chuyên cung cấp các giải pháp công nghệ thông tin và chuyển đổi số cho doanh nghiệp Việt Nam.
+
+## Sản phẩm và Dịch vụ
+1. Phát triển phần mềm theo yêu cầu
+2. Tư vấn chuyển đổi số
+3. Đào tạo công nghệ thông tin
+4. Dịch vụ cloud và hosting
+
+## Liên hệ
+- Địa chỉ: 123 Đường Nguyễn Trãi, Quận 1, TP.HCM
+- Điện thoại: (028) 1234 5678
+- Email: contact@abccorp.vn
+- Website: www.abccorp.vn
+
+## Giờ làm việc
+Thứ Hai - Thứ Sáu: 8:00 - 17:30
+Thứ Bảy: 8:00 - 12:00
+Chủ Nhật: Nghỉ
+
+## Chính sách bảo hành
+- Bảo hành sản phẩm: 12 tháng
+- Bảo hành dịch vụ: 6 tháng
+- Hỗ trợ kỹ thuật 24/7 cho khách hàng VIP
