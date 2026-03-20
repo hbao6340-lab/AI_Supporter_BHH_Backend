@@ -12,11 +12,45 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 from asr import transcribe_audio
-from brain import get_reply
+from brain import get_reply, reload_knowledge
 from tts import generate_full_tts
 from lipsync import generate_visemes, estimate_word_timing
 
 app = FastAPI()
+
+# Debug endpoint to check knowledge base status
+@app.get("/debug/knowledge")
+async def debug_knowledge():
+    """Debug endpoint to check knowledge base status."""
+    try:
+        from backend.knowledge.retriever import retriever
+        return {
+            "knowledge_dir": str(retriever.knowledge_dir),
+            "knowledge_exists": retriever.knowledge_dir.exists(),
+            "num_documents": len(retriever.documents),
+            "has_knowledge": retriever.has_knowledge(),
+            "sklearn_available": retriever.vectorizer is not None,
+        }
+    except Exception as e:
+        import traceback
+        return {
+            "error": str(e),
+            "trace": traceback.format_exc()
+        }
+
+# Debug endpoint to reload knowledge
+@app.post("/debug/reload-knowledge")
+async def debug_reload_knowledge():
+    """Debug endpoint to reload knowledge base."""
+    try:
+        success = reload_knowledge(force=True)
+        return {"success": success, "message": "Knowledge reloaded" if success else "Failed to reload"}
+    except Exception as e:
+        import traceback
+        return {
+            "error": str(e),
+            "trace": traceback.format_exc()
+        }
 
 # Add CORS middleware - must be before any routes
 app.add_middleware(

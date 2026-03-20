@@ -87,10 +87,15 @@ def _load_knowledge():
         success = retriever.load_knowledge()
         if success:
             logger.info(f"Knowledge base loaded with {len(retriever.documents)} documents")
-        _knowledge_loaded = True
+            _knowledge_loaded = True
+        else:
+            # Loading failed, don't mark as loaded to allow retry
+            logger.warning("Knowledge base load returned False, will retry")
     except Exception as e:
         logger.warning(f"Failed to load knowledge base: {e}")
-        _knowledge_loaded = True  # Don't retry
+        import traceback
+        traceback.print_exc()
+        # Don't set _knowledge_loaded to True so it can retry
 
 
 def get_reply(text):
