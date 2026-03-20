@@ -38,7 +38,8 @@ async def chat_handler(request: dict):
         if not text:
             return JSONResponse(
                 status_code=400,
-                content={"error": "Missing message"}
+                content={"error": "Missing message"},
+                headers={"Access-Control-Allow-Origin": "*"}
             )
         
         # Get AI response
@@ -50,10 +51,13 @@ async def chat_handler(request: dict):
         # Convert audio to base64
         audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
         
-        return {
-            "text": reply,
-            "audio": audio_base64
-        }
+        return JSONResponse(
+            content={
+                "text": reply,
+                "audio": audio_base64
+            },
+            headers={"Access-Control-Allow-Origin": "*"}
+        )
         
     except Exception as e:
         logger.error(f"Chat error: {e}")
@@ -61,12 +65,15 @@ async def chat_handler(request: dict):
         traceback.print_exc()
         return JSONResponse(
             status_code=500,
-            content={"error": str(e)}
+            content={"error": str(e)},
+            headers={"Access-Control-Allow-Origin": "*"}
         )
 
 @app.post("/api")
 async def api_handler(request: dict):
     """REST API handler for text and audio processing"""
+    cors_headers = {"Access-Control-Allow-Origin": "*"}
+    
     try:
         text = request.get("text", "")
         audio_data = request.get("audio", "")
@@ -81,13 +88,15 @@ async def api_handler(request: dict):
                 logger.error(f"ASR transcription error: {e}")
                 return JSONResponse(
                     status_code=400,
-                    content={"error": f"Audio transcription failed: {str(e)}"}
+                    content={"error": f"Audio transcription failed: {str(e)}"},
+                    headers=cors_headers
                 )
         
         if not text:
             return JSONResponse(
                 status_code=400,
-                content={"error": "Missing text or audio"}
+                content={"error": "Missing text or audio"},
+                headers=cors_headers
             )
         
         # Get AI response
@@ -107,15 +116,18 @@ async def api_handler(request: dict):
         # Convert audio to base64
         audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
         
-        return {
-            "text": reply,
-            "audio": audio_base64,
-            "lip_sync": {
-                "visemes": viseme_sequence,
-                "words": word_timing,
-                "duration": audio_duration_ms
-            }
-        }
+        return JSONResponse(
+            content={
+                "text": reply,
+                "audio": audio_base64,
+                "lip_sync": {
+                    "visemes": viseme_sequence,
+                    "words": word_timing,
+                    "duration": audio_duration_ms
+                }
+            },
+            headers=cors_headers
+        )
         
     except Exception as e:
         logger.error(f"API error: {e}")
@@ -123,7 +135,8 @@ async def api_handler(request: dict):
         traceback.print_exc()
         return JSONResponse(
             status_code=500,
-            content={"error": str(e)}
+            content={"error": str(e)},
+            headers=cors_headers
         )
 
 @app.websocket("/ws")
