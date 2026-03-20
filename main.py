@@ -18,12 +18,13 @@ from lipsync import generate_visemes, estimate_word_timing
 
 app = FastAPI()
 
-# Add CORS middleware
+# Add CORS middleware - must be before any routes
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
+    allow_credentials=True,
 )
 
 # Serve frontend static files
