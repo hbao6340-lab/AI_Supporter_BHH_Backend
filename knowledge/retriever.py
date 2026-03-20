@@ -226,10 +226,15 @@ class KnowledgeRetriever:
         if not self.documents:
             return "", False
         
-        results = self.search(query, top_k=5, min_similarity=0.05)
+        # Use lower similarity threshold to find more relevant documents
+        results = self.search(query, top_k=10, min_similarity=0.01)
         
         if not results:
             return "", False
+        
+        logger.info(f"Search results for '{query[:30]}...': {len(results)} documents found")
+        for r in results:
+            logger.info(f"  - {r['source']['filename']}: similarity={r['similarity']:.3f}")
         
         # Build context from results
         context_parts = []
@@ -245,10 +250,11 @@ class KnowledgeRetriever:
         
         context = "\n\n".join(context_parts)
         
-        # Check if we have meaningful results
-        avg_similarity = sum(r['similarity'] for r in results) / len(results)
+        # Check if we have meaningful results - be more lenient
+        if results:
+            return context, True
         
-        return context, avg_similarity >= 0.1
+        return context, False
     
     def has_knowledge(self) -> bool:
         """Check if knowledge base is loaded."""

@@ -108,30 +108,42 @@ def get_reply(text):
     try:
         from backend.knowledge.retriever import retriever
         
+        # Debug: Check knowledge base status
+        logger.info(f"Knowledge base loaded: {retriever.has_knowledge()}")
+        logger.info(f"Number of documents: {len(retriever.documents)}")
+        
         # Check if knowledge base has content
         if retriever.has_knowledge():
-            # Search for relevant context
-            context, found = retriever.get_answer_context(text, max_chars=2000)
+            # Search for relevant context with lower similarity threshold
+            context, found = retriever.get_answer_context(text, max_chars=3000)
             
-            if found and context:
+            logger.info(f"Search result for '{text[:30]}...': found={found}, context_len={len(context)}")
+            
+            if context:
                 logger.info(f"Found relevant knowledge for: {text[:50]}...")
+                logger.info(f"Context preview: {context[:200]}...")
                 
                 # Use knowledge-augmented response
                 response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
                         {"role": "system", "content": 
-                         "Bạn là một trợ lý ảo anime dễ thương. "
+                         "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
                          "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
-                         "Nếu thông tin trong ngữ cảnh không đủ để trả lời, hãy nói rằng bạn không có thông tin đó."},
-                        {"role": "system", "content": f"Thông tin tài liệu:\n{context}"},
+                         "Sử dụng THÔNG TIN TÀI LIỆU được cung cấp để trả lời câu hỏi. "
+                         "Nếu thông tin trong tài liệu không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng."},
+                        {"role": "system", "content": f"THÔNG TIN TÀI LIỆU:\n{context}"},
                         {"role": "user", "content": text}
                     ]
                 )
                 
                 return response.choices[0].message.content
+            else:
+                logger.info(f"No relevant context found in knowledge base for: {text[:50]}...")
     except Exception as e:
         logger.warning(f"Knowledge search failed: {e}")
+        import traceback
+        traceback.print_exc()
     
     # Fallback to standard OpenAI response
     logger.info(f"Using OpenAI fallback for: {text[:50]}...")
