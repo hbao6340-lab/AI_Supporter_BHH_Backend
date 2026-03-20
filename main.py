@@ -41,6 +41,41 @@ async def serve_vrm(path: str):
         return FileResponse(vrm_path)
     return {"error": "VRM file not found"}, 404
 
+@app.post("/chat")
+async def chat_handler(request: dict):
+    """Simple chat endpoint - accepts { message: "text" } returns { text: "reply", audio: "base64" }"""
+    try:
+        text = request.get("message", "")
+        
+        if not text:
+            return JSONResponse(
+                status_code=400,
+                content={"error": "Missing message"}
+            )
+        
+        # Get AI response
+        reply = get_reply(text)
+        
+        # Generate TTS
+        audio_bytes = await generate_full_tts(reply) if generate_full_tts else b""
+        
+        # Convert audio to base64
+        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
+        
+        return {
+            "text": reply,
+            "audio": audio_base64
+        }
+        
+    except Exception as e:
+        logger.error(f"Chat error: {e}")
+        import traceback
+        traceback.print_exc()
+        return JSONResponse(
+            status_code=500,
+            content={"error": str(e)}
+        )
+
 @app.post("/api")
 async def api_handler(request: dict):
     """REST API handler for text and audio processing"""
