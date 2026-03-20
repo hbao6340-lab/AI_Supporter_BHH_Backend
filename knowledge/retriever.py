@@ -31,25 +31,40 @@ class KnowledgeRetriever:
         # Default to knowledge folder - use absolute path from project root
         if knowledge_dir is None:
             # Go up from backend/knowledge/retriever.py to project root
-            project_root = Path(__file__).parent.parent.parent
+            retriever_path = Path(__file__).parent
+            knowledge_parent = retriever_path.parent  # backend/knowledge
+            project_root = knowledge_parent.parent  # project root
             
             # Try multiple possible locations for knowledge files
             possible_paths = [
-                project_root / "backend" / "knowledge" / "data",  # Local development
-                project_root / "knowledge",  # Alternative location
-                Path(__file__).parent / "data",  # Relative to retriever.py
+                # Option 1: backend/knowledge/data (local development)
+                project_root / "backend" / "knowledge" / "data",
+                # Option 2: knowledge (alternative)
+                project_root / "knowledge",
+                # Option 3: backend/knowledge/data directly
+                knowledge_parent / "data",
+                # Option 4: /var/task (Render/Vercel typical)
+                Path("/var/task"),
+                Path("/var/task/backend/knowledge/data"),
+                Path("/var/task/knowledge"),
+                # Option 5: Current working directory
+                Path(".") / "knowledge",
+                Path(".") / "backend" / "knowledge" / "data",
             ]
             
             # Use the first path that exists
             knowledge_dir = None
             for path in possible_paths:
+                logger.info(f"Checking knowledge path: {path} (exists: {path.exists()})")
                 if path.exists():
                     knowledge_dir = path
+                    logger.info(f"Using knowledge directory: {knowledge_dir}")
                     break
             
             # Fallback to first option if none exist (will log warning later)
             if knowledge_dir is None:
                 knowledge_dir = possible_paths[0]
+                logger.warning(f"No knowledge directory found, using default: {knowledge_dir}")
         
         # Convert to absolute path if relative
         if not Path(knowledge_dir).is_absolute():
