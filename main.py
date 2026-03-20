@@ -32,6 +32,16 @@ async def debug_files():
         if os.path.exists("knowledge"):
             knowledge_files = os.listdir("knowledge")
         
+        # List knowledge/data if exists (for local dev structure)
+        knowledge_data_files = []
+        if os.path.exists("knowledge/data"):
+            knowledge_data_files = os.listdir("knowledge/data")
+        
+        # Check other possible locations
+        backend_knowledge_data = []
+        if os.path.exists("backend/knowledge/data"):
+            backend_knowledge_data = os.listdir("backend/knowledge/data")
+        
         # List backend directory if exists
         backend_files = []
         if os.path.exists("backend"):
@@ -48,6 +58,8 @@ async def debug_files():
             "knowledge_exists": knowledge_exists,
             "is_directory": is_knowledge_dir,
             "knowledge_files": knowledge_files,
+            "knowledge_data_files": knowledge_data_files,
+            "backend_knowledge_data": backend_knowledge_data,
             "backend_files": backend_files,
         }
     except Exception as e:
