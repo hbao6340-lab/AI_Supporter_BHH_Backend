@@ -35,6 +35,11 @@ class KnowledgeRetriever:
             knowledge_parent = retriever_path.parent  # backend/knowledge
             project_root = knowledge_parent.parent  # project root
             
+            # Debug: Log the paths being calculated
+            logger.info(f"retriever_path: {retriever_path}")
+            logger.info(f"knowledge_parent: {knowledge_parent}")
+            logger.info(f"project_root: {project_root}")
+            
             # Try multiple possible locations for knowledge files
             # Order matters! Check root knowledge folder first (more likely to be deployed)
             possible_paths = [
@@ -42,19 +47,19 @@ class KnowledgeRetriever:
                 project_root / "knowledge" / "data",
                 # Option 2: knowledge (root folder - documents directly in folder)
                 project_root / "knowledge",
-                # Option 3: backend/knowledge/data (local development)
-                project_root / "backend" / "knowledge" / "data",
-                # Option 4: backend/knowledge/data directly
-                knowledge_parent / "data",
+                # Option 3: Current working directory with knowledge/data
+                Path(".") / "knowledge" / "data",
+                # Option 4: Current working directory with knowledge
+                Path(".") / "knowledge",
                 # Option 5: /var/task (Render/Vercel typical deployment)
                 Path("/var/task"),
                 Path("/var/task/knowledge"),
                 Path("/var/task/knowledge/data"),
                 Path("/var/task/backend/knowledge/data"),
-                # Option 6: Current working directory
-                Path(".") / "knowledge",
-                Path(".") / "knowledge" / "data",
-                Path(".") / "backend" / "knowledge" / "data",
+                # Option 6: backend/knowledge/data (local development)
+                project_root / "backend" / "knowledge" / "data",
+                # Option 7: backend/knowledge/data directly
+                knowledge_parent / "data",
             ]
             
             # Use the first path that exists
