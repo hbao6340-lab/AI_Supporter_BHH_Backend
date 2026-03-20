@@ -82,8 +82,12 @@ def _load_knowledge():
         return
     
     try:
-        # Import with correct relative path
-        from backend.knowledge.retriever import retriever
+        # Import with correct relative path - try both for local vs deployment
+        try:
+            from backend.knowledge.retriever import retriever
+        except ModuleNotFoundError:
+            from knowledge.retriever import retriever
+        
         success = retriever.load_knowledge()
         if success:
             logger.info(f"Knowledge base loaded with {len(retriever.documents)} documents")
@@ -111,7 +115,11 @@ def get_reply(text):
     _load_knowledge()
     
     try:
-        from backend.knowledge.retriever import retriever
+        # Try both import paths for local vs deployment
+        try:
+            from backend.knowledge.retriever import retriever
+        except ModuleNotFoundError:
+            from knowledge.retriever import retriever
         
         # Debug: Check knowledge base status
         logger.info(f"Knowledge base loaded: {retriever.has_knowledge()}")
@@ -172,7 +180,12 @@ def reload_knowledge(force: bool = False):
     _knowledge_loaded = False
     
     try:
-        from backend.knowledge.retriever import retriever
+        # Try both import paths for local vs deployment
+        try:
+            from backend.knowledge.retriever import retriever
+        except ModuleNotFoundError:
+            from knowledge.retriever import retriever
+        
         retriever.load_knowledge(force_reload=force)
         logger.info("Knowledge base reloaded")
         return True

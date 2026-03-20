@@ -91,15 +91,18 @@ class KnowledgeRetriever:
             logger.warning(f"Knowledge directory does not exist: {self.knowledge_dir}")
             return False
         
-        # Try to import parser
+        # Try to import parser - try different paths for local vs deployment
         try:
             from backend.knowledge.document_parser import parser
-        except ImportError:
+        except (ImportError, ModuleNotFoundError):
             try:
-                from document_parser import parser
-            except ImportError:
-                logger.error("Could not import document parser")
-                return False
+                from knowledge.document_parser import parser
+            except (ImportError, ModuleNotFoundError):
+                try:
+                    from document_parser import parser
+                except ImportError:
+                    logger.error("Could not import document parser")
+                    return False
         
         # Parse all documents
         parsed_docs = parser.parse_directory(str(self.knowledge_dir))

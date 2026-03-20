@@ -23,7 +23,12 @@ app = FastAPI()
 async def debug_knowledge():
     """Debug endpoint to check knowledge base status."""
     try:
-        from backend.knowledge.retriever import retriever
+        # Try different import paths for local vs deployment
+        try:
+            from backend.knowledge.retriever import retriever
+        except ModuleNotFoundError:
+            from knowledge.retriever import retriever
+        
         return {
             "knowledge_dir": str(retriever.knowledge_dir),
             "knowledge_exists": retriever.knowledge_dir.exists(),
