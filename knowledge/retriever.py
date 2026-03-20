@@ -76,9 +76,11 @@ class KnowledgeRetriever:
                 knowledge_dir = possible_paths[0]
                 logger.warning(f"No knowledge directory found, using default: {knowledge_dir}")
         
-        # Convert to absolute path if relative
+        # Convert to absolute path if relative - use cwd for accuracy
         if not Path(knowledge_dir).is_absolute():
-            knowledge_dir = Path(__file__).parent.parent.parent / knowledge_dir
+            # Use current working directory to resolve relative paths
+            import os
+            knowledge_dir = Path(os.getcwd()) / knowledge_dir
             
         self.knowledge_dir = Path(knowledge_dir)
         self.documents = []
