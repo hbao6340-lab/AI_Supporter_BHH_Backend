@@ -96,6 +96,10 @@ class KnowledgeRetriever:
     def load_knowledge(self, force_reload: bool = False) -> bool:
         """Load and index all documents from the knowledge directory."""
         # Check if knowledge directory exists
+        logger.info(f"load_knowledge called with dir: {self.knowledge_dir}")
+        logger.info(f"Directory exists: {self.knowledge_dir.exists()}")
+        logger.info(f"Is directory: {self.knowledge_dir.is_dir() if self.knowledge_dir.exists() else 'N/A'}")
+        
         if not self.knowledge_dir.exists():
             logger.warning(f"Knowledge directory does not exist: {self.knowledge_dir}")
             return False
