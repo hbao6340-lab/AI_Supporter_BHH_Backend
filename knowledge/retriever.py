@@ -19,9 +19,9 @@ try:
     from sklearn.feature_extraction.text import TfidfVectorizer
     from sklearn.metrics.pairwise import cosine_similarity
     SKLEARN_AVAILABLE = True
-except ImportError:
+except ImportError as e:
     SKLEARN_AVAILABLE = False
-    logger.warning("scikit-learn not installed. Using simple keyword search instead.")
+    logger.warning(f"scikit-learn not installed: {e}. Using simple keyword search instead.")
 
 
 class KnowledgeRetriever:

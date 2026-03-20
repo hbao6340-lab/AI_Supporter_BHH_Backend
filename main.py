@@ -85,13 +85,22 @@ async def debug_knowledge():
         if retriever.knowledge_dir.exists():
             files_in_knowledge = [f.name for f in retriever.knowledge_dir.iterdir()]
         
+        # Check if sklearn is available
+        try:
+            from backend.knowledge.retriever import SKLEARN_AVAILABLE
+        except ModuleNotFoundError:
+            try:
+                from knowledge.retriever import SKLEARN_AVAILABLE
+            except ImportError:
+                SKLEARN_AVAILABLE = False
+        
         return {
             "knowledge_dir": str(retriever.knowledge_dir),
             "knowledge_exists": retriever.knowledge_dir.exists(),
             "files_in_knowledge_dir": files_in_knowledge,
             "num_documents": len(retriever.documents),
             "has_knowledge": retriever.has_knowledge(),
-            "sklearn_available": retriever.vectorizer is not None,
+            "sklearn_available": SKLEARN_AVAILABLE,
         }
     except Exception as e:
         import traceback

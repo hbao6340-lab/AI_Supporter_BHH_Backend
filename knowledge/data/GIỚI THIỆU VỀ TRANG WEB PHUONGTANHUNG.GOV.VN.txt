@@ -1,0 +1,11 @@
+GIỚI THIỆU VỀ TRANG WEB PHUONGTANHUNG.GOV.VN
+
+Website phuongtanhung.gov.vn là hệ thống thông tin điện tử phục vụ công tác quản lý hành chính của Ủy ban nhân dân phường Tân Hưng, Thành phố Hồ Chí Minh. Đây là nền tảng số được xây dựng nhằm hỗ trợ hoạt động điều hành, quản lý và cung cấp dịch vụ hành chính công cho người dân và tổ chức trên địa bàn.
+
+Hệ thống được thiết kế với mục tiêu hiện đại hóa nền hành chính, góp phần triển khai hiệu quả công tác chuyển đổi số tại địa phương. Thông qua website, cán bộ và người dân có thể thực hiện các thao tác như đăng ký tài khoản, đăng nhập, theo dõi và xử lý các thủ tục hành chính một cách thuận tiện, nhanh chóng.
+
+Một trong những đặc điểm nổi bật của website là cơ chế hoạt động nội bộ có kiểm soát, trong đó các tài khoản đăng ký cần được quản trị viên phê duyệt trước khi sử dụng. Điều này giúp đảm bảo tính bảo mật và tính chính xác trong quá trình vận hành hệ thống.
+
+Bên cạnh đó, hệ thống còn đóng vai trò là công cụ hỗ trợ cho mô hình “một cửa” trong giải quyết thủ tục hành chính, giúp tiếp nhận, xử lý và trả kết quả hồ sơ một cách tập trung, minh bạch và hiệu quả. Qua đó, góp phần nâng cao chất lượng phục vụ người dân, giảm thiểu thời gian và chi phí trong quá trình thực hiện các thủ tục hành chính.
+
+Với định hướng phát triển chính quyền điện tử, website phuongtanhung.gov.vn không chỉ là một công cụ quản lý nội bộ mà còn là cầu nối giữa chính quyền và người dân, góp phần xây dựng nền hành chính công khai, minh bạch và hiện đại.
