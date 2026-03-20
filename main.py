@@ -31,7 +31,7 @@ app.add_middleware(
 
 @app.post("/chat")
 async def chat_handler(request: dict):
-    """Simple chat endpoint - accepts { message: "text" } returns { text: "reply", audio: "base64" }"""
+    """Simple chat endpoint - accepts { message: "text" } returns { text: "reply", audio: "base64", lip_sync: {...} }"""
     try:
         text = request.get("message", "")
         
@@ -48,13 +48,26 @@ async def chat_handler(request: dict):
         # Generate TTS
         audio_bytes = await generate_full_tts(reply) if generate_full_tts else b""
         
+        # Lip sync
+        audio_duration_ms = len(audio_bytes) * 1000 // 24000 if audio_bytes else 1000
+        viseme_sequence = []
+        word_timing = []
+        if generate_visemes and estimate_word_timing and audio_bytes:
+            viseme_sequence = generate_visemes(audio_bytes)
+            word_timing = estimate_word_timing(reply, audio_duration_ms)
+        
         # Convert audio to base64
         audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
         
         return JSONResponse(
             content={
                 "text": reply,
-                "audio": audio_base64
+                "audio": audio_base64,
+                "lip_sync": {
+                    "visemes": viseme_sequence,
+                    "words": word_timing,
+                    "duration": audio_duration_ms
+                }
             },
             headers={"Access-Control-Allow-Origin": "*"}
         )
