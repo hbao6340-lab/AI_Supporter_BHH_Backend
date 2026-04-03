@@ -19,9 +19,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     raise ValueError("OPENAI_API_KEY environment variable is not set")
 
-client = OpenAI(
-    api_key=openai_api_key
-)
+client = OpenAI(api_key=openai_api_key)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -52,10 +50,11 @@ PROMOTIONAL_PATTERNS = [
 
 # Compile regex patterns for efficiency
 import re
+
 _promotional_regex = re.compile(
-    "|".join(PROMOTIONAL_PATTERNS),
-    re.IGNORECASE | re.VERBOSE
+    "|".join(PROMOTIONAL_PATTERNS), re.IGNORECASE | re.VERBOSE
 )
+
 
 def _is_promotional_content(text: str) -> bool:
     """
@@ -64,33 +63,37 @@ def _is_promotional_content(text: str) -> bool:
     """
     if not text or len(text.strip()) < 5:
         return True
-    
+
     # Check against promotional patterns
     if _promotional_regex.search(text):
         logger.info(f"Filtered promotional content: {text[:50]}...")
         return True
-    
+
     return False
+
 
 # Initialize knowledge retriever
 _knowledge_loaded = False
+
 
 def _load_knowledge():
     """Load knowledge base on first use."""
     global _knowledge_loaded
     if _knowledge_loaded:
         return
-    
+
     try:
         # Import with correct relative path - try both for local vs deployment
         try:
             from backend.knowledge.retriever import retriever
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
-        
+
         success = retriever.load_knowledge()
         if success:
-            logger.info(f"Knowledge base loaded with {len(retriever.documents)} documents")
+            logger.info(
+                f"Knowledge base loaded with {len(retriever.documents)} documents"
+            )
             _knowledge_loaded = True
         else:
             # Loading failed, don't mark as loaded to allow retry
@@ -98,6 +101,7 @@ def _load_knowledge():
     except Exception as e:
         logger.warning(f"Failed to load knowledge base: {e}")
         import traceback
+
         traceback.print_exc()
         # Don't set _knowledge_loaded to True so it can retry
 
@@ -133,28 +137,32 @@ AI_QUESTION_KEYWORDS = [
     "programmed",
 ]
 
+
 def _load_ai_system_info():
     """Load the AI system info file content."""
     try:
         # Try multiple paths for the AI system info file
         possible_paths = [
-            os.path.join(project_root, "backend", "knowledge", "data", "HỆ THỐNG AI.txt"),
+            os.path.join(
+                project_root, "backend", "knowledge", "data", "HỆ THỐNG AI.txt"
+            ),
             os.path.join(project_root, "knowledge", "data", "HỆ THỐNG AI.txt"),
             os.path.join(project_root, "knowledge", "HỆ THỐNG AI.txt"),
         ]
-        
+
         for path in possible_paths:
             if os.path.exists(path):
-                with open(path, 'r', encoding='utf-8') as f:
+                with open(path, "r", encoding="utf-8") as f:
                     content = f.read()
                     logger.info(f"Loaded AI system info from: {path}")
                     return content
-        
+
         logger.warning("AI system info file not found")
         return None
     except Exception as e:
         logger.warning(f"Failed to load AI system info: {e}")
         return None
+
 
 def _is_ai_question(text):
     """Check if the question is about the AI system itself."""
@@ -164,6 +172,7 @@ def _is_ai_question(text):
             return True
     return False
 
+
 def get_reply(text):
     """
     Get AI reply using knowledge-augmented generation.
@@ -172,104 +181,219 @@ def get_reply(text):
     # Filter out promotional/spam content
     if _is_promotional_content(text):
         return "Xin lỗi, tôi không nghe rõ. Bạn có thể nói lại không?"
-    
+
+    # Check if user is asking about websites (phuongtanhung.gov.vn, phuongtanhung.org)
+    if _is_website_question(text):
+        logger.info(f"Detected website question: {text[:50]}...")
+        website_answer = _get_website_answer(text)
+        if website_answer:
+            return website_answer
+
     # Check if user is asking about the AI system itself
     if _is_ai_question(text):
         logger.info(f"Detected AI question: {text[:50]}...")
         ai_info = _load_ai_system_info()
-        
+
         if ai_info:
             try:
                 response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
-                        {"role": "system", "content": 
-                         "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
-                         "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
-                         "Sử dụng THÔNG TIN được cung cấp để trả lời câu hỏi về hệ thống AI."},
+                        {
+                            "role": "system",
+                            "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                            "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                            "Sử dụng THÔNG TIN được cung cấp để trả lời câu hỏi về hệ thống AI.",
+                        },
                         {"role": "system", "content": "THÔNG TIN:\n" + ai_info},
-                        {"role": "user", "content": text}
-                    ]
+                        {"role": "user", "content": text},
+                    ],
                 )
                 return response.choices[0].message.content
             except Exception as e:
                 logger.warning(f"Failed to get AI info response: {e}")
-    
+
     # Load knowledge if not loaded
     _load_knowledge()
-    
+
     try:
         # Try both import paths for local vs deployment
         try:
             from backend.knowledge.retriever import retriever
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
-        
+
         # Debug: Check knowledge base status
         logger.info(f"Knowledge base loaded: {retriever.has_knowledge()}")
         logger.info(f"Number of documents: {len(retriever.documents)}")
-        
+
         # Check if knowledge base has content
         if retriever.has_knowledge():
             # Search for relevant context with lower similarity threshold
             context, found = retriever.get_answer_context(text, max_chars=3000)
-            
-            logger.info(f"Search result for '{text[:30]}...': found={found}, context_len={len(context)}")
-            
+
+            logger.info(
+                f"Search result for '{text[:30]}...': found={found}, context_len={len(context)}"
+            )
+
             if context:
                 logger.info(f"Found relevant knowledge for: {text[:50]}...")
                 logger.info(f"Context preview: {context[:200]}...")
-                
+
                 # Use knowledge-augmented response
                 response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
-                        {"role": "system", "content": 
-                         "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
-                         "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
-                         "Sử dụng THÔNG TIN TÀI LIỆU được cung cấp để trả lời câu hỏi. "
-                         "Nếu thông tin trong tài liệu không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng."},
-                        {"role": "system", "content": f"THÔNG TIN TÀI LIỆU:\n{context}"},
-                        {"role": "user", "content": text}
-                    ]
+                        {
+                            "role": "system",
+                            "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                            "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                            "Sử dụng THÔNG TIN TÀI LIỆU được cung cấp để trả lời câu hỏi. "
+                            "Nếu thông tin trong tài liệu không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng.",
+                        },
+                        {
+                            "role": "system",
+                            "content": f"THÔNG TIN TÀI LIỆU:\n{context}",
+                        },
+                        {"role": "user", "content": text},
+                    ],
                 )
-                
+
                 return response.choices[0].message.content
             else:
-                logger.info(f"No relevant context found in knowledge base for: {text[:50]}...")
+                logger.info(
+                    f"No relevant context found in knowledge base for: {text[:50]}..."
+                )
     except Exception as e:
         logger.warning(f"Knowledge search failed: {e}")
         import traceback
+
         traceback.print_exc()
-    
+
     # Fallback to standard OpenAI response
     logger.info(f"Using OpenAI fallback for: {text[:50]}...")
-    
+
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
-            {"role": "system", "content": 
-             "Bạn là một trợ lý ảo anime dễ thương. "
-             "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu."},
-            {"role": "user", "content": text}
-        ]
+            {
+                "role": "system",
+                "content": "Bạn là một trợ lý ảo anime dễ thương. "
+                "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu.",
+            },
+            {"role": "user", "content": text},
+        ],
     )
 
     return response.choices[0].message.content
+
+
+# Website keywords that trigger web search
+WEBSITE_KEYWORDS = [
+    "phuongtanhung.gov.vn",
+    "phuongtanhung.org",
+    "website phường",
+    "trang web phường",
+    "phuongtanhung",
+    "gov.vn",
+    "org.vn",
+]
+
+
+def _is_website_question(text):
+    """Check if the question is about the websites."""
+    text_lower = text.lower()
+    for keyword in WEBSITE_KEYWORDS:
+        if keyword.lower() in text_lower:
+            return True
+    return False
+
+
+def _fetch_website_content(url, max_chars=3000):
+    """Fetch content from a website."""
+    try:
+        import requests
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            # Simple HTML to text conversion
+            from bs4 import BeautifulSoup
+
+            soup = BeautifulSoup(response.text, "html.parser")
+            # Remove scripts and styles
+            for script in soup(["script", "style"]):
+                script.extract()
+            text = soup.get_text(separator=" ", strip=True)
+            # Limit to max_chars
+            return text[:max_chars] if text else ""
+        return ""
+    except Exception as e:
+        logger.warning(f"Failed to fetch {url}: {e}")
+        return ""
+
+
+def _get_website_answer(text):
+    """Get answer about the websites by fetching and analyzing content."""
+    text_lower = text.lower()
+
+    # Determine which website to check
+    urls_to_check = []
+    if "gov.vn" in text_lower:
+        urls_to_check.append("https://phuongtanhung.gov.vn")
+    if "org" in text_lower:
+        urls_to_check.append("https://phuongtanhung.org")
+
+    # Default to both if unclear
+    if not urls_to_check:
+        urls_to_check = ["https://phuongtanhung.gov.vn", "https://phuongtanhung.org"]
+
+    all_content = []
+    for url in urls_to_check:
+        content = _fetch_website_content(url)
+        if content:
+            all_content.append(f"[Nguồn: {url}]\n{content}")
+
+    if not all_content:
+        return None
+
+    context = "\n\n".join(all_content)
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                    "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                    "Sử dụng THÔNG TIN TỪ TRANG WEB được cung cấp để trả lời câu hỏi. "
+                    "Nếu thông tin không đủ, hãy nói rằng bạn không tìm thấy thông tin đó.",
+                },
+                {"role": "system", "content": f"THÔNG TIN TỪ TRANG WEB:\n{context}"},
+                {"role": "user", "content": text},
+            ],
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        logger.warning(f"Failed to get website response: {e}")
+        return None
 
 
 def reload_knowledge(force: bool = False):
     """Manually reload knowledge base."""
     global _knowledge_loaded
     _knowledge_loaded = False
-    
+
     try:
         # Try both import paths for local vs deployment
         try:
             from backend.knowledge.retriever import retriever
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
-        
+
         retriever.load_knowledge(force_reload=force)
         logger.info("Knowledge base reloaded")
         return True
