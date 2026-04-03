@@ -175,19 +175,12 @@ def _is_ai_question(text):
 
 def get_reply(text):
     """
-    Get AI reply using knowledge-augmented generation.
-    First searches knowledge base, then falls back to OpenAI.
+    Get AI reply using knowledge base + website search.
+    Always searches both knowledge and the two websites.
     """
     # Filter out promotional/spam content
     if _is_promotional_content(text):
         return "Xin lỗi, tôi không nghe rõ. Bạn có thể nói lại không?"
-
-    # Check if user is asking about websites (phuongtanhung.gov.vn, phuongtanhung.org)
-    if _is_website_question(text):
-        logger.info(f"Detected website question: {text[:50]}...")
-        website_answer = _get_website_answer(text)
-        if website_answer:
-            return website_answer
 
     # Check if user is asking about the AI system itself
     if _is_ai_question(text):
@@ -240,7 +233,23 @@ def get_reply(text):
                 logger.info(f"Found relevant knowledge for: {text[:50]}...")
                 logger.info(f"Context preview: {context[:200]}...")
 
-                # Use knowledge-augmented response
+                # Fetch website content from both websites
+                web_context = ""
+                for url in [
+                    "https://phuongtanhung.gov.vn",
+                    "https://phuongtanhung.org",
+                ]:
+                    content = _fetch_website_content(url, max_chars=2000)
+                    if content:
+                        web_context += f"\n\n[Nguồn: {url}]\n{content}"
+
+                # Combine knowledge + website context
+                combined_context = context
+                if web_context:
+                    combined_context += web_context
+                    logger.info(f"Added website content for: {text[:30]}...")
+
+                # Use knowledge + website augmented response
                 response = client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
@@ -248,12 +257,12 @@ def get_reply(text):
                             "role": "system",
                             "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
                             "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
-                            "Sử dụng THÔNG TIN TÀI LIỆU được cung cấp để trả lời câu hỏi. "
-                            "Nếu thông tin trong tài liệu không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng.",
+                            "Sử dụng THÔNG TIN TỪ TÀI LIỆU và TRANG WEB được cung cấp để trả lời câu hỏi. "
+                            "Nếu thông tin không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng.",
                         },
                         {
                             "role": "system",
-                            "content": f"THÔNG TIN TÀI LIỆU:\n{context}",
+                            "content": f"THÔNG TIN TÀI LIỆU VÀ TRANG WEB:\n{combined_context}",
                         },
                         {"role": "user", "content": text},
                     ],
@@ -262,7 +271,7 @@ def get_reply(text):
                 return response.choices[0].message.content
             else:
                 logger.info(
-                    f"No relevant context found in knowledge base for: {text[:50]}..."
+                    f"No relevant context found in knowledge base for: {text[:30]}..."
                 )
     except Exception as e:
         logger.warning(f"Knowledge search failed: {e}")
