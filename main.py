@@ -359,7 +359,9 @@ async def api_stream_handler(request: dict):
             yield f"data: {json.dumps({'done': True})}\n\n"
 
         return StreamingResponse(
-            event_stream(), media_type="text/event-stream", headers=cors_headers
+            event_stream(),
+            media_type="text/event-stream",
+            headers={**cors_headers, "Cache-Control": "no-cache"},
         )
 
     except Exception as e:
