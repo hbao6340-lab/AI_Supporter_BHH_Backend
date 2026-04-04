@@ -145,6 +145,19 @@ app.add_middleware(
     allow_credentials=True,
 )
 
+
+# Handle OPTIONS requests for CORS preflight
+@app.options("/{path:path}")
+async def options_handler(path: str):
+    return JSONResponse(
+        headers={
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type",
+        }
+    )
+
+
 # Serve frontend static files
 
 
