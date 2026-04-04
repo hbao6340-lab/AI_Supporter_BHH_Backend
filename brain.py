@@ -318,27 +318,72 @@ def _is_website_question(text):
     return False
 
 
-def _fetch_website_content(url, max_chars=3000):
-    """Fetch content from a website."""
+def _fetch_website_content(url, max_chars=5000):
+    """Fetch content from a website with better headers."""
     try:
         import requests
+        from bs4 import BeautifulSoup
 
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "vi,en-US;q=0.7,en;q=0.3",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
         }
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            # Simple HTML to text conversion
-            from bs4 import BeautifulSoup
+        response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
 
+        if response.status_code == 200:
             soup = BeautifulSoup(response.text, "html.parser")
-            # Remove scripts and styles
-            for script in soup(["script", "style"]):
-                script.extract()
-            text = soup.get_text(separator=" ", strip=True)
-            # Limit to max_chars
-            return text[:max_chars] if text else ""
+
+            # Remove scripts, styles, nav, footer, header
+            for tag in soup(["script", "style", "nav", "footer", "header", "aside"]):
+                tag.decompose()
+
+            # Get title
+            title = ""
+            if soup.title:
+                title = soup.title.string or ""
+
+            # Get main content
+            main_content = ""
+
+            # Try common content containers
+            for selector in [
+                "main",
+                "article",
+                ".content",
+                "#content",
+                ".post-content",
+                ".article-content",
+            ]:
+                elements = soup.select(selector)
+                if elements:
+                    for elem in elements:
+                        text = elem.get_text(separator=" ", strip=True)
+                        if len(text) > 100:
+                            main_content += text + " "
+
+            # If no selector worked, get body text
+            if not main_content:
+                body = soup.find("body")
+                if body:
+                    main_content = body.get_text(separator=" ", strip=True)
+
+            # Combine title and content
+            full_text = f"{title} {main_content}" if title else main_content
+
+            # Clean up extra whitespace
+            import re
+
+            full_text = re.sub(r"\s+", " ", full_text).strip()
+
+            return full_text[:max_chars] if full_text else ""
+
+        logger.warning(f"Failed to fetch {url}: status {response.status_code}")
         return ""
+
     except Exception as e:
         logger.warning(f"Failed to fetch {url}: {e}")
         return ""
