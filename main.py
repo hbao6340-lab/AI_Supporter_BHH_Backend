@@ -304,13 +304,13 @@ async def generate_streaming_tts(text):
     if not processed_text:
         return
 
-    # Use edge-tts with normal speed - stream as chunks arrive
+    # Use edge-tts with slower speed - stream as chunks arrive
     import edge_tts
 
     communicate = edge_tts.Communicate(
         text=processed_text,
         voice="vi-VN-HoaiMyNeural",
-        rate="+0%",
+        rate="-10%",
         pitch="+0Hz",
         volume="+0%",
     )
