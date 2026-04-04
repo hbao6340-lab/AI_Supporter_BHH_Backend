@@ -18,40 +18,42 @@ from lipsync import generate_visemes, estimate_word_timing
 
 app = FastAPI()
 
+
 # Debug endpoint to check ALL files in the project
 @app.get("/debug/files")
 async def debug_files():
     """Debug endpoint to list all files in the project."""
     import os
+
     try:
         # List root directory
         root_files = os.listdir(".")
-        
+
         # List knowledge directory if exists
         knowledge_files = []
         if os.path.exists("knowledge"):
             knowledge_files = os.listdir("knowledge")
-        
+
         # List knowledge/data if exists (for local dev structure)
         knowledge_data_files = []
         if os.path.exists("knowledge/data"):
             knowledge_data_files = os.listdir("knowledge/data")
-        
+
         # Check other possible locations
         backend_knowledge_data = []
         if os.path.exists("backend/knowledge/data"):
             backend_knowledge_data = os.listdir("backend/knowledge/data")
-        
+
         # List backend directory if exists
         backend_files = []
         if os.path.exists("backend"):
             backend_files = os.listdir("backend")
-        
+
         # Check if knowledge folder exists
         knowledge_path = os.path.join(os.getcwd(), "knowledge")
         knowledge_exists = os.path.exists(knowledge_path)
         is_knowledge_dir = os.path.isdir(knowledge_path) if knowledge_exists else False
-        
+
         return {
             "cwd": os.getcwd(),
             "root_files": root_files,
@@ -64,10 +66,9 @@ async def debug_files():
         }
     except Exception as e:
         import traceback
-        return {
-            "error": str(e),
-            "trace": traceback.format_exc()
-        }
+
+        return {"error": str(e), "trace": traceback.format_exc()}
+
 
 # Debug endpoint to check knowledge base status
 @app.get("/debug/knowledge")
@@ -79,12 +80,12 @@ async def debug_knowledge():
             from backend.knowledge.retriever import retriever
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
-        
+
         # List files in knowledge directory
         files_in_knowledge = []
         if retriever.knowledge_dir.exists():
             files_in_knowledge = [f.name for f in retriever.knowledge_dir.iterdir()]
-        
+
         # Check if sklearn is available
         try:
             from backend.knowledge.retriever import SKLEARN_AVAILABLE
@@ -93,7 +94,7 @@ async def debug_knowledge():
                 from knowledge.retriever import SKLEARN_AVAILABLE
             except ImportError:
                 SKLEARN_AVAILABLE = False
-        
+
         return {
             "knowledge_dir": str(retriever.knowledge_dir),
             "knowledge_exists": retriever.knowledge_dir.exists(),
@@ -104,10 +105,9 @@ async def debug_knowledge():
         }
     except Exception as e:
         import traceback
-        return {
-            "error": str(e),
-            "trace": traceback.format_exc()
-        }
+
+        return {"error": str(e), "trace": traceback.format_exc()}
+
 
 # Debug endpoint to reload knowledge
 @app.post("/debug/reload-knowledge")
@@ -115,13 +115,13 @@ async def debug_reload_knowledge():
     """Debug endpoint to reload knowledge base."""
     try:
         success = reload_knowledge(force=True)
-        
+
         # Get updated status
         try:
             from backend.knowledge.retriever import retriever
         except ModuleNotFoundError:
             from knowledge.retriever import retriever
-        
+
         return {
             "success": success,
             "knowledge_dir": str(retriever.knowledge_dir),
@@ -131,10 +131,9 @@ async def debug_reload_knowledge():
         }
     except Exception as e:
         import traceback
-        return {
-            "error": str(e),
-            "trace": traceback.format_exc()
-        }
+
+        return {"error": str(e), "trace": traceback.format_exc()}
+
 
 # Add CORS middleware - must be before any routes
 app.add_middleware(
@@ -147,25 +146,26 @@ app.add_middleware(
 
 # Serve frontend static files
 
+
 @app.post("/chat")
 async def chat_handler(request: dict):
     """Simple chat endpoint - accepts { message: "text" } returns { text: "reply", audio: "base64", lip_sync: {...} }"""
     try:
         text = request.get("message", "")
-        
+
         if not text:
             return JSONResponse(
                 status_code=400,
                 content={"error": "Missing message"},
-                headers={"Access-Control-Allow-Origin": "*"}
+                headers={"Access-Control-Allow-Origin": "*"},
             )
-        
+
         # Get AI response
         reply = get_reply(text)
-        
+
         # Generate TTS
         audio_bytes = await generate_full_tts(reply) if generate_full_tts else b""
-        
+
         # Lip sync
         audio_duration_ms = len(audio_bytes) * 1000 // 24000 if audio_bytes else 1000
         viseme_sequence = []
@@ -173,10 +173,12 @@ async def chat_handler(request: dict):
         if generate_visemes and estimate_word_timing and audio_bytes:
             viseme_sequence = generate_visemes(audio_bytes)
             word_timing = estimate_word_timing(reply, audio_duration_ms)
-        
+
         # Convert audio to base64
-        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
-        
+        audio_base64 = (
+            base64.b64encode(audio_bytes).decode("utf-8") if audio_bytes else ""
+        )
+
         return JSONResponse(
             content={
                 "text": reply,
@@ -184,31 +186,34 @@ async def chat_handler(request: dict):
                 "lip_sync": {
                     "visemes": viseme_sequence,
                     "words": word_timing,
-                    "duration": audio_duration_ms
-                }
+                    "duration": audio_duration_ms,
+                },
             },
-            headers={"Access-Control-Allow-Origin": "*"}
+            headers={"Access-Control-Allow-Origin": "*"},
         )
-        
+
     except Exception as e:
         logger.error(f"Chat error: {e}")
         import traceback
+
         traceback.print_exc()
         return JSONResponse(
             status_code=500,
             content={"error": str(e)},
-            headers={"Access-Control-Allow-Origin": "*"}
+            headers={"Access-Control-Allow-Origin": "*"},
         )
+
 
 @app.post("/api")
 async def api_handler(request: dict):
     """REST API handler for text and audio processing"""
     cors_headers = {"Access-Control-Allow-Origin": "*"}
-    
+
     try:
         text = request.get("text", "")
         audio_data = request.get("audio", "")
-        
+        exact_tts = request.get("exact_tts", False)
+
         # If audio is provided, transcribe it first
         if audio_data:
             try:
@@ -220,22 +225,25 @@ async def api_handler(request: dict):
                 return JSONResponse(
                     status_code=400,
                     content={"error": f"Audio transcription failed: {str(e)}"},
-                    headers=cors_headers
+                    headers=cors_headers,
                 )
-        
+
         if not text:
             return JSONResponse(
                 status_code=400,
                 content={"error": "Missing text or audio"},
-                headers=cors_headers
+                headers=cors_headers,
             )
-        
-        # Get AI response
-        reply = get_reply(text)
-        
+
+        # Get AI response - skip AI if exact_tts is true (use text directly for TTS)
+        if exact_tts:
+            reply = text
+        else:
+            reply = get_reply(text)
+
         # Generate TTS
         audio_bytes = await generate_full_tts(reply) if generate_full_tts else b""
-        
+
         # Lip sync
         audio_duration_ms = len(audio_bytes) * 1000 // 24000 if audio_bytes else 1000
         viseme_sequence = []
@@ -243,10 +251,12 @@ async def api_handler(request: dict):
         if generate_visemes and estimate_word_timing and audio_bytes:
             viseme_sequence = generate_visemes(audio_bytes)
             word_timing = estimate_word_timing(reply, audio_duration_ms)
-        
+
         # Convert audio to base64
-        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8') if audio_bytes else ""
-        
+        audio_base64 = (
+            base64.b64encode(audio_bytes).decode("utf-8") if audio_bytes else ""
+        )
+
         return JSONResponse(
             content={
                 "text": reply,
@@ -254,21 +264,21 @@ async def api_handler(request: dict):
                 "lip_sync": {
                     "visemes": viseme_sequence,
                     "words": word_timing,
-                    "duration": audio_duration_ms
-                }
+                    "duration": audio_duration_ms,
+                },
             },
-            headers=cors_headers
+            headers=cors_headers,
         )
-        
+
     except Exception as e:
         logger.error(f"API error: {e}")
         import traceback
+
         traceback.print_exc()
         return JSONResponse(
-            status_code=500,
-            content={"error": str(e)},
-            headers=cors_headers
+            status_code=500, content={"error": str(e)}, headers=cors_headers
         )
+
 
 @app.websocket("/ws")
 async def websocket_endpoint(ws: WebSocket):
@@ -288,24 +298,26 @@ async def websocket_endpoint(ws: WebSocket):
 
         # 4. Generate full TTS audio first
         full_audio = await generate_full_tts(reply)
-        
+
         if full_audio:
             # Send audio as single message
             await ws.send_bytes(full_audio)
-            
+
             # Generate viseme sequence
             viseme_sequence = generate_visemes(full_audio)
-            
+
             # Estimate word timing
             audio_duration_ms = len(full_audio) * 1000 // 24000  # Approximate
             word_timing = estimate_word_timing(reply, audio_duration_ms)
-            
+
             # Send combined lip sync data
-            await ws.send_json({
-                "type": "lip_sync_data",
-                "data": {
-                    "visemes": viseme_sequence,
-                    "words": word_timing,
-                    "duration": audio_duration_ms
+            await ws.send_json(
+                {
+                    "type": "lip_sync_data",
+                    "data": {
+                        "visemes": viseme_sequence,
+                        "words": word_timing,
+                        "duration": audio_duration_ms,
+                    },
                 }
-            })
+            )
