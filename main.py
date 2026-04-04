@@ -1,11 +1,12 @@
 from fastapi import FastAPI, WebSocket
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 import asyncio
 import os
 import base64
 import logging
+import json
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -13,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 from asr import transcribe_audio
 from brain import get_reply, reload_knowledge
-from tts import generate_full_tts
+from tts import generate_full_tts, stream_tts
 from lipsync import generate_visemes, estimate_word_timing
 
 app = FastAPI()
@@ -272,6 +273,84 @@ async def api_handler(request: dict):
 
     except Exception as e:
         logger.error(f"API error: {e}")
+        import traceback
+
+        traceback.print_exc()
+        return JSONResponse(
+            status_code=500, content={"error": str(e)}, headers=cors_headers
+        )
+
+
+async def generate_streaming_tts(text):
+    """Stream TTS audio chunks as they're generated for low latency."""
+    # Preprocess text
+    from tts import preprocess_text
+
+    processed_text = preprocess_text(text)
+
+    if not processed_text:
+        return
+
+    # Use edge-tts with normal speed - stream as chunks arrive
+    import edge_tts
+
+    communicate = edge_tts.Communicate(
+        text=processed_text,
+        voice="vi-VN-HoaiMyNeural",
+        rate="+0%",
+        pitch="+0Hz",
+        volume="+0%",
+    )
+
+    # Stream chunks immediately as they're generated
+    async for chunk in communicate.stream():
+        if chunk["type"] == "audio":
+            # Send base64 encoded chunk
+            audio_b64 = base64.b64encode(chunk["data"]).decode("utf-8")
+            yield f"data: {json.dumps({'audio': audio_b64})}\n\n"
+        elif chunk["type"] == "word":
+            # Send word timing for lip sync
+            yield f"data: {json.dumps({'word': chunk['data']})}\n\n"
+
+
+@app.post("/api/stream")
+async def api_stream_handler(request: dict):
+    """Streaming TTS endpoint - sends audio chunks as they're generated for low latency"""
+    cors_headers = {"Access-Control-Allow-Origin": "*"}
+
+    try:
+        text = request.get("text", "")
+        exact_tts = request.get("exact_tts", False)
+
+        if not text:
+            return JSONResponse(
+                status_code=400, content={"error": "Missing text"}, headers=cors_headers
+            )
+
+        # Get AI response or use exact text
+        if exact_tts:
+            reply = text
+        else:
+            reply = get_reply(text)
+
+        # Return text first, then stream audio
+        async def event_stream():
+            # Send text first
+            yield f"data: {json.dumps({'text': reply})}\n\n"
+
+            # Stream audio chunks
+            async for chunk in generate_streaming_tts(reply):
+                yield chunk
+
+            # Send done signal
+            yield f"data: {json.dumps({'done': True})}\n\n"
+
+        return StreamingResponse(
+            event_stream(), media_type="text/event-stream", headers=cors_headers
+        )
+
+    except Exception as e:
+        logger.error(f"Stream error: {e}")
         import traceback
 
         traceback.print_exc()
