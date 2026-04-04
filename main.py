@@ -329,7 +329,12 @@ async def generate_streaming_tts(text):
 @app.post("/api/stream")
 async def api_stream_handler(request: dict):
     """Streaming TTS endpoint - sends audio chunks as they're generated for low latency"""
-    cors_headers = {"Access-Control-Allow-Origin": "*"}
+    cors_headers = {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST, OPTIONS",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Cache-Control": "no-cache",
+    }
 
     try:
         text = request.get("text", "")
@@ -361,7 +366,7 @@ async def api_stream_handler(request: dict):
         return StreamingResponse(
             event_stream(),
             media_type="text/event-stream",
-            headers={**cors_headers, "Cache-Control": "no-cache"},
+            headers=cors_headers,
         )
 
     except Exception as e:
