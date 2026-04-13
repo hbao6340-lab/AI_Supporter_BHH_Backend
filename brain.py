@@ -238,6 +238,7 @@ def get_reply(text):
                 for url in [
                     "https://phuongtanhung.gov.vn",
                     "https://phuongtanhung.org",
+                    "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
                 ]:
                     content = _fetch_website_content(url, max_chars=2000)
                     if content:
@@ -306,6 +307,9 @@ WEBSITE_KEYWORDS = [
     "phuongtanhung",
     "gov.vn",
     "org.vn",
+    "dichvucong.gov.vn",
+    "dịch vụ công",
+    "thủ tục hành chính",
 ]
 
 
