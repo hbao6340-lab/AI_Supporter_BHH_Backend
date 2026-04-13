@@ -393,18 +393,175 @@ def _fetch_website_content(url, max_chars=5000):
         return ""
 
 
+ADMIN_SERVICE_KEYWORDS = [
+    "dịch vụ công",
+    "thủ tục hành chính",
+    "đăng ký",
+    "cấp giấy",
+    "làm giấy",
+    "xin giấy",
+    "hộ khẩu",
+    "tạm trú",
+    "thường trú",
+    "chứng minh",
+    "căn cước",
+    "hộ chiếu",
+    "đăng ký kinh doanh",
+    "thành lập",
+    "giải thể",
+    "kết hôn",
+    "ly hôn",
+    "khai sinh",
+    "khai tử",
+    "nhận con",
+    "nhận nuôi",
+    "chuyển户口",
+]
+
+
+def _is_admin_service_question(text):
+    """Check if the question is about administrative services."""
+    text_lower = text.lower()
+    for keyword in ADMIN_SERVICE_KEYWORDS:
+        if keyword.lower() in text_lower:
+            return True
+    return False
+
+
+def _search_dichvucong_service(query, max_chars=3000):
+    """
+    Search for administrative service on dichvucong.gov.vn.
+    Uses the website's search functionality to find relevant services.
+    """
+    try:
+        import requests
+        from bs4 import BeautifulSoup
+        import urllib.parse
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "vi,en-US;q=0.7,en;q=0.3",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Referer": "https://dichvucong.gov.vn/",
+        }
+
+        base_url = (
+            "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html"
+        )
+        search_params = f"pCoQuanId=411312&keyword={urllib.parse.quote(query)}"
+
+        search_url = f"{base_url}?{search_params}"
+        response = requests.get(
+            search_url, headers=headers, timeout=15, allow_redirects=True
+        )
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            results_text = ""
+
+            service_items = soup.select(
+                ".service-item, .dichvu-item, .list-item, tr[itemscope], .tinydichvu"
+            )
+            if service_items:
+                for item in service_items[:5]:
+                    text = item.get_text(separator=" ", strip=True)
+                    if len(text) > 20:
+                        results_text += text + "\n"
+            else:
+                main_content = soup.select(
+                    "main, article, .content, #content, .main-content"
+                )
+                for elem in main_content:
+                    text = elem.get_text(separator=" ", strip=True)
+                    if len(text) > 50:
+                        results_text += text[:max_chars]
+                        break
+
+            if not results_text:
+                results_text = soup.get_text(separator=" ", strip=True)
+                results_text = results_text[:max_chars] if results_text else ""
+
+            import re
+
+            results_text = re.sub(r"\s+", " ", results_text).strip()
+
+            if results_text:
+                logger.info(
+                    f"Found service info for query '{query}': {len(results_text)} chars"
+                )
+                return results_text
+
+        logger.warning(
+            f"Failed to search dichvucong.gov.vn: status {response.status_code}"
+        )
+        return ""
+
+    except Exception as e:
+        logger.warning(f"Failed to search dichvucong.gov.vn: {e}")
+        return ""
+
+
+def _get_admin_service_answer(text):
+    """Get answer about administrative services from dichvucong.gov.vn."""
+    query = text
+
+    service_content = _search_dichvucong_service(query, max_chars=4000)
+
+    if not service_content:
+        return None
+
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {
+                    "role": "system",
+                    "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                    "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                    "Sử dụng THÔNG TIN TỪ TRANG WEB dịch vụ công được cung cấp để trả lời câu hỏi. "
+                    "Nếu thông tin không đủ, hãy nói rằng bạn không tìm thấy thông tin đó và gợi ý liên hệ cơ quan chức năng.",
+                },
+                {
+                    "role": "system",
+                    "content": f"THÔNG TIN TỪ TRANG DỊCH VỤ CÔNG:\n{service_content}",
+                },
+                {"role": "user", "content": text},
+            ],
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        logger.warning(f"Failed to get admin service response: {e}")
+        return None
+
+
 def _get_website_answer(text):
     """Get answer about the websites by fetching and analyzing content."""
     text_lower = text.lower()
 
-    # Determine which website to check
-    urls_to_check = []
-    if "gov.vn" in text_lower:
-        urls_to_check.append("https://phuongtanhung.gov.vn")
-    if "org" in text_lower:
-        urls_to_check.append("https://phuongtanhung.org")
+    if _is_admin_service_question(text):
+        return _get_admin_service_answer(text)
 
-    # Default to both if unclear
+    urls_to_check = []
+    if "phuongtanhung.gov.vn" in text_lower or "phuongtanhung.org" in text_lower:
+        if "gov.vn" in text_lower:
+            urls_to_check.append("https://phuongtanhung.gov.vn")
+        if "org" in text_lower:
+            urls_to_check.append("https://phuongtanhung.org")
+
+    for url in [
+        "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
+    ]:
+        if (
+            "dichvucong.gov.vn" in text_lower
+            or "dịch vụ công" in text_lower
+            or _is_admin_service_question(text)
+        ):
+            urls_to_check.append(url)
+
     if not urls_to_check:
         urls_to_check = ["https://phuongtanhung.gov.vn", "https://phuongtanhung.org"]
 
