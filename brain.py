@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 # Promotional/spam content patterns to filter
 PROMOTIONAL_PATTERNS = [
     r"subscribe",
-    r"đăng\s*ký",
+    r"đăng\s*ký\s*(kênh|ngay|channel|subscribe)",
     r"kênh\s+\w+",
     r"theo\s+dõi",
     r"follow\s+(me|channel)",
