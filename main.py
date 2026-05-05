@@ -196,6 +196,7 @@ async def chat_handler(request: dict):
         return JSONResponse(
             content={
                 "text": reply,
+                "user_text": text,
                 "audio": audio_base64,
                 "lip_sync": {
                     "visemes": viseme_sequence,
@@ -203,7 +204,7 @@ async def chat_handler(request: dict):
                     "duration": audio_duration_ms,
                 },
             },
-            headers={"Access-Control-Allow-Origin": "*"},
+            headers=cors_headers,
         )
 
     except Exception as e:
@@ -274,6 +275,7 @@ async def api_handler(request: dict):
         return JSONResponse(
             content={
                 "text": reply,
+                "user_text": text,
                 "audio": audio_base64,
                 "lip_sync": {
                     "visemes": viseme_sequence,
