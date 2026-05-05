@@ -316,6 +316,52 @@ WEBSITE_KEYWORDS = [
     "thủ tục hành chính",
 ]
 
+# Legal document keywords - trigger thu vienphapluat.vn search
+LEGAL_DOCUMENT_KEYWORDS = [
+    "quyết định",
+    "qđ",
+    "thông tư",
+    "nghị định",
+    "ngân sách",
+    "hợp đồng",
+    "luật",
+    "bộ luật",
+    "nghị quyết",
+    "quy chế",
+    "quy định",
+    "thông báo",
+    "công văn",
+    "văn bản",
+    "pháp lệnh",
+    "lệnh",
+]
+
+# Administrative service keywords
+ADMIN_SERVICE_KEYWORDS = [
+    "dịch vụ công",
+    "thủ tục hành chính",
+    "đăng ký",
+    "cấp giấy",
+    "làm giấy",
+    "xin giấy",
+    "hộ khẩu",
+    "tạm trú",
+    "thường trú",
+    "chứng minh",
+    "căn cước",
+    "hộ chiếu",
+    "đăng ký kinh doanh",
+    "thành lập",
+    "giải thể",
+    "kết hôn",
+    "ly hôn",
+    "khai sinh",
+    "khai tử",
+    "nhận con",
+    "nhận nuôi",
+    "chuyển户口",
+]
+
 
 def _is_website_question(text):
     """Check if the question is about the websites."""
@@ -397,37 +443,20 @@ def _fetch_website_content(url, max_chars=5000):
         return ""
 
 
-ADMIN_SERVICE_KEYWORDS = [
-    "dịch vụ công",
-    "thủ tục hành chính",
-    "đăng ký",
-    "cấp giấy",
-    "làm giấy",
-    "xin giấy",
-    "hộ khẩu",
-    "tạm trú",
-    "thường trú",
-    "chứng minh",
-    "căn cước",
-    "hộ chiếu",
-    "đăng ký kinh doanh",
-    "thành lập",
-    "giải thể",
-    "kết hôn",
-    "ly hôn",
-    "khai sinh",
-    "khai tử",
-    "nhận con",
-    "nhận nuôi",
-    "chuyển户口",
-]
-
-
 def _is_admin_service_question(text):
     """Check if the question is about administrative services."""
     text_lower = text.lower()
     for keyword in ADMIN_SERVICE_KEYWORDS:
         if keyword.lower() in text_lower:
+            return True
+    return False
+
+
+def _is_legal_document_question(text):
+    """Check if the question is about legal documents (decrees, decisions, laws, etc.)."""
+    text_lower = text.lower()
+    for keyword in LEGAL_DOCUMENT_KEYWORDS:
+        if keyword in text_lower:
             return True
     return False
 
@@ -568,6 +597,10 @@ def _get_website_answer(text):
             urls_to_check.append(url)
         elif "thuvienphapluat.vn" in text_lower or "thư viện pháp luật" in text_lower or "pháp luật" in text_lower:
             urls_to_check.append("https://thuvienphapluat.vn")
+        # Check for legal document patterns - always search thu vienphapluat.vn
+        elif _is_legal_document_question(text):
+            if "https://thuvienphapluat.vn" not in urls_to_check:
+                urls_to_check.append("https://thuvienphapluat.vn")
 
     if not urls_to_check:
         urls_to_check = ["https://phuongtanhung.gov.vn", "https://phuongtanhung.org"]
