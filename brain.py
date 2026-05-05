@@ -239,6 +239,7 @@ def get_reply(text):
                     "https://phuongtanhung.gov.vn",
                     "https://phuongtanhung.org",
                     "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
+                    "https://thuvienphapluat.vn",
                 ]:
                     content = _fetch_website_content(url, max_chars=2000)
                     if content:
@@ -302,6 +303,9 @@ def get_reply(text):
 WEBSITE_KEYWORDS = [
     "phuongtanhung.gov.vn",
     "phuongtanhung.org",
+    "thuvienphapluat.vn",
+    "thư viện pháp luật",
+    "pháp luật",
     "website phường",
     "trang web phường",
     "phuongtanhung",
@@ -554,6 +558,7 @@ def _get_website_answer(text):
 
     for url in [
         "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
+        "https://thuvienphapluat.vn",
     ]:
         if (
             "dichvucong.gov.vn" in text_lower
@@ -561,6 +566,8 @@ def _get_website_answer(text):
             or _is_admin_service_question(text)
         ):
             urls_to_check.append(url)
+        elif "thuvienphapluat.vn" in text_lower or "thư viện pháp luật" in text_lower or "pháp luật" in text_lower:
+            urls_to_check.append("https://thuvienphapluat.vn")
 
     if not urls_to_check:
         urls_to_check = ["https://phuongtanhung.gov.vn", "https://phuongtanhung.org"]
