@@ -465,13 +465,20 @@ def _fetch_website_content(url, max_chars=5000):
 
             return full_text[:max_chars] if full_text else ""
 
-        logger.warning(f"Failed to fetch {url}: status {response.status_code}")
-        return ""
+        elif response.status_code == 403:
+            logger.warning(f"Access forbidden 403 for {url} - site blocks automated requests")
+            return f"[Không thể truy cập: {url} - Website từ chối truy cập tự động]"
+
+        else:
+            logger.warning(f"Failed to fetch {url}: status {response.status_code}")
+            return f"[Lỗi {response.status_code}: {url}]"
+
+
+
 
     except Exception as e:
         logger.warning(f"Failed to fetch {url}: {e}")
-        return ""
-
+        return f"[Lỗi kết nối: {url}]"
 
 def _is_admin_service_question(text):
     """Check if the question is about administrative services."""
