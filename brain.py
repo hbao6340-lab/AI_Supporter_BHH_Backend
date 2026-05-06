@@ -281,6 +281,34 @@ def get_reply(text):
 
         traceback.print_exc()
 
+    # Try Google search as last resort before generic fallback
+    logger.info(f"Trying Google search for: {text[:50]}...")
+    google_results = _search_google(text)
+    
+    if google_results:
+        logger.info(f"Google search found results, generating answer...")
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
+                        "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
+                        "Dựa vào THÔNG TIN TÌM THẤY từ Google dưới đây để trả lời câu hỏi. "
+                        "Nếu thông tin không đủ, hãy nói rằng bạn không tìm thấy thông tin đó.",
+                    },
+                    {
+                        "role": "system",
+                        "content": f"THÔNG TIN TÌM THẤY TỪ GOOGLE:\n{google_results}",
+                    },
+                    {"role": "user", "content": text},
+                ],
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            logger.warning(f"Failed to generate answer from Google results: {e}")
+
     # Fallback to standard OpenAI response
     logger.info(f"Using OpenAI fallback for: {text[:50]}...")
 
@@ -634,6 +662,119 @@ def _get_website_answer(text):
         return response.choices[0].message.content
     except Exception as e:
         logger.warning(f"Failed to get website response: {e}")
+        return None
+
+
+def _search_google(query, max_results=8):
+    """Search Google for information as last resort."""
+    try:
+        import requests
+        from bs4 import BeautifulSoup
+        import urllib.parse
+        import re
+        
+        # Prepare search query
+        search_query = urllib.parse.quote(query)
+        url = f"https://www.google.com/search?q={search_query}&num={max_results}&hl=vi&gl=VN"
+        
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7",
+            "Accept-Encoding": "gzip, deflate",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+        }
+        
+        response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+        
+        if response.status_code != 200:
+            logger.warning(f"Google search failed with status: {response.status_code}")
+            return None
+        
+        soup = BeautifulSoup(response.text, "html.parser")
+        
+        # Extract search results
+        results = []
+        
+        # Find all search result divs
+        for g in soup.find_all("div", class_=["g", "tF2Cxc"]):
+            try:
+                # Try to find title and link
+                link_element = g.find("a")
+                if not link_element:
+                    continue
+                
+                link = link_element.get("href", "")
+                if not link.startswith("http"):
+                    continue
+                
+                # Get title
+                title_element = g.find("h3")
+                title = title_element.get_text() if title_element else "Không có tiêu đề"
+                
+                # Get snippet
+                snippet_element = g.find("div", class_=["VwiC3b", "yXK7lf", "MUxGbd", "yDYNvb", "lyLwlc"])
+                if not snippet_element:
+                    snippet_element = g.find("span", class_=["aCOpRe"])
+                if not snippet_element:
+                    snippet_element = g.find("div", class_="IsZvec")
+                
+                snippet = snippet_element.get_text() if snippet_element else "Không có mô tả"
+                
+                # Clean up text
+                title = re.sub(r"\s+", " ", title).strip()
+                snippet = re.sub(r"\s+", " ", snippet).strip()
+                
+                if len(snippet) > 300:
+                    snippet = snippet[:300] + "..."
+                
+                results.append({
+                    "title": title,
+                    "link": link,
+                    "snippet": snippet
+                })
+                
+                if len(results) >= max_results:
+                    break
+                    
+            except Exception as e:
+                logger.debug(f"Error parsing result: {e}")
+                continue
+        
+        if not results:
+            logger.info("No structured results found, trying alternative parsing")
+            # Alternative: try to extract any text content
+            main_content = soup.find("div", {"id": "main"})
+            if main_content:
+                text = main_content.get_text(separator=" ", strip=True)
+                # Extract first meaningful paragraph
+                paragraphs = [p.strip() for p in text.split("\n") if len(p.strip()) > 50]
+                if paragraphs:
+                    results.append({
+                        "title": "Kết quả tìm kiếm",
+                        "link": "https://google.com/search?q=" + search_query,
+                        "snippet": paragraphs[0][:300]
+                    })
+        
+        if not results:
+            logger.warning("No Google search results found")
+            return None
+        
+        # Format results for AI
+        formatted = f"Kết quả tìm kiếm Google cho: \"{query}\"\n\n"
+        for i, result in enumerate(results, 1):
+            formatted += f"{i}. {result['title']}\n"
+            formatted += f"   Nguồn: {result['link']}\n"
+            formatted += f"   {result['snippet']}\n\n"
+        
+        logger.info(f"Google search found {len(results)} results")
+        return formatted
+        
+    except Exception as e:
+        logger.warning(f"Google search error: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 
