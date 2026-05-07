@@ -1,0 +1,3222 @@
+--- Record 1 ---
+Mã KP: KP01
+Tên khu phố: Khu phố 1
+Họ tên: Đỗ Tấn An
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0902848008
+Số hộ: 684
+Nhân khẩu: 1938
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 2 ---
+Mã KP: KP01
+Tên khu phố: Khu phố 1
+Họ tên: Đặng Nguyễn Cao Toàn
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0774536762
+Số hộ: 684
+Nhân khẩu: 1938
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 3 ---
+Mã KP: KP02
+Tên khu phố: Khu phố 2
+Họ tên: Nguyễn Xuân Hạ
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908797506
+Số hộ: 652
+Nhân khẩu: 1835
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 4 ---
+Mã KP: KP02
+Tên khu phố: Khu phố 2
+Họ tên: Lê Thị Mỹ Liên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0948788727
+Số hộ: 652
+Nhân khẩu: 1835
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 5 ---
+Mã KP: KP02
+Tên khu phố: Khu phố 2
+Họ tên: Phạm Anh Tú
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0798910369
+Số hộ: 652
+Nhân khẩu: 1835
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 6 ---
+Mã KP: KP02
+Tên khu phố: Khu phố 2
+Họ tên: Nguyễn Gia Luật
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0773792370
+Số hộ: 652
+Nhân khẩu: 1835
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 7 ---
+Mã KP: KP03
+Tên khu phố: Khu phố 3
+Họ tên: Đỗ Hữu Duy Anh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0939591513
+Số hộ: 715
+Nhân khẩu: 1868
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 8 ---
+Mã KP: KP03
+Tên khu phố: Khu phố 3
+Họ tên: Trương Công Hoan
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0793898239
+Số hộ: 715
+Nhân khẩu: 1868
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 9 ---
+Mã KP: KP04
+Tên khu phố: Khu phố 4
+Họ tên: Nguyễn Thị Ngọc Hoa
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0369897859
+Số hộ: 604
+Nhân khẩu: 1946
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 10 ---
+Mã KP: KP04
+Tên khu phố: Khu phố 4
+Họ tên: Hà Quyết Chiến
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0918339998
+Số hộ: 604
+Nhân khẩu: 1946
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 11 ---
+Mã KP: KP04
+Tên khu phố: Khu phố 4
+Họ tên: Phan Thị Hằng
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0915623717
+Số hộ: 604
+Nhân khẩu: 1946
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 12 ---
+Mã KP: KP04
+Tên khu phố: Khu phố 4
+Họ tên: Vương Gia Mỹ
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0388992620
+Số hộ: 604
+Nhân khẩu: 1946
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 13 ---
+Mã KP: KP05
+Tên khu phố: Khu phố 5
+Họ tên: Trần Văn Vinh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913774393
+Số hộ: 626
+Nhân khẩu: 1897
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 14 ---
+Mã KP: KP05
+Tên khu phố: Khu phố 5
+Họ tên: Đặng Thị Thúy Nga
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0983687424
+Số hộ: 626
+Nhân khẩu: 1897
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 15 ---
+Mã KP: KP05
+Tên khu phố: Khu phố 5
+Họ tên: Phạm Ngọc Mỹ
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0764087545
+Số hộ: 626
+Nhân khẩu: 1897
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 16 ---
+Mã KP: KP05
+Tên khu phố: Khu phố 5
+Họ tên: Trần Thị Quỳnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0768758 310
+Số hộ: 626
+Nhân khẩu: 1897
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 17 ---
+Mã KP: KP06
+Tên khu phố: Khu phố 6
+Họ tên: Lưu Nguyễn Phú Sĩ
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0902625253
+Số hộ: 637
+Nhân khẩu: 1778
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 18 ---
+Mã KP: KP06
+Tên khu phố: Khu phố 6
+Họ tên: Lưu Nguyễn Phú Tài
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0385119573
+Số hộ: 637
+Nhân khẩu: 1778
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 19 ---
+Mã KP: KP07
+Tên khu phố: Khu phố 7
+Họ tên: Trần Văn Lý
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0909616484
+Số hộ: 905
+Nhân khẩu: 2092
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 20 ---
+Mã KP: KP07
+Tên khu phố: Khu phố 7
+Họ tên: Lê Thị Hoài Thanh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903570291
+Số hộ: 905
+Nhân khẩu: 2092
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 21 ---
+Mã KP: KP07
+Tên khu phố: Khu phố 7
+Họ tên: Vũ Văn Toàn
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0981732462
+Số hộ: 905
+Nhân khẩu: 2092
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 22 ---
+Mã KP: KP07
+Tên khu phố: Khu phố 7
+Họ tên: Bùi Nguyễn Thanh Phong
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0367204910
+Số hộ: 905
+Nhân khẩu: 2092
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 23 ---
+Mã KP: KP08
+Tên khu phố: Khu phố 8
+Họ tên: Nguyễn Thanh Hưng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903644618; 0903796207
+Số hộ: 629
+Nhân khẩu: 1860
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 24 ---
+Mã KP: KP08
+Tên khu phố: Khu phố 8
+Họ tên: Nguyễn Ái Huyền
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0939589174
+Số hộ: 629
+Nhân khẩu: 1860
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 25 ---
+Mã KP: KP08
+Tên khu phố: Khu phố 8
+Họ tên: Đào Thành Trung
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0931225114
+Số hộ: 629
+Nhân khẩu: 1860
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 26 ---
+Mã KP: KP09
+Tên khu phố: Khu phố 9
+Họ tên: Vương Huy Nghiệp
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903688363
+Số hộ: 679
+Nhân khẩu: 2164
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 27 ---
+Mã KP: KP09
+Tên khu phố: Khu phố 9
+Họ tên: Nguyễn Hải Thái
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909900763
+Số hộ: 679
+Nhân khẩu: 2164
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 28 ---
+Mã KP: KP09
+Tên khu phố: Khu phố 9
+Họ tên: Hoàng Xuân Tự
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0772043275
+Số hộ: 679
+Nhân khẩu: 2164
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 29 ---
+Mã KP: KP09
+Tên khu phố: Khu phố 9
+Họ tên: Dương Hiển Ngọc Phát
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0934007419
+Số hộ: 679
+Nhân khẩu: 2164
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 30 ---
+Mã KP: KP10
+Tên khu phố: Khu phố 10
+Họ tên: Bùi Hữu Trí
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0988530877
+Số hộ: 660
+Nhân khẩu: 2121
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 31 ---
+Mã KP: KP10
+Tên khu phố: Khu phố 10
+Họ tên: Phùng Vũ Thể
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0857070891
+Số hộ: 660
+Nhân khẩu: 2121
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 32 ---
+Mã KP: KP10
+Tên khu phố: Khu phố 10
+Họ tên: Huỳnh Nhật Linh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0797835134
+Số hộ: 660
+Nhân khẩu: 2121
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 33 ---
+Mã KP: KP10
+Tên khu phố: Khu phố 10
+Họ tên: Võ Ngọc Soạn
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: nan
+Số hộ: 660
+Nhân khẩu: 2121
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 34 ---
+Mã KP: KP11
+Tên khu phố: Khu phố 11
+Họ tên: Ngô Đức Chính
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0937401954
+Số hộ: 641
+Nhân khẩu: 1865
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 35 ---
+Mã KP: KP11
+Tên khu phố: Khu phố 11
+Họ tên: Nguyễn Ngọc Tuấn
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0961624467
+Số hộ: 641
+Nhân khẩu: 1865
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 36 ---
+Mã KP: KP12
+Tên khu phố: Khu phố 12
+Họ tên: Trần Ngọc Thúy Em
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0919261859
+Số hộ: 698
+Nhân khẩu: 1979
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 37 ---
+Mã KP: KP12
+Tên khu phố: Khu phố 12
+Họ tên: Nguyễn Văn Ngọt
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0919407384
+Số hộ: 698
+Nhân khẩu: 1979
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 38 ---
+Mã KP: KP12
+Tên khu phố: Khu phố 12
+Họ tên: Nguyễn Văn Hoằng
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: nan
+Số hộ: 698
+Nhân khẩu: 1979
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 39 ---
+Mã KP: KP12
+Tên khu phố: Khu phố 12
+Họ tên: Lý Minh Tiến
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0794028263
+Số hộ: 698
+Nhân khẩu: 1979
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 40 ---
+Mã KP: KP13
+Tên khu phố: Khu phố 13
+Họ tên: Trần Viết Hải
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918688844
+Số hộ: 799
+Nhân khẩu: 1834
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 41 ---
+Mã KP: KP13
+Tên khu phố: Khu phố 13
+Họ tên: Nguyễn Trung Lập
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0917568048
+Số hộ: 799
+Nhân khẩu: 1834
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 42 ---
+Mã KP: KP13
+Tên khu phố: Khu phố 13
+Họ tên: Hoàng Thị Thúy
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0909335573
+Số hộ: 799
+Nhân khẩu: 1834
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 43 ---
+Mã KP: KP13
+Tên khu phố: Khu phố 13
+Họ tên: Đoàn Lê Duy
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0703157916
+Số hộ: 799
+Nhân khẩu: 1834
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 44 ---
+Mã KP: KP14
+Tên khu phố: Khu phố 14
+Họ tên: Trần Phúc Vương
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908541372
+Số hộ: 679
+Nhân khẩu: 1803
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 45 ---
+Mã KP: KP14
+Tên khu phố: Khu phố 14
+Họ tên: Trần Đình Cẩm
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903955489
+Số hộ: 679
+Nhân khẩu: 1803
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 46 ---
+Mã KP: KP14
+Tên khu phố: Khu phố 14
+Họ tên: Vũ Thị Dung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0399971602
+Số hộ: 679
+Nhân khẩu: 1803
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 47 ---
+Mã KP: KP14
+Tên khu phố: Khu phố 14
+Họ tên: Vương Nguyễn Anh Kiệt
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0902252972
+Số hộ: 679
+Nhân khẩu: 1803
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 48 ---
+Mã KP: KP15
+Tên khu phố: Khu phố 15
+Họ tên: Đoàn Văn Minh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908318317
+Số hộ: 794
+Nhân khẩu: 2089
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 49 ---
+Mã KP: KP15
+Tên khu phố: Khu phố 15
+Họ tên: Nguyễn Phùng Tấn
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903380590
+Số hộ: 794
+Nhân khẩu: 2089
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 50 ---
+Mã KP: KP15
+Tên khu phố: Khu phố 15
+Họ tên: Phạm Thị Tuyết Nhung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0986683669
+Số hộ: 794
+Nhân khẩu: 2089
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 51 ---
+Mã KP: KP15
+Tên khu phố: Khu phố 15
+Họ tên: Mai Nhật Phương
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0778835259
+Số hộ: 794
+Nhân khẩu: 2089
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 52 ---
+Mã KP: KP16
+Tên khu phố: Khu phố 16
+Họ tên: Đoàn Thị Búp
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908823213
+Số hộ: 654
+Nhân khẩu: 1935
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 53 ---
+Mã KP: KP16
+Tên khu phố: Khu phố 16
+Họ tên: Lê Nguyễn Trung Tín
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0979933298
+Số hộ: 654
+Nhân khẩu: 1935
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 54 ---
+Mã KP: KP17
+Tên khu phố: Khu phố 17
+Họ tên: Bùi Thị Liên
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908818395
+Số hộ: 736
+Nhân khẩu: 1919
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 55 ---
+Mã KP: KP17
+Tên khu phố: Khu phố 17
+Họ tên: Lê Võ Thị Hồng Hạnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0384787986
+Số hộ: 736
+Nhân khẩu: 1919
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 56 ---
+Mã KP: KP18
+Tên khu phố: Khu phố 18
+Họ tên: Bùi Đình Tín
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0989042231
+Số hộ: 799
+Nhân khẩu: 1855
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 57 ---
+Mã KP: KP18
+Tên khu phố: Khu phố 18
+Họ tên: Nguyễn Văn Hoạch
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903718803
+Số hộ: 799
+Nhân khẩu: 1855
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 58 ---
+Mã KP: KP18
+Tên khu phố: Khu phố 18
+Họ tên: Trương Thị Xuân Hoa
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0984525476
+Số hộ: 799
+Nhân khẩu: 1855
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 59 ---
+Mã KP: KP18
+Tên khu phố: Khu phố 18
+Họ tên: Ngô Thị Ngọc Lyl
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0931152427
+Số hộ: 799
+Nhân khẩu: 1855
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 60 ---
+Mã KP: KP19
+Tên khu phố: Khu phố 19
+Họ tên: Phạm Văn Tuyến
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0989353081
+Số hộ: 850
+Nhân khẩu: 2664
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 61 ---
+Mã KP: KP19
+Tên khu phố: Khu phố 19
+Họ tên: Vũ Sỹ Ngọc
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0914382246
+Số hộ: 850
+Nhân khẩu: 2664
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 62 ---
+Mã KP: KP19
+Tên khu phố: Khu phố 19
+Họ tên: Nguyễn Hà Phương Thanh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0938101575
+Số hộ: 850
+Nhân khẩu: 2664
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 63 ---
+Mã KP: KP19
+Tên khu phố: Khu phố 19
+Họ tên: Hồ Minh Khang
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0938993869
+Số hộ: 850
+Nhân khẩu: 2664
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 64 ---
+Mã KP: KP20
+Tên khu phố: Khu phố 20
+Họ tên: Nguyễn Đức Chính
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0904750955
+Số hộ: 784
+Nhân khẩu: 2420
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 65 ---
+Mã KP: KP20
+Tên khu phố: Khu phố 20
+Họ tên: Đỗ Ngọc Châm
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908343319
+Số hộ: 784
+Nhân khẩu: 2420
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 66 ---
+Mã KP: KP20
+Tên khu phố: Khu phố 20
+Họ tên: Đỗ Trọng Lại
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903114905
+Số hộ: 784
+Nhân khẩu: 2420
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 67 ---
+Mã KP: KP20
+Tên khu phố: Khu phố 20
+Họ tên: Nguyễn Hoàng Minh Tú
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0931805022
+Số hộ: 784
+Nhân khẩu: 2420
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 68 ---
+Mã KP: KP21
+Tên khu phố: Khu phố 21
+Họ tên: Trần Công Nhân
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0909771246
+Số hộ: 770
+Nhân khẩu: 2405
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 69 ---
+Mã KP: KP21
+Tên khu phố: Khu phố 21
+Họ tên: Trần Công Nhân
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909771246
+Số hộ: 770
+Nhân khẩu: 2405
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 70 ---
+Mã KP: KP21
+Tên khu phố: Khu phố 21
+Họ tên: Nguyễn Thị The
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903753610
+Số hộ: 770
+Nhân khẩu: 2405
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 71 ---
+Mã KP: KP21
+Tên khu phố: Khu phố 21
+Họ tên: Trần Công Thành
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0777019686
+Số hộ: 770
+Nhân khẩu: 2405
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 72 ---
+Mã KP: KP22
+Tên khu phố: Khu phố 22
+Họ tên: Lê Hữu Đường
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918183600
+Số hộ: 777
+Nhân khẩu: 2448
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 73 ---
+Mã KP: KP22
+Tên khu phố: Khu phố 22
+Họ tên: Lê Thị Mai Liên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908660388
+Số hộ: 777
+Nhân khẩu: 2448
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 74 ---
+Mã KP: KP22
+Tên khu phố: Khu phố 22
+Họ tên: Đinh Thị Châu
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0914099508
+Số hộ: 777
+Nhân khẩu: 2448
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 75 ---
+Mã KP: KP22
+Tên khu phố: Khu phố 22
+Họ tên: Phan Lê Hồng Nhung
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0934199281
+Số hộ: 777
+Nhân khẩu: 2448
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 76 ---
+Mã KP: KP23
+Tên khu phố: Khu phố 23
+Họ tên: Trần Thị Kim Loan
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0938683593
+Số hộ: 755
+Nhân khẩu: 2323
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 77 ---
+Mã KP: KP23
+Tên khu phố: Khu phố 23
+Họ tên: Trần Lưu Trần
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0909127905
+Số hộ: 755
+Nhân khẩu: 2323
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 78 ---
+Mã KP: KP24
+Tên khu phố: Khu phố 24
+Họ tên: Hà Văn Lắm
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0982790309
+Số hộ: 892
+Nhân khẩu: 2883
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 79 ---
+Mã KP: KP24
+Tên khu phố: Khu phố 24
+Họ tên: Nguyễn Thị Nghĩa
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0913984167
+Số hộ: 892
+Nhân khẩu: 2883
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 80 ---
+Mã KP: KP24
+Tên khu phố: Khu phố 24
+Họ tên: Triệu Thị Dung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0982583605
+Số hộ: 892
+Nhân khẩu: 2883
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 81 ---
+Mã KP: KP24
+Tên khu phố: Khu phố 24
+Họ tên: Võ Thị Hồng Nguyệt
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0375850210
+Số hộ: 892
+Nhân khẩu: 2883
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 82 ---
+Mã KP: KP25
+Tên khu phố: Khu phố 25
+Họ tên: Lương Quốc Vinh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0919180068
+Số hộ: 815
+Nhân khẩu: 2229
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 83 ---
+Mã KP: KP25
+Tên khu phố: Khu phố 25
+Họ tên: Thân Văn Ngọc
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0919612023
+Số hộ: 815
+Nhân khẩu: 2229
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 84 ---
+Mã KP: KP25
+Tên khu phố: Khu phố 25
+Họ tên: Nguyễn Thanh Nhường
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903001281
+Số hộ: 815
+Nhân khẩu: 2229
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 85 ---
+Mã KP: KP25
+Tên khu phố: Khu phố 25
+Họ tên: Mai Văn Hiếu
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0932908320
+Số hộ: 815
+Nhân khẩu: 2229
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 86 ---
+Mã KP: KP26
+Tên khu phố: Khu phố 26
+Họ tên: Trần Minh Tùng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913963333
+Số hộ: 750
+Nhân khẩu: 2431
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 87 ---
+Mã KP: KP26
+Tên khu phố: Khu phố 26
+Họ tên: Trần Thị Phương
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0896123453
+Số hộ: 750
+Nhân khẩu: 2431
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 88 ---
+Mã KP: KP26
+Tên khu phố: Khu phố 26
+Họ tên: Trịnh Thị Tuyết Nhung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0982671271
+Số hộ: 750
+Nhân khẩu: 2431
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 89 ---
+Mã KP: KP26
+Tên khu phố: Khu phố 26
+Họ tên: Vũ Trịnh Thanh Bình
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0901326482
+Số hộ: 750
+Nhân khẩu: 2431
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 90 ---
+Mã KP: KP27
+Tên khu phố: Khu phố 27
+Họ tên: Vũ Minh Châu
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903786763
+Số hộ: 515
+Nhân khẩu: 1996
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 91 ---
+Mã KP: KP27
+Tên khu phố: Khu phố 27
+Họ tên: Trần Thị Mai Lý
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908397345
+Số hộ: 515
+Nhân khẩu: 1996
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 92 ---
+Mã KP: KP27
+Tên khu phố: Khu phố 27
+Họ tên: Nguyễn Ngọc Điệp
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0909787159
+Số hộ: 515
+Nhân khẩu: 1996
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 93 ---
+Mã KP: KP27
+Tên khu phố: Khu phố 27
+Họ tên: Lê Võ Đức Hiếu
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 084798806588
+Số hộ: 515
+Nhân khẩu: 1996
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 94 ---
+Mã KP: KP28
+Tên khu phố: Khu phố 28
+Họ tên: Nguyễn Thị Thanh Hiếu
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903952039
+Số hộ: 619
+Nhân khẩu: 1849
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 95 ---
+Mã KP: KP28
+Tên khu phố: Khu phố 28
+Họ tên: Nguyễn Thị Yến Nga
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908414965
+Số hộ: 619
+Nhân khẩu: 1849
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 96 ---
+Mã KP: KP28
+Tên khu phố: Khu phố 28
+Họ tên: Mai Thị Thanh Hương
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903623311
+Số hộ: 619
+Nhân khẩu: 1849
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 97 ---
+Mã KP: KP28
+Tên khu phố: Khu phố 28
+Họ tên: Nguyễn Quỳnh Như Trúc
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0868757346
+Số hộ: 619
+Nhân khẩu: 1849
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 98 ---
+Mã KP: KP29
+Tên khu phố: Khu phố 29
+Họ tên: Trần Văn Cư
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0901349117
+Số hộ: 756
+Nhân khẩu: 2243
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 99 ---
+Mã KP: KP29
+Tên khu phố: Khu phố 29
+Họ tên: Trần Văn Sang
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0907622174
+Số hộ: 756
+Nhân khẩu: 2243
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 100 ---
+Mã KP: KP29
+Tên khu phố: Khu phố 29
+Họ tên: Huỳnh Thúy Anh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0907010016
+Số hộ: 756
+Nhân khẩu: 2243
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 101 ---
+Mã KP: KP29
+Tên khu phố: Khu phố 29
+Họ tên: Nguyễn Danh Đức
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0796793030
+Số hộ: 756
+Nhân khẩu: 2243
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 102 ---
+Mã KP: KP30
+Tên khu phố: Khu phố 30
+Họ tên: Đào Ngọc Tuấn
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0983509683
+Số hộ: 517
+Nhân khẩu: 1595
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 103 ---
+Mã KP: KP30
+Tên khu phố: Khu phố 30
+Họ tên: Đào Thương Hồng Hạnh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908881967
+Số hộ: 517
+Nhân khẩu: 1595
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 104 ---
+Mã KP: KP30
+Tên khu phố: Khu phố 30
+Họ tên: Đặng Ngọc Thành
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903825022
+Số hộ: 517
+Nhân khẩu: 1595
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 105 ---
+Mã KP: KP30
+Tên khu phố: Khu phố 30
+Họ tên: Nguyễn Thị Khánh Ngân
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0359000337
+Số hộ: 517
+Nhân khẩu: 1595
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 106 ---
+Mã KP: KP31
+Tên khu phố: Khu phố 31
+Họ tên: Huỳnh Thanh Tâm
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903314345
+Số hộ: 615
+Nhân khẩu: 2002
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 107 ---
+Mã KP: KP31
+Tên khu phố: Khu phố 31
+Họ tên: Nguyễn Hồng Hải
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0983230750
+Số hộ: 615
+Nhân khẩu: 2002
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 108 ---
+Mã KP: KP31
+Tên khu phố: Khu phố 31
+Họ tên: Nguyễn Thị Kim Ngọc
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0932056572
+Số hộ: 615
+Nhân khẩu: 2002
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 109 ---
+Mã KP: KP31
+Tên khu phố: Khu phố 31
+Họ tên: Nguyễn Văn Thành Thông
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0907023647
+Số hộ: 615
+Nhân khẩu: 2002
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 110 ---
+Mã KP: KP32
+Tên khu phố: Khu phố 32
+Họ tên: Trần Anh Toàn
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0989051290
+Số hộ: 860
+Nhân khẩu: 2413
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 111 ---
+Mã KP: KP32
+Tên khu phố: Khu phố 32
+Họ tên: Trần Huy Bích
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0919777626
+Số hộ: 860
+Nhân khẩu: 2413
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 112 ---
+Mã KP: KP32
+Tên khu phố: Khu phố 32
+Họ tên: Nguyễn Thị Quế Lan
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908102582
+Số hộ: 860
+Nhân khẩu: 2413
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 113 ---
+Mã KP: KP32
+Tên khu phố: Khu phố 32
+Họ tên: Nguyễn Đoan Hùng
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0369080220
+Số hộ: 860
+Nhân khẩu: 2413
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 114 ---
+Mã KP: KP33
+Tên khu phố: Khu phố 33
+Họ tên: Đỗ Khắc Long
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918333292
+Số hộ: 949
+Nhân khẩu: 2640
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 115 ---
+Mã KP: KP33
+Tên khu phố: Khu phố 33
+Họ tên: Đinh Hữu Kỳ
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908101138
+Số hộ: 949
+Nhân khẩu: 2640
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 116 ---
+Mã KP: KP33
+Tên khu phố: Khu phố 33
+Họ tên: Nguyễn Văn Trường
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0937384155
+Số hộ: 949
+Nhân khẩu: 2640
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 117 ---
+Mã KP: KP33
+Tên khu phố: Khu phố 33
+Họ tên: Lê Nguyễn Xuân Đào
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0902738547
+Số hộ: 949
+Nhân khẩu: 2640
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 118 ---
+Mã KP: KP34
+Tên khu phố: Khu phố 34
+Họ tên: Trịnh Quốc Toàn
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908027209
+Số hộ: 513
+Nhân khẩu: 1511
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 119 ---
+Mã KP: KP34
+Tên khu phố: Khu phố 34
+Họ tên: Nguyễn Văn Thạch
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0979849259
+Số hộ: 513
+Nhân khẩu: 1511
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 120 ---
+Mã KP: KP35
+Tên khu phố: Khu phố 35
+Họ tên: Phạm Thanh Quyển
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913421291
+Số hộ: 502
+Nhân khẩu: 1901
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 121 ---
+Mã KP: KP35
+Tên khu phố: Khu phố 35
+Họ tên: Nguyễn Thị Thanh Thủy
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909109985
+Số hộ: 502
+Nhân khẩu: 1901
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 122 ---
+Mã KP: KP35
+Tên khu phố: Khu phố 35
+Họ tên: Nguyễn Ngọc Thông
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0918275370
+Số hộ: 502
+Nhân khẩu: 1901
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 123 ---
+Mã KP: KP35
+Tên khu phố: Khu phố 35
+Họ tên: Phạm Thái Duy
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0909509449
+Số hộ: 502
+Nhân khẩu: 1901
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 124 ---
+Mã KP: KP36
+Tên khu phố: Khu phố 36
+Họ tên: Lê Văn Cương
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0918218500
+Số hộ: 350
+Nhân khẩu: 1606
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 125 ---
+Mã KP: KP36
+Tên khu phố: Khu phố 36
+Họ tên: Nguyễn Tấn Đạt
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0703399921
+Số hộ: 350
+Nhân khẩu: 1606
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 126 ---
+Mã KP: KP37
+Tên khu phố: Khu phố 37
+Họ tên: Nguyễn Văn Sáu
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0988664494
+Số hộ: 445
+Nhân khẩu: 1791
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 127 ---
+Mã KP: KP37
+Tên khu phố: Khu phố 37
+Họ tên: Đỗ Văn Tám
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0919374595
+Số hộ: 445
+Nhân khẩu: 1791
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 128 ---
+Mã KP: KP37
+Tên khu phố: Khu phố 37
+Họ tên: Nguyễn Đình Rành
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908833455
+Số hộ: 445
+Nhân khẩu: 1791
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 129 ---
+Mã KP: KP37
+Tên khu phố: Khu phố 37
+Họ tên: Đỗ Mạnh Dũng
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0359323579
+Số hộ: 445
+Nhân khẩu: 1791
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 130 ---
+Mã KP: KP38
+Tên khu phố: Khu phố 38
+Họ tên: Nguyễn Quang Sơn
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913169494
+Số hộ: 516
+Nhân khẩu: 2557
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 131 ---
+Mã KP: KP38
+Tên khu phố: Khu phố 38
+Họ tên: Trương Văn Hoàng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0914391616
+Số hộ: 516
+Nhân khẩu: 2557
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 132 ---
+Mã KP: KP38
+Tên khu phố: Khu phố 38
+Họ tên: Ngô Thị Hiền
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0914202999
+Số hộ: 516
+Nhân khẩu: 2557
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 133 ---
+Mã KP: KP38
+Tên khu phố: Khu phố 38
+Họ tên: Trần Đức Mạnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0816472232
+Số hộ: 516
+Nhân khẩu: 2557
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 134 ---
+Mã KP: KP39
+Tên khu phố: Khu phố 39
+Họ tên: Nguyễn Trung Hùng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913404055
+Số hộ: 742
+Nhân khẩu: 2626
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 135 ---
+Mã KP: KP39
+Tên khu phố: Khu phố 39
+Họ tên: Nguyễn Thị Thủy Liên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909438509
+Số hộ: 742
+Nhân khẩu: 2626
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 136 ---
+Mã KP: KP39
+Tên khu phố: Khu phố 39
+Họ tên: Lê Thị Nhung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0983165202
+Số hộ: 742
+Nhân khẩu: 2626
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 137 ---
+Mã KP: KP39
+Tên khu phố: Khu phố 39
+Họ tên: Nguyễn Thanh Phong
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0899999412
+Số hộ: 742
+Nhân khẩu: 2626
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 138 ---
+Mã KP: KP40
+Tên khu phố: Khu phố 40
+Họ tên: Trần Thị Mỹ Thành
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913845579
+Số hộ: 489
+Nhân khẩu: 1546
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 139 ---
+Mã KP: KP40
+Tên khu phố: Khu phố 40
+Họ tên: Lê Văn Xuân
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903372315
+Số hộ: 489
+Nhân khẩu: 1546
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 140 ---
+Mã KP: KP40
+Tên khu phố: Khu phố 40
+Họ tên: Hà Thị Mai Hồng
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903714071
+Số hộ: 489
+Nhân khẩu: 1546
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 141 ---
+Mã KP: KP40
+Tên khu phố: Khu phố 40
+Họ tên: Dương Lê Đình Nguyên
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0562598899
+Số hộ: 489
+Nhân khẩu: 1546
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 142 ---
+Mã KP: KP41
+Tên khu phố: Khu phố 41
+Họ tên: Lê Đức Bình
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903703968
+Số hộ: 313
+Nhân khẩu: 1585
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 143 ---
+Mã KP: KP41
+Tên khu phố: Khu phố 41
+Họ tên: Đặng Phương Lan
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0904300166
+Số hộ: 313
+Nhân khẩu: 1585
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 144 ---
+Mã KP: KP41
+Tên khu phố: Khu phố 41
+Họ tên: Phạm Thị Mỹ Hà
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0913115225
+Số hộ: 313
+Nhân khẩu: 1585
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 145 ---
+Mã KP: KP42
+Tên khu phố: Khu phố 42
+Họ tên: Trần Mạnh Vũ
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0988696688
+Số hộ: 365
+Nhân khẩu: 1810
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 146 ---
+Mã KP: KP42
+Tên khu phố: Khu phố 42
+Họ tên: Lê Thị Tuyết Nhung
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0932610812
+Số hộ: 365
+Nhân khẩu: 1810
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 147 ---
+Mã KP: KP42
+Tên khu phố: Khu phố 42
+Họ tên: Phạm Thị Hoàng Tâm
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0913926712
+Số hộ: 365
+Nhân khẩu: 1810
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 148 ---
+Mã KP: KP42
+Tên khu phố: Khu phố 42
+Họ tên: Lê Như Hảo
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0914501044
+Số hộ: 365
+Nhân khẩu: 1810
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 149 ---
+Mã KP: KP43
+Tên khu phố: Khu phố 43
+Họ tên: Hoàng Văn Hùng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903673890
+Số hộ: 324
+Nhân khẩu: 1647
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 150 ---
+Mã KP: KP43
+Tên khu phố: Khu phố 43
+Họ tên: Trần Anh Tuấn
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0967769766
+Số hộ: 324
+Nhân khẩu: 1647
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 151 ---
+Mã KP: KP43
+Tên khu phố: Khu phố 43
+Họ tên: Nguyễn Dương Quỳnh Như
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0981821140
+Số hộ: 324
+Nhân khẩu: 1647
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 152 ---
+Mã KP: KP44
+Tên khu phố: Khu phố 44
+Họ tên: Đinh Thanh Minh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908000115
+Số hộ: 504
+Nhân khẩu: 1921
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 153 ---
+Mã KP: KP44
+Tên khu phố: Khu phố 44
+Họ tên: Hà Công Thoại
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0364148356
+Số hộ: 504
+Nhân khẩu: 1921
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 154 ---
+Mã KP: KP45
+Tên khu phố: Khu phố 45
+Họ tên: Nguyễn Phước Dũng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: nan
+Số hộ: 162
+Nhân khẩu: 1123
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 155 ---
+Mã KP: KP45
+Tên khu phố: Khu phố 45
+Họ tên: Trần Thị Lệ Thu
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903732053
+Số hộ: 162
+Nhân khẩu: 1123
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 156 ---
+Mã KP: KP45
+Tên khu phố: Khu phố 45
+Họ tên: Trần Thị Toàn
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0902720357
+Số hộ: 162
+Nhân khẩu: 1123
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 157 ---
+Mã KP: KP45
+Tên khu phố: Khu phố 45
+Họ tên: Phạm Thị Dung
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0967777
+Số hộ: 162
+Nhân khẩu: 1123
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 158 ---
+Mã KP: KP46
+Tên khu phố: Khu phố 46
+Họ tên: Đoàn Xuân Lộc
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0949619153
+Số hộ: 159
+Nhân khẩu: 1116
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 159 ---
+Mã KP: KP46
+Tên khu phố: Khu phố 46
+Họ tên: Trần Đình Hòa
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903811324
+Số hộ: 159
+Nhân khẩu: 1116
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 160 ---
+Mã KP: KP46
+Tên khu phố: Khu phố 46
+Họ tên: Phạm Xuân Bình
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903720201
+Số hộ: 159
+Nhân khẩu: 1116
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 161 ---
+Mã KP: KP46
+Tên khu phố: Khu phố 46
+Họ tên: Nguyễn Phi Long
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0379754154
+Số hộ: 159
+Nhân khẩu: 1116
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 162 ---
+Mã KP: KP47
+Tên khu phố: Khu phố 47
+Họ tên: Phạm Xuân Bình
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903720201
+Số hộ: 175
+Nhân khẩu: 1206
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 163 ---
+Mã KP: KP47
+Tên khu phố: Khu phố 47
+Họ tên: Võ Thúc Đồng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0915544999
+Số hộ: 175
+Nhân khẩu: 1206
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 164 ---
+Mã KP: KP47
+Tên khu phố: Khu phố 47
+Họ tên: Phạm Xuân Bình
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903720201
+Số hộ: 175
+Nhân khẩu: 1206
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 165 ---
+Mã KP: KP47
+Tên khu phố: Khu phố 47
+Họ tên: Lê Trường Thịnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0373843558
+Số hộ: 175
+Nhân khẩu: 1206
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 166 ---
+Mã KP: KP48
+Tên khu phố: Khu phố 48
+Họ tên: Võ Thị Phương Thúy
+Chức vụ: Bí thư chi bộ
+Số điện thoại: nan
+Số hộ: 249
+Nhân khẩu: 1154
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 167 ---
+Mã KP: KP48
+Tên khu phố: Khu phố 48
+Họ tên: Võ Văn Khánh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0368555282
+Số hộ: 249
+Nhân khẩu: 1154
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 168 ---
+Mã KP: KP48
+Tên khu phố: Khu phố 48
+Họ tên: Huỳnh Nha Sanh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0986380180
+Số hộ: 249
+Nhân khẩu: 1154
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 169 ---
+Mã KP: KP48
+Tên khu phố: Khu phố 48
+Họ tên: Phạm Thị Tuyết Trinh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0869939915
+Số hộ: 249
+Nhân khẩu: 1154
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 170 ---
+Mã KP: KP49
+Tên khu phố: Khu phố 49
+Họ tên: Đoàn Thị Thu Phước
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908115607
+Số hộ: 224
+Nhân khẩu: 1064
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 171 ---
+Mã KP: KP49
+Tên khu phố: Khu phố 49
+Họ tên: Lâm Phước Hạnh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0918349586
+Số hộ: 224
+Nhân khẩu: 1064
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 172 ---
+Mã KP: KP49
+Tên khu phố: Khu phố 49
+Họ tên: Nguyễn Văn Hạnh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908911779
+Số hộ: 224
+Nhân khẩu: 1064
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 173 ---
+Mã KP: KP49
+Tên khu phố: Khu phố 49
+Họ tên: Hoàng Thị Thanh Xuân
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0933921583
+Số hộ: 224
+Nhân khẩu: 1064
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 174 ---
+Mã KP: KP50
+Tên khu phố: Khu phố 50
+Họ tên: Đỗ Thị Lý
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0976185984
+Số hộ: 259
+Nhân khẩu: 1293
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 175 ---
+Mã KP: KP50
+Tên khu phố: Khu phố 50
+Họ tên: Phạm Minh Kha
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0784661809
+Số hộ: 259
+Nhân khẩu: 1293
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 176 ---
+Mã KP: KP51
+Tên khu phố: Khu phố 51
+Họ tên: Dương Văn Khôi
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913885190
+Số hộ: 437
+Nhân khẩu: 1628
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 177 ---
+Mã KP: KP51
+Tên khu phố: Khu phố 51
+Họ tên: Phạm Anh Minh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903078171
+Số hộ: 437
+Nhân khẩu: 1628
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 178 ---
+Mã KP: KP51
+Tên khu phố: Khu phố 51
+Họ tên: Trần Hợp Thắng
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0903816210
+Số hộ: 437
+Nhân khẩu: 1628
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 179 ---
+Mã KP: KP52
+Tên khu phố: Khu phố 52
+Họ tên: Nguyễn Thị Vân
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903320894
+Số hộ: 429
+Nhân khẩu: 1566
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 180 ---
+Mã KP: KP52
+Tên khu phố: Khu phố 52
+Họ tên: Nguyễn Văn Trong
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0989109995
+Số hộ: 429
+Nhân khẩu: 1566
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 181 ---
+Mã KP: KP52
+Tên khu phố: Khu phố 52
+Họ tên: Trần Lê Duy Anh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0906851351
+Số hộ: 429
+Nhân khẩu: 1566
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 182 ---
+Mã KP: KP52
+Tên khu phố: Khu phố 52
+Họ tên: Hoàng Văn Sang
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0966790750
+Số hộ: 429
+Nhân khẩu: 1566
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 183 ---
+Mã KP: KP53
+Tên khu phố: Khu phố 53
+Họ tên: Nguyễn Thị Xuân Mai
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0909066754
+Số hộ: 920
+Nhân khẩu: 2848
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 184 ---
+Mã KP: KP53
+Tên khu phố: Khu phố 53
+Họ tên: Nguyễn Thị Xuân Mai
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909066754
+Số hộ: 920
+Nhân khẩu: 2848
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 185 ---
+Mã KP: KP53
+Tên khu phố: Khu phố 53
+Họ tên: Nguyễn Thị Xuân
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0937335116
+Số hộ: 920
+Nhân khẩu: 2848
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 186 ---
+Mã KP: KP53
+Tên khu phố: Khu phố 53
+Họ tên: Lê Mỹ Hòa
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0326374864
+Số hộ: 920
+Nhân khẩu: 2848
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 187 ---
+Mã KP: KP54
+Tên khu phố: Khu phố 54
+Họ tên: Phạm Ngọc Thành
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0989002202
+Số hộ: 606
+Nhân khẩu: 2178
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 188 ---
+Mã KP: KP54
+Tên khu phố: Khu phố 54
+Họ tên: Trần Quốc Hùng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909866178
+Số hộ: 606
+Nhân khẩu: 2178
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 189 ---
+Mã KP: KP54
+Tên khu phố: Khu phố 54
+Họ tên: Ngô Thị Trang
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0903770323
+Số hộ: 606
+Nhân khẩu: 2178
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 190 ---
+Mã KP: KP54
+Tên khu phố: Khu phố 54
+Họ tên: Võ Thị Thanh Trang
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0937353449
+Số hộ: 606
+Nhân khẩu: 2178
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 191 ---
+Mã KP: KP55
+Tên khu phố: Khu phố 55
+Họ tên: Lê Quang Văn
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0913751402
+Số hộ: 579
+Nhân khẩu: 1971
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 192 ---
+Mã KP: KP55
+Tên khu phố: Khu phố 55
+Họ tên: Nguyễn Mai Phương
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0969227330
+Số hộ: 579
+Nhân khẩu: 1971
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 193 ---
+Mã KP: KP56
+Tên khu phố: Khu phố 56
+Họ tên: Đỗ Kế Thanh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0912958659
+Số hộ: 414
+Nhân khẩu: 1607
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 194 ---
+Mã KP: KP56
+Tên khu phố: Khu phố 56
+Họ tên: Nguyễn Tiến Dũng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903825894
+Số hộ: 414
+Nhân khẩu: 1607
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 195 ---
+Mã KP: KP56
+Tên khu phố: Khu phố 56
+Họ tên: Lê Thị Tuyết Trinh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0948506090
+Số hộ: 414
+Nhân khẩu: 1607
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 196 ---
+Mã KP: KP56
+Tên khu phố: Khu phố 56
+Họ tên: Nguyễn Trúc Phương Linh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0909067546
+Số hộ: 414
+Nhân khẩu: 1607
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 197 ---
+Mã KP: KP57
+Tên khu phố: Khu phố 57
+Họ tên: Bùi Văn Kiên
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0906435703
+Số hộ: 657
+Nhân khẩu: 1798
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 198 ---
+Mã KP: KP57
+Tên khu phố: Khu phố 57
+Họ tên: Trương Thị Phương Diễm
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908663592
+Số hộ: 657
+Nhân khẩu: 1798
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 199 ---
+Mã KP: KP57
+Tên khu phố: Khu phố 57
+Họ tên: Nguyễn Quang Duy
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0939301306
+Số hộ: 657
+Nhân khẩu: 1798
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 200 ---
+Mã KP: KP57
+Tên khu phố: Khu phố 57
+Họ tên: Nguyễn Ngọc Minh Quyên
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0943858457
+Số hộ: 657
+Nhân khẩu: 1798
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 201 ---
+Mã KP: KP58
+Tên khu phố: Khu phố 58
+Họ tên: Trần Cường
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0947615786
+Số hộ: 381
+Nhân khẩu: 1668
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 202 ---
+Mã KP: KP58
+Tên khu phố: Khu phố 58
+Họ tên: Nguyễn Ngọc Phương Thy
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0909067546
+Số hộ: 381
+Nhân khẩu: 1668
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 203 ---
+Mã KP: KP59
+Tên khu phố: Khu phố 59
+Họ tên: Nguyễn Văn Hải
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903703161
+Số hộ: 631
+Nhân khẩu: 2100
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 204 ---
+Mã KP: KP59
+Tên khu phố: Khu phố 59
+Họ tên: Nguyễn Hà Trường Hải
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908250681
+Số hộ: 631
+Nhân khẩu: 2100
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 205 ---
+Mã KP: KP59
+Tên khu phố: Khu phố 59
+Họ tên: Trần Thị Lệ Dung
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908988861
+Số hộ: 631
+Nhân khẩu: 2100
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 206 ---
+Mã KP: KP59
+Tên khu phố: Khu phố 59
+Họ tên: Đặng Nữ Kiều My
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0328574801
+Số hộ: 631
+Nhân khẩu: 2100
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 207 ---
+Mã KP: KP60
+Tên khu phố: Khu phố 60
+Họ tên: Đặng Văn Sơn
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903610892
+Số hộ: 471
+Nhân khẩu: 1689
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 208 ---
+Mã KP: KP60
+Tên khu phố: Khu phố 60
+Họ tên: Võ Mạnh Hùng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903362828
+Số hộ: 471
+Nhân khẩu: 1689
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 209 ---
+Mã KP: KP60
+Tên khu phố: Khu phố 60
+Họ tên: Trần Thị Tinh Hoa
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908878982
+Số hộ: 471
+Nhân khẩu: 1689
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 210 ---
+Mã KP: KP60
+Tên khu phố: Khu phố 60
+Họ tên: Trương Đông Huy
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0834651650
+Số hộ: 471
+Nhân khẩu: 1689
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 211 ---
+Mã KP: KP61
+Tên khu phố: Khu phố 61
+Họ tên: Lương Thuận Hòa
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908540766
+Số hộ: 948
+Nhân khẩu: 2731
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 212 ---
+Mã KP: KP61
+Tên khu phố: Khu phố 61
+Họ tên: Đoàn Lê Hải Lý
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0918696001
+Số hộ: 948
+Nhân khẩu: 2731
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 213 ---
+Mã KP: KP61
+Tên khu phố: Khu phố 61
+Họ tên: Nguyễn Thị Phúc Hạnh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0918306874
+Số hộ: 948
+Nhân khẩu: 2731
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 214 ---
+Mã KP: KP61
+Tên khu phố: Khu phố 61
+Họ tên: Lê Ngọc Minh Anh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0947835835
+Số hộ: 948
+Nhân khẩu: 2731
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 215 ---
+Mã KP: KP62
+Tên khu phố: Khu phố 62
+Họ tên: Võ Hồng Tuyến
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903803474
+Số hộ: 916
+Nhân khẩu: 2625
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 216 ---
+Mã KP: KP62
+Tên khu phố: Khu phố 62
+Họ tên: Nguyễn Văn Tài
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903949743
+Số hộ: 916
+Nhân khẩu: 2625
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 217 ---
+Mã KP: KP62
+Tên khu phố: Khu phố 62
+Họ tên: Nguyễn Văn Khuê
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0905860252
+Số hộ: 916
+Nhân khẩu: 2625
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 218 ---
+Mã KP: KP62
+Tên khu phố: Khu phố 62
+Họ tên: Nguyễn Ngọc Bích Thuận
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0902315484
+Số hộ: 916
+Nhân khẩu: 2625
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 219 ---
+Mã KP: KP63
+Tên khu phố: Khu phố 63
+Họ tên: Nguyễn Anh Dũng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918003585
+Số hộ: 646
+Nhân khẩu: 2012
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 220 ---
+Mã KP: KP63
+Tên khu phố: Khu phố 63
+Họ tên: Nguyễn Ngọc Bình
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908837661
+Số hộ: 646
+Nhân khẩu: 2012
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 221 ---
+Mã KP: KP63
+Tên khu phố: Khu phố 63
+Họ tên: Ngụy Thị Trang
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0985748395
+Số hộ: 646
+Nhân khẩu: 2012
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 222 ---
+Mã KP: KP63
+Tên khu phố: Khu phố 63
+Họ tên: Vương Ái Hân
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0908636166
+Số hộ: 646
+Nhân khẩu: 2012
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 223 ---
+Mã KP: KP64
+Tên khu phố: Khu phố 64
+Họ tên: Nguyễn Tiến Hòa
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0323366428
+Số hộ: 846
+Nhân khẩu: 2555
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 224 ---
+Mã KP: KP64
+Tên khu phố: Khu phố 64
+Họ tên: Lê Mỹ Quỳnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0981429271
+Số hộ: 846
+Nhân khẩu: 2555
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 225 ---
+Mã KP: KP65
+Tên khu phố: Khu phố 65
+Họ tên: Nguyễn Văn Hạnh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0915796464
+Số hộ: 730
+Nhân khẩu: 2347
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 226 ---
+Mã KP: KP65
+Tên khu phố: Khu phố 65
+Họ tên: Tạ Thị Điệp
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908364319
+Số hộ: 730
+Nhân khẩu: 2347
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 227 ---
+Mã KP: KP65
+Tên khu phố: Khu phố 65
+Họ tên: Trần Thị Thanh Thủy
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0977858101
+Số hộ: 730
+Nhân khẩu: 2347
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 228 ---
+Mã KP: KP65
+Tên khu phố: Khu phố 65
+Họ tên: Nguyễn Song Huỳnh Như
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: nan
+Số hộ: 730
+Nhân khẩu: 2347
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 229 ---
+Mã KP: KP66
+Tên khu phố: Khu phố 66
+Họ tên: Lý Văn Chính
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0971910527
+Số hộ: 895
+Nhân khẩu: 2691
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 230 ---
+Mã KP: KP66
+Tên khu phố: Khu phố 66
+Họ tên: Dương Văn Hiển
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0934529922
+Số hộ: 895
+Nhân khẩu: 2691
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 231 ---
+Mã KP: KP67
+Tên khu phố: Khu phố 67
+Họ tên: Lê Văn Đức
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0938426070
+Số hộ: 827
+Nhân khẩu: 2552
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 232 ---
+Mã KP: KP67
+Tên khu phố: Khu phố 67
+Họ tên: Nguyễn Vân Anh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0348627303
+Số hộ: 827
+Nhân khẩu: 2552
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 233 ---
+Mã KP: KP68
+Tên khu phố: Khu phố 68
+Họ tên: Trần Anh Chương
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913421278
+Số hộ: 826
+Nhân khẩu: 2388
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 234 ---
+Mã KP: KP68
+Tên khu phố: Khu phố 68
+Họ tên: Vũ Thanh Trúc
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903397654
+Số hộ: 826
+Nhân khẩu: 2388
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 235 ---
+Mã KP: KP68
+Tên khu phố: Khu phố 68
+Họ tên: Vũ Văn Bình
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0857760058
+Số hộ: 826
+Nhân khẩu: 2388
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 236 ---
+Mã KP: KP68
+Tên khu phố: Khu phố 68
+Họ tên: Bùi Phương Nam
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0357384648
+Số hộ: 826
+Nhân khẩu: 2388
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 237 ---
+Mã KP: KP69
+Tên khu phố: Khu phố 69
+Họ tên: Bùi Văn Bình
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0909866383
+Số hộ: 921
+Nhân khẩu: 2605
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 238 ---
+Mã KP: KP69
+Tên khu phố: Khu phố 69
+Họ tên: Diệp Thị Hoa Liên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0909240244
+Số hộ: 921
+Nhân khẩu: 2605
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 239 ---
+Mã KP: KP69
+Tên khu phố: Khu phố 69
+Họ tên: Lê Thị Then
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0933566151
+Số hộ: 921
+Nhân khẩu: 2605
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 240 ---
+Mã KP: KP69
+Tên khu phố: Khu phố 69
+Họ tên: Ngô Đặng Anh Thư
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0975256641
+Số hộ: 921
+Nhân khẩu: 2605
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 241 ---
+Mã KP: KP70
+Tên khu phố: Khu phố 70
+Họ tên: Lầu Minh Cóong
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0934116064
+Số hộ: 631
+Nhân khẩu: 2385
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 242 ---
+Mã KP: KP70
+Tên khu phố: Khu phố 70
+Họ tên: Lê Võ Thị Hồng Hạnh
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0384787986
+Số hộ: 631
+Nhân khẩu: 2385
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 243 ---
+Mã KP: KP71
+Tên khu phố: Khu phố 71
+Họ tên: Nguyễn Thị Ngọc Thanh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918410609
+Số hộ: 742
+Nhân khẩu: 2500
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 244 ---
+Mã KP: KP71
+Tên khu phố: Khu phố 71
+Họ tên: Trần Thanh Tòng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908862235
+Số hộ: 742
+Nhân khẩu: 2500
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 245 ---
+Mã KP: KP71
+Tên khu phố: Khu phố 71
+Họ tên: Trần Thị Hảo
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0372959444
+Số hộ: 742
+Nhân khẩu: 2500
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 246 ---
+Mã KP: KP71
+Tên khu phố: Khu phố 71
+Họ tên: Trương Thị Thùy Trang
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0394035928
+Số hộ: 742
+Nhân khẩu: 2500
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 247 ---
+Mã KP: KP72
+Tên khu phố: Khu phố 72
+Họ tên: Đỗ Văn Thạch
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0966690375
+Số hộ: 722
+Nhân khẩu: 2719
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 248 ---
+Mã KP: KP72
+Tên khu phố: Khu phố 72
+Họ tên: Nguyễn Ngọc Biên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0362672192
+Số hộ: 722
+Nhân khẩu: 2719
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 249 ---
+Mã KP: KP73
+Tên khu phố: Khu phố 73
+Họ tên: Lê Thị Ngọc Trang
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0936091274
+Số hộ: 640
+Nhân khẩu: 2226
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 250 ---
+Mã KP: KP73
+Tên khu phố: Khu phố 73
+Họ tên: Nguyễn Đình Khiêm
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0702847426
+Số hộ: 640
+Nhân khẩu: 2226
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 251 ---
+Mã KP: KP74
+Tên khu phố: Khu phố 74
+Họ tên: Phạm Thị Hạnh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0938562867
+Số hộ: 556
+Nhân khẩu: 2344
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 252 ---
+Mã KP: KP74
+Tên khu phố: Khu phố 74
+Họ tên: Nguyễn Phi Khánh
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903385978
+Số hộ: 556
+Nhân khẩu: 2344
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 253 ---
+Mã KP: KP74
+Tên khu phố: Khu phố 74
+Họ tên: Trần Thị Phương Loan
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0908756034
+Số hộ: 556
+Nhân khẩu: 2344
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 254 ---
+Mã KP: KP74
+Tên khu phố: Khu phố 74
+Họ tên: Vũ Thị Mỹ Phụng
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0394139710
+Số hộ: 556
+Nhân khẩu: 2344
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 255 ---
+Mã KP: KP75
+Tên khu phố: Khu phố 75
+Họ tên: Trương Thị Quyên
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903004146
+Số hộ: 635
+Nhân khẩu: 2491
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 256 ---
+Mã KP: KP75
+Tên khu phố: Khu phố 75
+Họ tên: Nguyễn Như Thủy
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903699866
+Số hộ: 635
+Nhân khẩu: 2491
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 257 ---
+Mã KP: KP75
+Tên khu phố: Khu phố 75
+Họ tên: Nguyễn Thị Đỉnh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0914092963
+Số hộ: 635
+Nhân khẩu: 2491
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 258 ---
+Mã KP: KP75
+Tên khu phố: Khu phố 75
+Họ tên: Nguyễn Hữu Phúc
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0939576943
+Số hộ: 635
+Nhân khẩu: 2491
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 259 ---
+Mã KP: KP01
+Tên khu phố: Khu phố 1
+Họ tên: Nguyễn Thị Mùi
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903777945
+Số hộ: 684
+Nhân khẩu: 1938
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 260 ---
+Mã KP: KP03
+Tên khu phố: Khu phố 3
+Họ tên: Phạm Quốc Hận
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0983725961
+Số hộ: 715
+Nhân khẩu: 1868
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 261 ---
+Mã KP: KP06
+Tên khu phố: Khu phố 6
+Họ tên: Nguyễn Xuân Hiền
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908270476
+Số hộ: 637
+Nhân khẩu: 1778
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 262 ---
+Mã KP: KP11
+Tên khu phố: Khu phố 11
+Họ tên: Huỳnh Hưng Thạnh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903331976
+Số hộ: 641
+Nhân khẩu: 1865
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 263 ---
+Mã KP: KP16
+Tên khu phố: Khu phố 16
+Họ tên: Trầm Hảo Tâm
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0352381345
+Số hộ: 654
+Nhân khẩu: 1935
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 264 ---
+Mã KP: KP17
+Tên khu phố: Khu phố 17
+Họ tên: Ngô Ngọc Lệ Vinh
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0376576977
+Số hộ: 736
+Nhân khẩu: 1919
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 265 ---
+Mã KP: KP58
+Tên khu phố: Khu phố 58
+Họ tên: Lưu Hữu Phước
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0981701825
+Số hộ: 381
+Nhân khẩu: 1668
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 266 ---
+Mã KP: KP36
+Tên khu phố: Khu phố 36
+Họ tên: Nguyễn Doãn Lễ
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0773777988
+Số hộ: 350
+Nhân khẩu: 1606
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 267 ---
+Mã KP: KP44
+Tên khu phố: Khu phố 44
+Họ tên: Nguyễn Duy Tân
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913806868
+Số hộ: 504
+Nhân khẩu: 1921
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 268 ---
+Mã KP: KP50
+Tên khu phố: Khu phố 50
+Họ tên: Vũ Thị Ngọc Lan
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0904685666
+Số hộ: 259
+Nhân khẩu: 1293
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 269 ---
+Mã KP: KP55
+Tên khu phố: Khu phố 55
+Họ tên: Phan Thái Trạm
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908220036
+Số hộ: 579
+Nhân khẩu: 1971
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 270 ---
+Mã KP: KP64
+Tên khu phố: Khu phố 64
+Họ tên: Nguyễn Thành Nội
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908138218
+Số hộ: 846
+Nhân khẩu: 2555
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 271 ---
+Mã KP: KP66
+Tên khu phố: Khu phố 66
+Họ tên: Huỳnh Văn Tiến
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0918134124
+Số hộ: 895
+Nhân khẩu: 2691
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 272 ---
+Mã KP: KP67
+Tên khu phố: Khu phố 67
+Họ tên: Nguyễn Văn Thọ
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908079466
+Số hộ: 827
+Nhân khẩu: 2552
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 273 ---
+Mã KP: KP70
+Tên khu phố: Khu phố 70
+Họ tên: Võ Thanh Hà
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0913894836
+Số hộ: 631
+Nhân khẩu: 2385
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 274 ---
+Mã KP: KP73
+Tên khu phố: Khu phố 73
+Họ tên: Nguyễn Như Thất
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0908370379
+Số hộ: 640
+Nhân khẩu: 2226
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 275 ---
+Mã KP: KP01
+Tên khu phố: Khu phố 1
+Họ tên: Phạm Thúy Liên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0906397995
+Số hộ: 684
+Nhân khẩu: 1938
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 276 ---
+Mã KP: KP03
+Tên khu phố: Khu phố 3
+Họ tên: Nguyễn Quốc Tăng
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0903868995
+Số hộ: 715
+Nhân khẩu: 1868
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 277 ---
+Mã KP: KP06
+Tên khu phố: Khu phố 6
+Họ tên: Lê Thị Kim Em
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0902625253
+Số hộ: 637
+Nhân khẩu: 1778
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 278 ---
+Mã KP: KP11
+Tên khu phố: Khu phố 11
+Họ tên: Phạm Thị Kim Ngọc
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0769801280
+Số hộ: 641
+Nhân khẩu: 1865
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 279 ---
+Mã KP: KP16
+Tên khu phố: Khu phố 16
+Họ tên: Trầm Hảo Tâm
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0352381345
+Số hộ: 654
+Nhân khẩu: 1935
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 280 ---
+Mã KP: KP17
+Tên khu phố: Khu phố 17
+Họ tên: Võ Hoàng Mỹ Duyên
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0989930196
+Số hộ: 736
+Nhân khẩu: 1919
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 281 ---
+Mã KP: KP58
+Tên khu phố: Khu phố 58
+Họ tên: Lưu Hữu Phước
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0981701825
+Số hộ: 381
+Nhân khẩu: 1668
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 282 ---
+Mã KP: KP36
+Tên khu phố: Khu phố 36
+Họ tên: Nguyễn Doãn Lễ
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0773777988
+Số hộ: 350
+Nhân khẩu: 1606
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 283 ---
+Mã KP: KP44
+Tên khu phố: Khu phố 44
+Họ tên: Nguyễn Duy Tân
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0913806868
+Số hộ: 504
+Nhân khẩu: 1921
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 284 ---
+Mã KP: KP50
+Tên khu phố: Khu phố 50
+Họ tên: Vũ Thị Ngọc Lan
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0904685666
+Số hộ: 259
+Nhân khẩu: 1293
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 285 ---
+Mã KP: KP55
+Tên khu phố: Khu phố 55
+Họ tên: Phan Thái Trạm
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908220036
+Số hộ: 579
+Nhân khẩu: 1971
+Loại khu phố: Chung cư
+Ghi chú: Chung cư
+
+--- Record 286 ---
+Mã KP: KP64
+Tên khu phố: Khu phố 64
+Họ tên: Nguyễn Thành Nội
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908138218
+Số hộ: 846
+Nhân khẩu: 2555
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 287 ---
+Mã KP: KP66
+Tên khu phố: Khu phố 66
+Họ tên: Huỳnh Văn Tiến
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0918134124
+Số hộ: 895
+Nhân khẩu: 2691
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 288 ---
+Mã KP: KP67
+Tên khu phố: Khu phố 67
+Họ tên: Nguyễn Văn Thọ
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908079466
+Số hộ: 827
+Nhân khẩu: 2552
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 289 ---
+Mã KP: KP70
+Tên khu phố: Khu phố 70
+Họ tên: Võ Thanh Hà
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0913894836
+Số hộ: 631
+Nhân khẩu: 2385
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 290 ---
+Mã KP: KP73
+Tên khu phố: Khu phố 73
+Họ tên: Nguyễn Như Thất
+Chức vụ: Trưởng khu phố
+Số điện thoại: 0908370379
+Số hộ: 640
+Nhân khẩu: 2226
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 291 ---
+Mã KP: KP23
+Tên khu phố: Khu phố 23
+Họ tên: Huỳnh Ngọc Thanh Vy
+Chức vụ: Bí thư Chi đoàn
+Số điện thoại: 0345622638
+Số hộ: 755
+Nhân khẩu: 2323
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 292 ---
+Mã KP: KP23
+Tên khu phố: Khu phố 23
+Họ tên: Phạm Thị Hạnh
+Chức vụ: Trưởng ban Công tác Mặt trận
+Số điện thoại: 0918489964
+Số hộ: 755
+Nhân khẩu: 2323
+Loại khu phố: Thường
+Ghi chú: N/A
+
+--- Record 293 ---
+Mã KP: KP08
+Tên khu phố: Khu phố 8
+Họ tên: Nguyễn Thanh Hưng
+Chức vụ: Bí thư chi bộ
+Số điện thoại: 0903644618
+Số hộ: 629
+Nhân khẩu: 1860
+Loại khu phố: Thường
+Ghi chú: N/A
