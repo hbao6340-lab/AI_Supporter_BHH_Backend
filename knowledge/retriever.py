@@ -180,8 +180,8 @@ class KnowledgeRetriever:
         logger.info(f"Loaded {len(self.documents)} document chunks from {len(parsed_docs)} files")
         return True
     
-    def _chunk_text(self, text: str, chunk_size: int = 500, overlap: int = 50) -> List[str]:
-        """Split text into overlapping chunks."""
+    def _chunk_text(self, text: str, chunk_size: int = 800, overlap: int = 100) -> List[str]:
+        """Split text into overlapping chunks, trying to keep names and entities intact."""
         # Clean text
         text = re.sub(r'\s+', ' ', text)
         text = text.strip()
@@ -195,7 +195,7 @@ class KnowledgeRetriever:
         while start < len(text):
             end = start + chunk_size
             
-            # Try to break at sentence boundary
+            # Try to break at sentence boundary or at whitespace to avoid splitting words
             if end < len(text):
                 # Look for sentence endings near chunk boundary
                 for sep in ['. ', '! ', '? ', '\n', '। ']:
@@ -203,9 +203,19 @@ class KnowledgeRetriever:
                     if last_sep > start + chunk_size // 2:
                         end = last_sep + 1
                         break
+                # If no sentence break found, try to break at whitespace
+                if end == start + chunk_size:  # No sentence break found
+                    # Look for whitespace to break at
+                    last_space = text.rfind(' ', start, end)
+                    if last_space > start + chunk_size // 2:
+                        end = last_space
             
             chunks.append(text[start:end])
             start = end - overlap
+            
+            # Ensure we make progress
+            if start >= len(text) - overlap:
+                break
         
         return chunks
     
@@ -286,7 +296,7 @@ class KnowledgeRetriever:
             return "", False
         
         # Use lower similarity threshold to find more relevant documents
-        results = self.search(query, top_k=10, min_similarity=0.01)
+        results = self.search(query, top_k=15, min_similarity=0.005)
         
         if not results:
             return "", False
@@ -294,6 +304,26 @@ class KnowledgeRetriever:
         logger.info(f"Search results for '{query[:30]}...': {len(results)} documents found")
         for r in results:
             logger.info(f"  - {r['source']['filename']}: similarity={r['similarity']:.3f}")
+        
+        # Boost score for exact matches of key terms
+        query_lower = query.lower()
+        for result in results:
+            # Check if query terms appear exactly in content
+            content_lower = result['content'].lower()
+            if query_lower in content_lower:
+                # Boost similarity score for exact query match
+                result['similarity'] = min(1.0, result['similarity'] + 0.3)
+            # Check for individual important words (like names)
+            query_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', query_lower))
+            content_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', content_lower))
+            exact_word_matches = query_words & content_words
+            if exact_word_matches:
+                # Boost for each exact word match
+                word_boost = min(0.2, len(exact_word_matches) * 0.05)
+                result['similarity'] = min(1.0, result['similarity'] + word_boost)
+        
+        # Re-sort by boosted similarity
+        results.sort(key=lambda x: x['similarity'], reverse=True)
         
         # Build context from results
         context_parts = []
@@ -310,7 +340,7 @@ class KnowledgeRetriever:
         context = "\n\n".join(context_parts)
         
         # Check if we have meaningful results - be more lenient
-        if results:
+        if results and results[0]['similarity'] >= 0.005:
             return context, True
         
         return context, False
