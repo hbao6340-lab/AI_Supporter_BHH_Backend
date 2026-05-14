@@ -46,12 +46,14 @@ def transcribe_audio(audio_bytes):
         audio_file = io.BytesIO(audio_bytes)
         audio_file.name = "audio.wav"
         
-        # Use OpenAI Whisper API
+        # Use OpenAI Whisper API with context prompt for better Vietnamese transcription
         print("INFO: Calling OpenAI Whisper API for transcription...")
         transcript = client.audio.transcriptions.create(
             model="whisper-1",
             file=audio_file,
-            language="vi"  # Vietnamese
+            language="vi",  # Vietnamese
+            prompt="Đây là bản ghi âm tiếng Việt về các vấn đề hành chính của phường Tân Hưng. Vui lòng transcribe chính xác.",
+            temperature=0.0  # More deterministic output
         )
         
         result = transcript.text
