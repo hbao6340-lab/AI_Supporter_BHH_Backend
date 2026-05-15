@@ -246,9 +246,16 @@ class KnowledgeRetriever:
                             'similarity': float(sim_score)
                         })
                 
+                # If TF-IDF search returned no results, fall back to keyword search
+                if not results:
+                    logger.info(f"TF-IDF search returned no results for '{query[:30]}...', falling back to keyword search")
+                    return self._simple_search(query, top_k, min_similarity)
+                
                 return results
             except Exception as e:
                 logger.error(f"TF-IDF Search error: {e}")
+                # Fall back to keyword search on exception
+                return self._simple_search(query, top_k, min_similarity)
         
         # Fallback: Simple keyword matching
         return self._simple_search(query, top_k, min_similarity)
