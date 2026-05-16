@@ -1,0 +1,33 @@
+﻿CACHE: 501 sources, 15 unique filenames
+  [ 23] 35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  [  9] C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  [ 36] DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx
+  [  7] NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  6] NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  7] NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [246] Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  [  9] QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  [ 16] Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  [ 14] Q─É 1340 Vß╗ü viß╗çc c├┤ng nh├ón ─æß╗òi t├¬n khu phß╗æ tr├¬n ─æß╗ïa b├án Quß║¡n 7.docx
+  [ 14] Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 12] Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 14] Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  [ 86] Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [  2] sample_info.txt
+
+RETRIEVER: 501 docs, 15 unique filenames
+  [ 23] 35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  [  9] C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  [ 36] DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx
+  [  7] NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  6] NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  7] NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [246] Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  [  9] QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  [ 16] Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  [ 14] Q─É 1340 Vß╗ü viß╗çc c├┤ng nh├ón ─æß╗òi t├¬n khu phß╗æ tr├¬n ─æß╗ïa b├án Quß║¡n 7.docx
+  [ 14] Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 12] Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 14] Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  [ 86] Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [  2] sample_info.txt

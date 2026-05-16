@@ -1,0 +1,82 @@
+﻿Total documents: 501
+Total sources: 501
+
+All filenames in retriever (first 100 sources):
+  '35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt'
+  'C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx'
+  'DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx'
+  'Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx'
+
+Searching for XLSX in ALL sources:
+  idx=32 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=0 DOC_LEN=417
+    First 100 chars: === Sheet: Sheet1 === ─Éß║óNG Bß╗ÿ PH╞»ß╗£NG T├éN H╞»NG * | | | | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM | | | | | | | | | | |
+  idx=33 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=1 DOC_LEN=489
+    First 100 chars: | Khu phß╗æ 1 | Nguyß╗àn Thß╗ï M├╣i | 1. B├¡ th╞░ Chi bß╗Ö 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Ng╞░ß╗¥i cao tuß╗òi | 0903777945 | 
+  idx=34 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=2 DOC_LEN=485
+    First 100 chars: 0903868995 | | | | | 6 | | | Nguyß╗àn Quß╗æc T─âng | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Cß╗▒u chiß║┐n bi
+  idx=35 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=3 DOC_LEN=447
+    First 100 chars: 13774393 | | | | | 10 | | | ─Éß║╖ng Thß╗ï Th├║y Nga | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Khuyß║┐n hß╗ìc 3
+  idx=36 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=4 DOC_LEN=284
+    First 100 chars: ng | Khu phß╗æ 7 | Trß║ºn V─ân L├╜ | 1. B├¡ th╞░ Chi bß╗Ö 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Cß╗▒u chiß║┐n binh | 0909616484 | 
+  idx=37 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=5 DOC_LEN=330
+    First 100 chars:  Khu phß╗æ 8 | Nguyß╗àn V─ân Thß║úo | 1. B├¡ th╞░ Chi bß╗Ö 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Khuyß║┐n hß╗ìc | 0982129583 | CBCC
+  idx=38 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=6 DOC_LEN=497
+    First 100 chars:  | 18 | | | Nguyß╗àn Hß║úi Th├íi | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Chß╗» thß║¡p ─æß╗Å | 0909900763 | | |
+  idx=39 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=7 DOC_LEN=332
+    First 100 chars: 1280 | | | | | 23 | Khu phß╗æ 5 -T├ón Kiß╗âng | Khu phß╗æ 12 | Trß║ºn Ngß╗ìc Th├║y Em | B├¡ th╞░ Chi bß╗Ö | 09192618
+  idx=40 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=8 DOC_LEN=499
+    First 100 chars: | 26 | | | Nguyß╗àn Trung Lß║¡p | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Khuyß║┐n hß╗ìc | 0917568048 | | | 
+  idx=41 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=9 DOC_LEN=348
+    First 100 chars: | | | | | 31 | Khu phß╗æ 9 -T├ón Kiß╗âng | Khu phß╗æ 16 | L├óm Thanh Tr├║c | B├¡ th╞░ Chi bß╗Ö | 0982288118 | CBC
+  idx=42 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=10 DOC_LEN=439
+    First 100 chars: | | | 34 | | | Trß║ºm Hß║úo T├óm | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Khuyß║┐n hß╗ìc | 0989930196 | | | 
+  idx=43 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=11 DOC_LEN=483
+    First 100 chars:  | | 38 | | | V┼⌐ Sß╗╣ Ngß╗ìc | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0914382246 | | | | | 39 | Khu ph
+  idx=44 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=12 DOC_LEN=498
+    First 100 chars:  42 | | | Trß║ºn C├┤ng Nh├ón | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0909771246 | | | | | 43 | Khu ph
+  idx=45 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=13 DOC_LEN=448
+    First 100 chars: m Loan | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ 3. Chi hß╗Öi tr╞░ß╗ƒng Chß╗» thß║¡p ─æß╗Å | 0938683593 | | | | |
+  idx=46 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=14 DOC_LEN=415
+    First 100 chars: | 50 | | | Th├ón V─ân Ngß╗ìc | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0919612023 | | | | | 51 | Khu ph
+  idx=47 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=15 DOC_LEN=419
+    First 100 chars: 54 | | | Trß║ºn Thß╗ï Mai L├╜ | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0908397345 | | | | | 55 | Khu ph
+  idx=48 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=16 DOC_LEN=366
+    First 100 chars:  B├¡ th╞░ chi bß╗Ö 2. Chi hß╗Öi tr╞░ß╗ƒng Cß╗▒u chiß║┐n binh 3. Chi hß╗Öi tr╞░ß╗ƒng Khuyß║┐n hß╗ìc | 0901349117 | | | | | 
+  idx=49 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=17 DOC_LEN=444
+    First 100 chars: | | ─É├áo Th╞░╞íng Hß╗ông Hß║ính | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0908881967 | | | | | 61 | Khu ph
+  idx=50 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=18 DOC_LEN=498
+    First 100 chars: | 64 | | | Trß║ºn Huy B├¡ch | 1. Ph├│ B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng khu phß╗æ | 0919777626 | | | | | 65 | Khu ph
+  idx=51 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=19 DOC_LEN=258
+    First 100 chars: 9 | | | | | 69 | Khu phß╗æ 1 -T├ón Phong | Khu phß╗æ 35 | Phß║ím Thanh Quyß╗ân | B├¡ th╞░ chi bß╗Ö | 0913421291 |
+  idx=52 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=20 DOC_LEN=499
+    First 100 chars:  Khu phß╗æ 36 | Nguyß╗àn Do├ún Lß╗à | 1. B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng Khu phß╗æ | 0773777988 | | | | | 72 | Khu ph
+  idx=53 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=21 DOC_LEN=427
+    First 100 chars: | Nguyß╗àn Trung H├╣ng | B├¡ th╞░ chi bß╗Ö | 0913404055 | | | | | 77 | | | Nguyß╗àn Thß╗ï Thuß╗╖ Li├¬n | Tr╞░ß╗ƒng Kh
+  idx=54 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=22 DOC_LEN=483
+    First 100 chars:  | 81 | | | ─Éß║╖ng Ph╞░╞íng Lan | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi khuyß║┐n hß╗ìc | 0904300166 | | | 
+  idx=55 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=23 DOC_LEN=475
+    First 100 chars: hß╗æ 7 -T├ón Phong | Khu phß╗æ 44 | Nguyß╗àn Duy T├ón | 1. B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng Khu phß╗æ | 0913806868 | | 
+  idx=56 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=24 DOC_LEN=415
+    First 100 chars:  Tr╞░ß╗ƒng Khu phß╗æ 2. Tr╞░ß╗ƒng Ban c├┤ng t├íc mß║╖t trß║¡n 3. Chi hß╗Öi tr╞░ß╗ƒng Hß╗Öi Cß╗▒u chiß║┐n binh | 0903811324 | 
+  idx=57 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=25 DOC_LEN=383
+    First 100 chars: | | | 94 | | | V├╡ V─ân Kh├ính | 1. Tr╞░ß╗ƒng Khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Ng╞░ß╗¥i cao tuß╗òi | 0368555282 | | | 
+  idx=58 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=26 DOC_LEN=357
+    First 100 chars: Khu phß╗æ 50 | V┼⌐ Thß╗ï Ngß╗ìc Lan | 1. B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng Khu phß╗æ | 0904685666 | | | | | 98 | Khu ph
+  idx=59 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=27 DOC_LEN=496
+    First 100 chars:  1. B├¡ th╞░ chi bß╗Ö 2. Chi hß╗Öi tr╞░ß╗ƒng Chß╗» thß║¡p ─æß╗Å 3. Chi hß╗Öi tr╞░ß╗ƒng Ng╞░ß╗¥i cao tuß╗òi | 0903320894 | | | 
+  idx=60 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=28 DOC_LEN=478
+    First 100 chars:  Quß╗æc H├╣ng | Tr╞░ß╗ƒng khu phß╗æ | 0909866178 | | | | | 106 | Khu phß╗æ 6 -T├ón H╞░ng | Khu phß╗æ 55 | Phan Th├í
+  idx=61 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=29 DOC_LEN=496
+    First 100 chars:  | | Tr╞░╞íng Thß╗ï Ph╞░╞íng Diß╗àm | 1. Tr╞░ß╗ƒng khu phß╗æ 2. Chi hß╗Öi tr╞░ß╗ƒng Chi hß╗Öi phß╗Ñ nß╗» | 0908663592 | | | 
+  idx=62 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=30 DOC_LEN=492
+    First 100 chars: h╞░ Chi bß╗Ö | 0903610892 | | | | | 115 | | | V├╡ Mß║ính H├╣ng | Tr╞░ß╗ƒng khu phß╗æ | 0903362828 | | | | | 116 
+  idx=63 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=31 DOC_LEN=486
+    First 100 chars: g | Khu phß╗æ 63 | Nguyß╗àn Anh D┼⌐ng | B├¡ th╞░ Chi bß╗Ö | 0918003585 | | | | | 121 | | | Nguyß╗àn Ngß╗ìc B├¼nh |
+  idx=64 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=32 DOC_LEN=496
+    First 100 chars: phß╗æ 1 -T├ón H╞░ng | Khu phß╗æ 66 | Huß╗│nh V─ân Tiß║┐n | 1. B├¡ th╞░ chi bß╗Ö 2. Tr╞░ß╗ƒng Khu phß╗æ | 0918134124 | | 
+  idx=65 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=33 DOC_LEN=498
+    First 100 chars: ╞░ Chi bß╗Ö | 0909866383 | | | | | 130 | | | Diß╗çp Thß╗ï Hoa Li├¬n | Tr╞░ß╗ƒng khu phß╗æ | 0909240244 | | | | | 
+  idx=66 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=34 DOC_LEN=496
+    First 100 chars: hi bß╗Ö | 0966690375 | | | | | 135 | | | Nguyß╗àn Ngß╗ìc Bi├¬n | Tr╞░ß╗ƒng khu phß╗æ | 0362672192 | | | | | 136 
+  idx=67 FILE='DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx' CHUNK=35 DOC_LEN=175
+    First 100 chars: Chi bß╗Ö | 0903004146 | | | | | 140 | | | Nguyß╗àn Nh╞░ Thß╗ºy | Tr╞░ß╗ƒng khu phß╗æ | 0903699866 | | | | | | | 

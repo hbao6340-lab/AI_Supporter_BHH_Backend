@@ -1,0 +1,353 @@
+﻿CWD: C:\Users\Admin\Downloads\vn_testing\backend
+__file__: C:\Users\Admin\Downloads\vn_testing\backend\debug_parse.py
+Knowledge dir: C:\Users\Admin\Downloads\vn_testing\backend\knowledge\data
+Knowledge dir exists: True
+python : C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\worksheet\_reader.py:329: 
+UserWarning: Data Validation extension is not supported and will be removed
+At line:1 char:13
++ cd backend; python debug_parse.py 2>&1 | Out-File -Encoding utf8 C:\U ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admin\...will be removed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn(msg)
+PyPDF2 not installed. Install with: pip install PyPDF2
+DOCX parsing error: Package not found at 'C:\Users\Admin\Downloads\vn_testing\backend\knowledge\data\~$ 326 Thαnh 
+l\u1eadp \u1ee6y ban M\u1eb7t tr\u1eadn T\u1ed5 qu\u1ed1c Vi\u1ec7t Nam ph\u01b0\u1eddng TΓn H\u01b0ng.docx'
+XLSX parsing error: [Errno 13] Permission denied: 
+'C:\\Users\\Admin\\Downloads\\vn_testing\\backend\\knowledge\\data\\~$DANH S┴CH T\u1ed4NG TH\u1ec2 (HC).xlsx'
+Total files parsed: 28
+
+FILE: 35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+SIZE: 8645
+FIRST 500: Tß╗½ ng├áy 01/3/2025, ng├ánh c├┤ng an kh├┤ng tß╗ò chß╗⌐c c├┤ng an cß║Ñp huyß╗çn, chß╗ë c├▓n Bß╗Ö C├┤ng an, cß║Ñp tß╗ënh v├á cß║Ñp x├ú, ph╞░ß╗¥ng, thß╗ï trß║Ñn (gß╗ìi chung l├á c├┤ng an cß║Ñp x├ú).
+Ph├íp lß╗çnh c├┤ng an x├ú sß╗æ 06/2008 cß╗ºa ß╗ªy ban Th╞░ß╗¥ng vß╗Ñ Quß╗æc hß╗Öi, Th├┤ng t╞░ 12/2010/TT-BCA quy ─æß╗ïnh cß╗Ñ thß╗â thi h├ánh mß╗Öt sß╗æ ─æiß╗üu cß╗ºa ph├íp lß╗çnh c├┤ng an x├ú, v├á bß╗Ö luß║¡t Tß╗æ tß╗Ñng h├¼nh sß╗▒ 2015 (sß╗¡a ─æß╗òi, bß╗ò sung 2021) ─æ├ú n├¬u r├╡ chß╗⌐c n─âng, quyß╗ün hß║ín cß╗ºa c├┤ng an cß║Ñp x├ú, gß╗ôm:
+Nß║»m t├¼nh h├¼nh an ninh, trß║¡t tß╗▒, an to├án x├ú hß╗Öi tr├¬n ─æß╗ïa b├án x├ú.
+L├ám n├▓ng cß╗æt x├óy dß╗▒n
+---
+
+FILE: Acronyms
+SIZE: 1606
+FIRST 500: CCCD: C─ân c╞░ß╗¢c c├┤ng d├ón (Citizen Identification Card)
+BCA: Bß╗Ö C├┤ng an (Ministry of Public Security)
+UBND: ß╗ªy ban Nh├ón d├ón (People's Committee)
+HDND: Hß╗Öi ─æß╗ông Nh├ón d├ón (People's Council)
+HLH TNVN: Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam (Vietnam Youth Union)
+─Éo├án TNCS HCM: ─Éo├án Thanh ni├¬n Cß╗Öng sß║ún Hß╗ô Ch├¡ Minh (Ho Chi Minh Communist Youth Union)
+UBND MT: ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc (Fatherland Front Committee)
+TN─ÉS: Tß╗ò Chuyß╗ân ─æß╗òi sß╗æ (Digital Transformation Organization)
+H─ÉND: Hß╗Öi ─æß╗ông Nh├ón d├ón (People's Cou
+---
+
+FILE: C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+SIZE: 3478
+FIRST 500: C├üC ─É╞»ß╗£NG Dß║¬N H╞»ß╗ÜNG Dß║¬N DANH Mß╗ñC C├üC THß╗ª Tß╗ñC H├ÇNH CH├ìNH Tß║áI TRUNG T├éM H├ÇNH CH├ìNH C├öNG PH╞»ß╗£NG T├éN H╞»NG.
+T├èN L─¿NH Vß╗░C | ─É╞»ß╗£NG Dß║¬N
+Danh Mß╗Ñc Thß╗º tß╗Ñc h├ánh ch├¡nh dß║½n tß╗¢i L─¿NH Vß╗░C T├öN GI├üO, T├ìN NG╞»ß╗áNG  | https://drive.google.com/file/d/1OXtRCbQ7YsYwv2VEr46bFKjqKhLPcnzm/view 
+L─¿NH Vß╗░C THI ─ÉUA KHEN TH╞»ß╗₧NG | https://drive.google.com/file/d/1QXRoqSXlbztBPrG1KGjbbJuaE4jXj-WO/view?usp=sharing 
+L─¿NH Vß╗░C D├éN Tß╗ÿC | https://drive.google.com/file/d/16JHsnHraoHS_Hfjyr92oHMVIp8lGt2st/view 
+L─⌐nh vß╗▒c gi├ío dß╗Ñc ─æ├áo tß║ío
+---
+
+FILE: DANH S├üCH C├üC L─¿NH Vß╗░C.xlsx
+SIZE: 2009
+FIRST 500: === Sheet: Sheet1 ===
+DANH S├üCH |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | 
+STT | L─⌐nh v╞░c | C├ín bß╗Ö phß╗Ñ tr├ích |  |  | L├únh ─æß║ío phß╗Ñ tr├ích |  | 
+ |  | Hß╗ì v├á t├¬n | Chß╗⌐c danh | Sß╗æ ─æiß╗çn thoß║íi | Hß╗ì v├á t├¬n | Chß╗⌐c danh | Sß╗æ ─æiß╗çn thoß║íi
+1 | Thß╗º tß╗Ñc h├ánh ch├¡nh | Nguyß╗àn Trung Hiß║┐u | Chuy├¬n vi├¬n Trung t├óm PV HCC |  | Tr╞░╞íng Thanh T├║ | G─É Trung t├óm PV HCC | 0989001477
+1 | Quß║ún l├╜ ─æß║Ñt ─æai | Ch├óu ─Éß║╖ng An | CV P.KTHT─ÉT | 0989284494 | V┼⌐ Anh Tuß║Ñn | Ph├│ TP.KTHT─ÉT | 0919386000
+2 | Trß║¡t tß╗▒ x├óy dß╗▒ng | L├¬ Quß╗æc Tiß║┐n | C
+---
+
+FILE: Danh s├ích th├┤ng tin c├íc TC─É (050326).xlsx
+SIZE: 10393
+FIRST 500: === Sheet: Kangatang ===
+=== Sheet: Sheet1 ===
+─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG
+BAN X├éY Dß╗░NG ─Éß║óNG
+* |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM
+T├ón H╞░ng, ng├áy 01 th├íng 3 n─âm 2026 |  |  |  |  |  |  | 
+DANH S├üCH TH├öNG TIN
+C├üC Tß╗ö CHß╗¿C ─Éß║óNG THUß╗ÿC ─Éß║óNG Bß╗ÿ PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+Stt | T├¬n tß╗ò chß╗⌐c ─Éß║úng | Hß╗ì t├¬n B├¡ th╞░ chi/─Éß║úng bß╗Ö | Sß╗æ tß╗ò chß╗⌐c ─æß║úng trß╗▒c thuß╗Öc | Sß╗æ ─æiß╗çn thoß║íi li├¬n hß╗ç TC─É | Ghi ch├║ |  |  |  | 
+I. ─Éß║úng bß╗Ö c╞í sß╗ƒ: 8 ─Éß║úng bß╗Ö |  |  |  |  |  |  |  |  | 
+1 | ─Éß║úng bß╗Ö c├íc c╞í
+---
+
+FILE: DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+SIZE: 38918
+FIRST 500: === Sheet: L─É CHß╗ª CHß╗ÉT ===
+ | ─Éß║óNG Bß╗ÿ TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH |  |  |  |  |  |  |  |  |  |  |  |  |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM |  |  |  |  |  | 
+ | ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | * |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | DANH S├üCH C├üN Bß╗ÿ, C├öNG CHß╗¿C THUß╗ÿC ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+STT | STT | Hß╗ì v├á t├¬n
+---
+
+FILE: danh_sach_khu_pho.txt
+SIZE: 57239
+FIRST 500: --- Record 1 ---
+M├ú KP: KP01
+T├¬n khu phß╗æ: Khu phß╗æ 1
+Hß╗ì t├¬n: ─Éß╗ù Tß║Ñn An
+Chß╗⌐c vß╗Ñ: Tr╞░ß╗ƒng ban C├┤ng t├íc Mß║╖t trß║¡n
+Sß╗æ ─æiß╗çn thoß║íi: 0902848008
+Sß╗æ hß╗Ö: 684
+Nh├ón khß║⌐u: 1938
+Loß║íi khu phß╗æ: Th╞░ß╗¥ng
+Ghi ch├║: N/A
+
+--- Record 2 ---
+M├ú KP: KP01
+T├¬n khu phß╗æ: Khu phß╗æ 1
+Hß╗ì t├¬n: ─Éß║╖ng Nguyß╗àn Cao To├án
+Chß╗⌐c vß╗Ñ: B├¡ th╞░ Chi ─æo├án
+Sß╗æ ─æiß╗çn thoß║íi: 0774536762
+Sß╗æ hß╗Ö: 684
+Nh├ón khß║⌐u: 1938
+Loß║íi khu phß╗æ: Th╞░ß╗¥ng
+Ghi ch├║: N/A
+
+--- Record 3 ---
+M├ú KP: KP02
+T├¬n khu phß╗æ: Khu phß╗æ 2
+Hß╗ì t├¬n: Nguyß╗àn Xu├ón Hß║í
+Chß╗⌐c vß╗Ñ: B├¡ th╞░ chi bß╗Ö
+Sß╗æ ─æiß╗çn thoß║í
+---
+
+FILE: Dß╗ïch vß╗Ñ c├┤ng Uß╗╖ ban nh├ón d├ón TPHCM
+SIZE: 5946
+FIRST 500: Theo danh mß╗Ñc c├┤ng bß╗æ, TP.HCM hiß╗çn cung cß║Ñp:
+
+345 dß╗ïch vß╗Ñ c├┤ng trß╗▒c tuyß║┐n to├án tr├¼nh (mß╗⌐c ─æß╗Ö 4)
+1.282 dß╗ïch vß╗Ñ c├┤ng trß╗▒c tuyß║┐n mß╗Öt phß║ºn
+
+Tß╗òng cß╗Öng: 1.627 dß╗ïch vß╗Ñ c├┤ng trß╗▒c tuyß║┐n
+
+C├íc dß╗ïch vß╗Ñ n├áy ─æ╞░ß╗úc triß╗ân khai tr├¬n Cß╗òng Dß╗ïch vß╗Ñ c├┤ng Quß╗æc gia v├á hß╗ç thß╗æng giß║úi quyß║┐t TTHC cß╗ºa TP.
+
+2. Ph├ón loß║íi dß╗ïch vß╗Ñ c├┤ng
+2.1 Dß╗ïch vß╗Ñ c├┤ng to├án tr├¼nh (Mß╗⌐c ─æß╗Ö 4)
+Nß╗Öp hß╗ô s╞í trß╗▒c tuyß║┐n 100%
+Thanh to├ín trß╗▒c tuyß║┐n
+Nhß║¡n kß║┐t quß║ú online / qua b╞░u ─æiß╗çn
+Kh├┤ng cß║ºn ─æß║┐n c╞í quan nh├á n╞░ß╗¢c
+
+≡ƒæë ├üp dß╗Ñng nhiß╗üu trong:
+
+─É─âng k├╜ doanh ngh
+---
+
+FILE: file_dong_bo_khu_pho.xlsx
+SIZE: 28343
+FIRST 500: === Sheet: Sheet1 ===
+M├ú KP | T├¬n khu phß╗æ | Hß╗ì t├¬n | Chß╗⌐c vß╗Ñ | Sß╗æ ─æiß╗çn thoß║íi | Sß╗æ hß╗Ö | Nh├ón khß║⌐u | Loß║íi khu phß╗æ | Ghi ch├║
+KP01 | Khu phß╗æ 1 | ─Éß╗ù Tß║Ñn An | Tr╞░ß╗ƒng ban C├┤ng t├íc Mß║╖t trß║¡n | 0902848008 | 684 | 1938 | Th╞░ß╗¥ng | 
+KP01 | Khu phß╗æ 1 | ─Éß║╖ng Nguyß╗àn Cao To├án | B├¡ th╞░ Chi ─æo├án | 0774536762 | 684 | 1938 | Th╞░ß╗¥ng | 
+KP01 | Khu phß╗æ 1 | Nguyß╗àn Thß╗ï M├╣i | B├¡ th╞░ chi bß╗Ö | 0903777945 | 684 | 1938 | Th╞░ß╗¥ng | 
+KP01 | Khu phß╗æ 1 | Phß║ím Th├║y Li├¬n | Tr╞░ß╗ƒng khu phß╗æ | 0906397995 | 684 | 1938 | Th╞░ß╗¥ng | 
+KP02 | 
+---
+
+FILE: GIß╗ÜI THIß╗åU Vß╗Ç TRANG WEB PHUONGTANHUNG.GOV.VN.txt
+SIZE: 1493
+FIRST 500: GIß╗ÜI THIß╗åU Vß╗Ç TRANG WEB PHUONGTANHUNG.GOV.VN
+
+Website phuongtanhung.gov.vn l├á hß╗ç thß╗æng th├┤ng tin ─æiß╗çn tß╗¡ phß╗Ñc vß╗Ñ c├┤ng t├íc quß║ún l├╜ h├ánh ch├¡nh cß╗ºa ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh. ─É├óy l├á nß╗ün tß║úng sß╗æ ─æ╞░ß╗úc x├óy dß╗▒ng nhß║▒m hß╗ù trß╗ú hoß║ít ─æß╗Öng ─æiß╗üu h├ánh, quß║ún l├╜ v├á cung cß║Ñp dß╗ïch vß╗Ñ h├ánh ch├¡nh c├┤ng cho ng╞░ß╗¥i d├ón v├á tß╗ò chß╗⌐c tr├¬n ─æß╗ïa b├án.
+
+Hß╗ç thß╗æng ─æ╞░ß╗úc thiß║┐t kß║┐ vß╗¢i mß╗Ñc ti├¬u hiß╗çn ─æß║íi h├│a nß╗ün h├ánh ch├¡nh, g├│p phß║ºn triß╗ân khai hiß╗çu quß║ú c├┤ng t├íc chuyß╗ân ─æß╗òi sß╗æ tß║íi ─æß╗ïa ph╞░╞íng. Th├┤ng qua websit
+---
+
+FILE: Hß╗å THß╗ÉNG AI.txt
+SIZE: 800
+FIRST 500: Hß╗å THß╗ÉNG AI
+
+Hß╗ç thß╗æng AI n├áy l├á sß║ún phß║⌐m c├┤ng nghß╗ç ─æ╞░ß╗úc nghi├¬n cß╗⌐u, x├óy dß╗▒ng v├á ph├ít triß╗ân bß╗ƒi Tß╗ò Chuyß╗ân ─æß╗òi sß╗æ ─Éo├án ph╞░ß╗¥ng T├ón H╞░ng, nhß║▒m phß╗Ñc vß╗Ñ c├┤ng t├íc hß╗ù trß╗ú hoß║ít ─æß╗Öng h├ánh ch├¡nh, tuy├¬n truyß╗ün v├á chuyß╗ân ─æß╗òi sß╗æ tß║íi ─æß╗ïa ph╞░╞íng.
+
+Tß╗ò Chuyß╗ân ─æß╗òi sß╗æ ─Éo├án ph╞░ß╗¥ng T├ón H╞░ng vß╗¢i mß╗Ñc ti├¬u ß╗⌐ng dß╗Ñng c├┤ng nghß╗ç hiß╗çn ─æß║íi v├áo thß╗▒c tiß╗àn c├┤ng t├íc ─Éo├án v├á phß╗Ñc vß╗Ñ cß╗Öng ─æß╗ông. Tß╗ò gß╗ôm c├íc th├ánh vi├¬n n├▓ng cß╗æt: ─æß╗ông ch├¡ Nguyß╗àn ─É├¼nh ├én giß╗» vai tr├▓ Tß╗ò tr╞░ß╗ƒng; ─æß╗ông ch├¡ D╞░╞íng Ngß╗ìc Soß║ín phß╗Ñ tr├ích kß╗╣ thuß║¡t; v├á ─æß╗ông ch├¡ Ngu
+---
+
+FILE: Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam
+SIZE: 10700
+FIRST 500: Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam l├á tß╗ò chß╗⌐c x├ú hß╗Öi rß╗Öng r├úi cß╗ºa thanh ni├¬n Viß╗çt Nam v├á tß╗ò chß╗⌐c thanh ni├¬n nhß║▒m ─æo├án kß║┐t, tß║¡p hß╗úp mß╗ìi tß║ºng lß╗¢p thanh ni├¬n Viß╗çt Nam phß║Ñn ─æß║Ñu v├¼ sß╗▒ nghiß╗çp x├óy dß╗▒ng v├á bß║úo vß╗ç Tß╗ò quß╗æc.
+
+Lß╗ïch sß╗¡
+C├┤ng t├íc vß║¡n ─æß╗Öng thanh ni├¬n ─æ├ú ─æ╞░ß╗úc nhß╗»ng ng╞░ß╗¥i Cß╗Öng sß║ún Viß╗çt Nam ch├║ trß╗ìng ngay tß╗½ tr╞░ß╗¢c khi th├ánh lß║¡p ─Éß║úng Cß╗Öng sß║ún Viß╗çt Nam. Ch├¡nh vß╗¢i tß╗ò chß╗⌐c Viß╗çt Nam Thanh ni├¬n C├ích mß║íng ─Éß╗ông ch├¡ Hß╗Öi, nhß╗»ng ng╞░ß╗¥i Cß╗Öng sß║ún Viß╗çt Nam c├│ mß╗Öt nguß╗ôn bß╗ò sung c├ín bß╗Ö trß║╗, n─âng ─æß╗Öng, l├á n├▓ng cß╗æt ─æ
+---
+
+FILE: Khu phß╗æ ph╞░ß╗¥ng T├ón H╞░ng
+SIZE: 58
+FIRST 500: Ph╞░ß╗¥ng t├ón h╞░ng c├│ 75 khu phß╗æ tß╗½ khu phß╗æ 1 tß╗¢i khu phß╗æ 75.
+---
+
+FILE: Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+SIZE: 94962
+FIRST 500: NGHß╗è ─Éß╗èNH
+Vß╗Ç THß╗░C HIß╗åN THß╗ª Tß╗ñC H├ÇNH CH├ìNH THEO C╞á CHß║╛ Mß╗ÿT Cß╗¼A, Mß╗ÿT Cß╗¼A LI├èN TH├öNG Tß║áI Bß╗ÿ PHß║¼N Mß╗ÿT Cß╗¼A V├Ç Cß╗öNG Dß╗èCH Vß╗ñ C├öNG QUß╗ÉC GIA
+C─ân cß╗⌐ Luß║¡t Tß╗ò chß╗⌐c Ch├¡nh phß╗º ng├áy 18 th├íng 02 n─âm 2025;
+C─ân cß╗⌐ Luß║¡t Giao dß╗ïch ─æiß╗çn tß╗¡ ng├áy 22 th├íng 6 n─âm 2023;
+C─ân cß╗⌐ Luß║¡t Tß╗ò chß╗⌐c ch├¡nh quyß╗ün ─æß╗ïa ph╞░╞íng n─âm 2025;
+Theo ─æß╗ü nghß╗ï cß╗ºa Bß╗Ö tr╞░ß╗ƒng, Chß╗º nhiß╗çm V─ân ph├▓ng Ch├¡nh phß╗º;
+Ch├¡nh phß╗º ban h├ánh Nghß╗ï ─æß╗ïnh vß╗ü thß╗▒c hiß╗çn thß╗º tß╗Ñc h├ánh ch├¡nh theo c╞í chß║┐ mß╗Öt cß╗¡a, mß╗Öt cß╗¡a li├¬n th├┤ng tß║íi Bß╗Ö phß║¡n Mß╗Öt cß╗¡a v├á Cß╗òng Dß╗ïch vß╗Ñ c├┤ng q
+---
+
+FILE: NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+SIZE: 2692
+FIRST 500: NGHß╗è QUYß║╛T
+Vß╗ü viß╗çc chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ Chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban
+cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021 - 2026
+TH╞»ß╗£NG TRß╗░C Hß╗ÿI ─Éß╗ÆNG NH├éN D├éN TH├ÇNH PHß╗É
+C─ân cß╗⌐ Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt Nam;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 203/2025/QH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa Quß╗æc hß╗Öi sß╗¡a ─æß╗òi, bß╗ò sung mß╗Öt sß╗æ ─æiß╗üu cß╗ºa Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt
+Nam;
+C─ân cß╗⌐ Luß║¡t Tß╗ò chß╗⌐c ch├¡nh quyß╗ün ─æß╗ïa ph╞░╞íng sß╗æ 72/2025/QH15;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/NQ-UBTVQH15 ng├áy 16 th├íng 6
+---
+
+FILE: NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+SIZE: 2403
+FIRST 500: NGHß╗è QUYß║╛T
+Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ Chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón 
+ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021 - 2026
+TH╞»ß╗£NG TRß╗░C Hß╗ÿI ─Éß╗ÆNG NH├éN D├éN TH├ÇNH PHß╗É
+C─ân cß╗⌐ Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt Nam;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 203/2025/QH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa Quß╗æc hß╗Öi sß╗¡a ─æß╗òi, bß╗ò sung mß╗Öt sß╗æ ─æiß╗üu cß╗ºa Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt Nam; C─ân cß╗⌐ Luß║¡t Tß╗ò chß╗⌐c ch├¡nh quyß╗ün ─æß╗ïa ph╞░╞íng sß╗æ 72/2025/QH15;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/NQ-UBTVQH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa ß╗ªy ban Th╞░ß╗¥ng vß╗Ñ Quß╗æ
+---
+
+FILE: NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+SIZE: 2710
+FIRST 500:  NGHß╗è QUYß║╛T
+Vß╗ü viß╗çc chß╗ë ─æß╗ïnh nh├ón sß╗▒ l├ám ─æß║íi biß╗âu Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i
+Ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026
+TH╞»ß╗£NG TRß╗░C Hß╗ÿI ─Éß╗ÆNG NH├éN D├éN TH├ÇNH PHß╗É
+C─ân cß╗⌐ Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt Nam;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 203/2025/QH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa Quß╗æc hß╗Öi sß╗¡a ─æß╗òi, bß╗ò sung mß╗Öt sß╗æ ─æiß╗üu cß╗ºa Hiß║┐n ph├íp n╞░ß╗¢c Cß╗Öng h├▓a x├ú hß╗Öi chß╗º ngh─⌐a Viß╗çt Nam; C─ân cß╗⌐ Luß║¡t Tß╗ò chß╗⌐c ch├¡nh quyß╗ün ─æß╗ïa ph╞░╞íng sß╗æ 72/2025/QH15;
+C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/NQ-UBTVQH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa ß╗ªy ba
+---
+
+FILE: Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+SIZE: 5994
+FIRST 500: Nhß╗»ng quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c ng╞░ß╗¥i d├ón cß║ºn biß║┐t
+C├┤ng chß╗⌐ng v─ân bß║ún ph├ón chia di sß║ún
+Tr╞░ß╗¢c ─æ├óy, nhß╗»ng ng╞░ß╗¥i thß╗½a kß║┐ theo ph├íp luß║¡t hoß║╖c theo di ch├║c m├á trong di ch├║c kh├┤ng x├íc ─æß╗ïnh r├╡ phß║ºn di sß║ún ─æ╞░ß╗úc h╞░ß╗ƒng cß╗ºa tß╗½ng ng╞░ß╗¥i th├¼ c├│ quyß╗ün y├¬u cß║ºu c├┤ng chß╗⌐ng v─ân bß║ún thß╗Åa thuß║¡n ph├ón chia di sß║ún.
+Trong khi ─æ├│, tr╞░ß╗¥ng hß╗úp ng╞░ß╗¥i duy nhß║Ñt ─æ╞░ß╗úc h╞░ß╗ƒng di sß║ún theo ph├íp luß║¡t hoß║╖c nhß╗»ng ng╞░ß╗¥i c├╣ng ─æ╞░ß╗úc h╞░ß╗ƒng di sß║ún theo ph├íp luß║¡t nh╞░ng thß╗Åa thuß║¡n kh├┤ng ph├ón chia di sß║ún ─æ├│ th├¼ sß║╜ c├│ quyß╗ün y├¬u cß║ºu
+---
+
+FILE: QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+SIZE: 3535
+FIRST 500: TH├öNG B├üO
+Vv: ─Éiß╗üu chß╗ënh giß║úm mß╗⌐c ─æ├│ng ─æo├án ph├¡ c├┤ng ─æo├án 
+tß╗½ ng├áy 01/07/2025
+C─ân cß╗⌐ Quyß║┐t ─æß╗ïnh sß╗æ 61/Q─É-TL─É ng├áy 29 th├íng 07 n─âm 2025 cß╗ºa Tß╗òng Li├¬n ─æo├án Lao ─æß╗Öng Viß╗çt Nam vß╗ü viß╗çc ─æiß╗üu chß╗ënh giß║úm mß╗⌐c ─æ├│ng ─æo├án ph├¡ c├┤ng ─æo├án.
+Ban th╞░ß╗¥ng vß╗Ñ c├┤ng ─æo├án Ph╞░ß╗¥ng T├ón H╞░ng th├┤ng b├ío ─æß║┐n c├┤ng ─æo├án c╞í sß╗ƒ tr├¬n ─æß╗ïa b├án Ph╞░ß╗¥ng T├ón H╞░ng nß╗Öi dung ─æiß╗üu chß╗ënh giß║úm mß╗⌐c ─æ├│ng ─æo├án ph├¡ c├┤ng ─æo├án tß╗½ ng├áy 01/07/2025 cß╗Ñ thß╗â nh╞░ sau:
+─Éo├án vi├¬n ß╗ƒ c├íc c├┤ng ─æo├án c╞í sß╗ƒ ─æ╞ín vß╗ï sß╗▒ nghiß╗çp kh├┤ng h╞░ß╗ƒng l╞░╞íng 100% l╞░╞íng tß╗½ NSNN; m
+---
+
+FILE: Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+SIZE: 5368
+FIRST 500: QUYß║╛T ─Éß╗èNH
+Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c
+ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng
+BAN TH╞»ß╗£NG TRß╗░C ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM
+TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH
+- C─ân cß╗⌐ ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam;
+- C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/NQ-UBTVQH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa ß╗ªy ban Th╞░ß╗¥ng vß╗Ñ Quß╗æc hß╗Öi vß╗ü viß╗çc sß║»p xß║┐p c├íc ─æ╞ín vß╗ï h├ánh ch├¡nh cß║Ñp x├ú cß╗ºa Th├ánh phß╗æ Hß╗ô Ch├¡ Minh n─âm 2025;
+- C─ân cß╗⌐ H╞░ß╗¢ng dß║½n sß╗æ 31-HD/BTCTW ng├áy 23 th├í
+---
+
+FILE: Thong tin UBND phuong Tan Hung.txt
+SIZE: 1264
+FIRST 500: Th├┤ng tin vß╗ü ß╗ªy ban Nh├ón d├ón Ph╞░ß╗¥ng T├ón H╞░ng
+
+Chß╗º tß╗ïch ß╗ªy ban Nh├ón d├ón Ph╞░ß╗¥ng T├ón H╞░ng: ─Éß╗ông ch├¡ Nguyß╗àn ─Éß╗⌐c Tr├¡
+
+Ph╞░╞íng t├ón H╞░ng l├á mß╗Öt ph╞░ß╗¥ng thuß╗Öc quß║¡n 7, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh.
+
+
+Theo th├┤ng tin cß║¡p nhß║¡t ─æß║┐n th├íng 3-4/2026 sau kß╗│ hß╗ìp H─ÉND ph╞░ß╗¥ng nhiß╗çm kß╗│ 2026-2031, c├íc th├ánh vi├¬n ch├¡nh cß╗ºa ß╗ªy ban Nh├ón d├ón Ph╞░ß╗¥ng T├ón H╞░ng (Quß║¡n 7, TP.HCM) bao gß╗ôm:
+Chß╗º tß╗ïch UBND ph╞░ß╗¥ng: ├öng Nguyß╗àn ─Éß╗⌐c Tr├¡.
+Chß╗º tß╗ïch H─ÉND ph╞░ß╗¥ng: ├öng Ho├áng Minh Tuß║Ñn Anh.
+Ph├│ Chß╗º tß╗ïch H─ÉND ph╞░ß╗¥ng: ├öng L├óm Hß╗»u Ph╞░╞íng.
+C├íc th├ánh vi├¬n
+---
+
+FILE: Th├ánh uß╗╖ TPHCM
+SIZE: 75
+FIRST 500: B├¡ th╞░ Th├ánh ß╗ºy Th├ánh phß╗æ Hß╗ô Ch├¡ Minh ─æß╗ông ch├¡ Trß║ºn L╞░u Quang sinh n─âm 1967
+---
+
+FILE: Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx - F1.docx
+SIZE: 4823
+FIRST 500: Th├┤ng tin chung ph╞░ß╗¥ng T├ón H╞░ng, TPHCM ( mß╗¢i )
+Diß╗çn t├¡ch tß╗▒ nhi├¬n: 8,54 km2
+D├ón sß╗æ: 153,674 ng╞░ß╗¥i
+Ph╞░ß╗¥ng T├ón H╞░ng ( mß╗¢i ) ─æ╞░ß╗úc th├ánh lß║¡p dß╗▒a tr├¬n viß╗çc s├íp nhß║¡p nguy├¬n trß║íng diß╗çn t├¡ch 4 ph╞░ß╗¥ng : T├ón Phong, T├ón Kiß╗âng, T├ón H╞░ng ( c┼⌐ ) v├á ph╞░ß╗¥ng T├ón Quy
+TRß╗ñ Sß╗₧ L├ÇM VIß╗åC Cß╗ªA ─Éß║óNG ß╗ªY - Hß╗ÿI ─Éß╗ÆNG NH├éN D├éN - ß╗ªY BAN NH├éN D├éN - ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM PH╞»ß╗£NG T├éN H╞»NG
+Ph╞░ß╗¥ng T├ón H╞░ng c├│ hai trß╗Ñ sß╗ƒ. ─Éß╗ïa chß╗ë trß╗Ñ sß╗ƒ l├ám viß╗çc cß╗ºa ─Éß║úng ß╗ºy - Hß╗Öi ─æß╗ông nh├ón d├ón - ß╗ºy ban nh├ón d├ón - trung t├óm h├ánh ch├¡nh c├┤ng 
+---
+
+FILE: Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+SIZE: 5145
+FIRST 500: ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh
+Tr╞░ß╗¥ng hß╗úp ─æ─âng k├╜ trß╗▒c tiß║┐p:
+- Ng╞░ß╗¥i th├ánh lß║¡p hß╗Ö kinh doanh hoß║╖c hß╗Ö kinh doanh thß╗▒c hiß╗çn ─æ─âng k├╜ hß╗Ö kinh doanh tß║íi C╞í quan ─æ─âng k├╜ kinh doanh cß║Ñp x├ú n╞íi ─æß║╖t trß╗Ñ sß╗ƒ hß╗Ö kinh doanh.
+- Khi tiß║┐p nhß║¡n hß╗ô s╞í, C╞í quan ─æ─âng k├╜ kinh doanh cß║Ñp x├ú trao Giß║Ñy bi├¬n nhß║¡n cho hß╗Ö kinh doanh.
++ Khi hß╗ô s╞í ─æ─âng k├╜ hß╗Ö kinh doanh ─æß╗º ─æiß╗üu kiß╗çn ─æß╗â ─æ╞░ß╗úc cß║Ñp Giß║Ñy chß╗⌐ng nhß║¡n ─æ─âng k├╜ hß╗Ö kinh doanh, hß╗ç thß╗æng th├┤ng tin vß╗ü ─æ─âng k├╜ hß╗Ö kinh doanh truyß╗ün th├┤ng tin ─æ─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh 
+---
+
+FILE: Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.txt
+SIZE: 5143
+FIRST 500: ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh
+Tr╞░ß╗¥ng hß╗úp ─æ─âng k├╜ trß╗▒c tiß║┐p:
+- Ng╞░ß╗¥i th├ánh lß║¡p hß╗Ö kinh doanh hoß║╖c hß╗Ö kinh doanh thß╗▒c hiß╗çn ─æ─âng k├╜ hß╗Ö kinh doanh tß║íi C╞í quan ─æ─âng k├╜ kinh doanh cß║Ñp x├ú n╞íi ─æß║╖t trß╗Ñ sß╗ƒ hß╗Ö kinh doanh.
+- Khi tiß║┐p nhß║¡n hß╗ô s╞í, C╞í quan ─æ─âng k├╜ kinh doanh cß║Ñp x├ú trao Giß║Ñy bi├¬n nhß║¡n cho hß╗Ö kinh doanh.
++ Khi hß╗ô s╞í ─æ─âng k├╜ hß╗Ö kinh doanh ─æß╗º ─æiß╗üu kiß╗çn ─æß╗â ─æ╞░ß╗úc cß║Ñp Giß║Ñy chß╗⌐ng nhß║¡n ─æ─âng k├╜ hß╗Ö kinh doanh, hß╗ç thß╗æng th├┤ng tin vß╗ü ─æ─âng k├╜ hß╗Ö kinh doanh truyß╗ün th├┤ng tin ─æ─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh 
+---
+
+FILE: Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+SIZE: 34910
+FIRST 500: QUYß║╛T ─Éß╗èNH
+Kß║┐t th├║c hoß║ít ─æß╗Öng cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam
+ c├íc ph╞░ß╗¥ng cß╗ºa Quß║¡n 7
+BAN TH╞»ß╗£NG TRß╗░C ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM
+TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH
+- C─ân cß╗⌐ ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam;
+- C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/NQ-UBTVQH15 ng├áy 16 th├íng 6 n─âm 2025 cß╗ºa ß╗ªy ban Th╞░ß╗¥ng vß╗Ñ Quß╗æc hß╗Öi vß╗ü viß╗çc sß║»p xß║┐p c├íc ─æ╞ín vß╗ï h├ánh ch├¡nh cß║Ñp x├ú cß╗ºa Th├ánh phß╗æ Hß╗ô Ch├¡ Minh n─âm 2025;
+- C─ân cß╗⌐ H╞░ß╗¢ng dß║½n sß╗æ 31-HD/BTCTW ng├áy 23 th├íng 4 n─âm 2025 cß╗ºa Ban Tß╗ò chß╗⌐c Trung ╞░╞íng vß╗ü viß╗çc th├ánh lß║¡p tß╗ò chß╗⌐c ─æß║úng t╞░
+---
+
+FILE: Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt
+SIZE: 5176
+FIRST 500:  
+ß╗ªY BAN MTTQ VIß╗åT NAM
+TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH
+BAN TH╞»ß╗£NG TRß╗░C	Cß╗ÿNG H├ÆA X├â Hß╗ÿI CHß╗ª NGH─¿A VIß╗åT NAM
+─Éß╗Öc lß║¡p ΓÇô Tß╗▒ do ΓÇô Hß║ính Ph├║c
+Sß╗æ: 326/Q─É-MTTQ-BTT	TP. Hß╗ô Ch├¡ Minh, ng├áy 27 th├íng 6 n─âm 2025
+ 
+QUYß║╛T ─Éß╗èNH
+Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c
+ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng
+ 
+BAN TH╞»ß╗£NG TRß╗░C ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM
+TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH
+ 
+- C─ân cß╗⌐ ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam;
+- C─ân cß╗⌐ Nghß╗ï quyß║┐t sß╗æ 1685/N
+---
+
+FILE: ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031
+SIZE: 2231
+FIRST 500: ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031 c├│ 87 ─æß║íi biß╗âu ─æ╞░ß╗úc triß╗çu tß║¡p tr├¬n 27.000 thanh ni├¬n tr├¬n ─æß╗ïa b├án.
+
+─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031 ─æ╞░ß╗úc tß╗ò chß╗⌐c l├║c 14g00 ng├áy 05/4/2026 tß║íi  Hß╗Öi tr╞░ß╗¥ng ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng
+(Sß╗æ 9 ─É╞░ß╗¥ng sß╗æ 2A, KDC Him Lam, ph╞░ß╗¥ng T├ón H╞░ng, TP . Hß╗ô Ch├¡ Minh).
+
+KHß║¿U HIß╗åU H├ÇNH ─Éß╗ÿNG ─Éß║óNG ß╗ªY - H─ÉND - UBND - UBMTTQ VN PH╞»ß╗£NG T├éN H╞»NG ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng
+---

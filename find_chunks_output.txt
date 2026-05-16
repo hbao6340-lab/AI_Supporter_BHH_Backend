@@ -1,0 +1,27 @@
+﻿python : C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\worksheet\_reader.py:329: 
+UserWarning: Data Validation extension is not supported and will be removed
+At line:1 char:1
++ python backend/find_chunks.py 2>&1 | Out-File -Encoding utf8 C:\Users ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admin\...will be removed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn(msg)
+PyPDF2 not installed. Install with: pip install PyPDF2
+File: DANH S├üCH Tß╗öNG THß╗é (HC).xlsx, content len: 38918
+Total chunks: 88
+
+Chunk 7 (pos ~3485), len=498:
+ß╗ông Th├íp | UVBTV- Chß╗º nhiß╗çm UBKT | 06 | 2 | 2007 | Thß║íc s─⌐ | Luß║¡t | Cao cß║Ñp | CVC | B | B1 | Chuy├¬n vi├¬n ch├¡nh | 10 | 2 | Nguyß╗àn V┼⌐ Nh├ón | 14 | 10 | 1985 | | Kinh | Kh├┤ng | TPHCM | ─ÉUV- Ph├│ Chß╗º nhiß╗çm UBKT | 15 | 3 | 2014 | Cß╗¡ nh├ón | H├ánh ch├¡nh hß╗ìc | Trung cß║Ñp | CV | B | B | Chuy├¬n vi├¬n | | V | C╞á QU
+...
+QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM | | | | | | | | | | | | | | | | | | | 11 | 1 | Phß║ím Thß╗ï Hß║ính T╞░ | 31 | 7 | 1975 | X | Kinh | kh├┤ng | X├ú Nh├á B├¿, TPHCM | UVBTV, Chß╗º tß╗ïch UBMTTQ Viß╗çt Nam ph╞░ß╗¥ng | 2
+
+Chunk 27 (pos ~12466), len=498:
+o | 01 | 12 | 1984 | X | Kinh | Kh├┤ng | TPHCM | ß╗ªy vi├¬n UBKT | 03 | 7 | 2015 | Cß╗¡ nh├ón | Kß║┐ to├ín | Trung cß║Ñp | CV | A | B | Chuy├¬n vi├¬n | 5 | 2 | L├¬ Xu├ón Sang | 03 | 7 | 1991 | | Kinh | Kh├┤ng | Ninh B├¼nh | ß╗ªy vi├¬n UBKT | 17 | 7 | 2022 | Thß║íc s─⌐ | Quß║ún trß╗ï kinh doanh | Trung cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñ
+...
+dß╗Ñng | Bß║¡c 2 (khung n─âng lß╗▒c ngoß║íi ngß╗» 6 bß║¡c) | Chuy├¬n vi├¬n | | IV | C╞á QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM | | | | | | | | | | | | | | | | | | | 6 | 1 | Nguyß╗àn Hß╗ô Thanh Tuyß╗ün | 28 | 10 | 1982 | X |
+
+Chunk 82 (pos ~38738), len=404:
+h | Kh├┤ng | | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 4 | 11 | 2003 | Cß╗¡ nh├ón | S╞░ phß║ím mß║ºm non | Trung cß║Ñp | | B | B | CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II Nh├│m ngß║ích: A1 M├ú sß╗æ ngß║ích: V.07.02.25 Bß║¡c: Hß╗ç sß╗æ: | XIII. TR╞»ß╗£NG THPT L├è TH├üNH T├öN | | | | | | | | | | | | | | | | | | | | | ─Éinh Quang Thanh B├¼nh | 2 | 5 | 1975 | | Kin
+...
+TH├üNH T├öN | | | | | | | | | | | | | | | | | | | | | ─Éinh Quang Thanh B├¼nh | 2 | 5 | 1975 | | Kinh | Kh├┤ng | Phong Doanh - Ninh B├¼nh | Hiß╗çu tr╞░ß╗ƒng | 22 | 12 | 2005 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ gi├ío dß╗Ñc.

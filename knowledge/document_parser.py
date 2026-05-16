@@ -74,8 +74,9 @@ class DocumentParser:
                 file_path.is_file()
                 and file_path.suffix.lower() in self.SUPPORTED_EXTENSIONS
             ):
-                # Skip README files
-                if "readme" in file_path.name.lower():
+                # Skip README files and Office temporary lock files (~$)
+                if ("readme" in file_path.name.lower()
+                        or file_path.name.startswith("~$")):
                     continue
 
                 text = self.parse_file(str(file_path))

@@ -1,0 +1,406 @@
+﻿python : C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\worksheet\_reader.py:329: 
+UserWarning: Data Validation extension is not supported and will be removed
+At line:1 char:13
++ cd backend; python debug_parse2.py 2>&1 | Out-File -Encoding utf8 C:\ ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admin\...will be removed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn(msg)
+PyPDF2 not installed. Install with: pip install PyPDF2
+DOCX parsing error: Package not found at 'C:\Users\Admin\Downloads\vn_testing\backend\knowledge\data\~$ 326 Thαnh 
+l\u1eadp \u1ee6y ban M\u1eb7t tr\u1eadn T\u1ed5 qu\u1ed1c Vi\u1ec7t Nam ph\u01b0\u1eddng TΓn H\u01b0ng.docx'
+XLSX parsing error: [Errno 13] Permission denied: 
+'C:\\Users\\Admin\\Downloads\\vn_testing\\backend\\knowledge\\data\\~$DANH S┴CH T\u1ed4NG TH\u1ec2 (HC).xlsx'
+Total files: 28
+
+FILE: DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+SIZE: 38918
+=== Sheet: L─É CHß╗ª CHß╗ÉT ===
+ | ─Éß║óNG Bß╗ÿ TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH |  |  |  |  |  |  |  |  |  |  |  |  |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM |  |  |  |  |  | 
+ | ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | * |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | DANH S├üCH C├üN Bß╗ÿ, C├öNG CHß╗¿C THUß╗ÿC ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+STT | STT | Hß╗ì v├á t├¬n | Ng├áy th├íng n─âm sinh |  |  | Nß╗»
+(─æ├ính dß║Ñu x) | D├ón tß╗Öc | T├┤n gi├ío | Qu├¬ qu├ín | Chß╗⌐c danh, chß╗⌐c vß╗Ñ hiß╗çn tß║íi | Ng├áy v├áo ─æß║úng 
+(dß╗▒ bß╗ï) |  |  | Tr├¼nh ─æß╗Ö chuy├¬n m├┤n, nghiß╗çp vß╗Ñ |  |  |  |  |  | Ngß║ích/
+Chß╗⌐c danh nghß╗ü nghiß╗çp | Ghi ch├║
+ |  |  | Ng├áy | Th├íng | N─âm |  |  |  |  |  |  |  |  | Chuy├¬n m├┤n |  | L├╜ luß║¡n ch├¡nh trß╗ï | Quß║ún l├╜ nh├á n╞░ß╗¢c | Tin hß╗ìc | Ngoß║íi ngß╗» |  | 
+ |  |  |  |  |  |  |  |  |  |  | Ng├áy | Th├íng | N─âm | Hß╗ìc h├ám, hß╗ìc vß╗ï | Chuy├¬n ng├ánh ─æ├áo tß║ío |  |  |  |  |  | 
+ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 34
+ | I | TH╞»ß╗£NG TRß╗░C ─Éß║óNG ß╗ªY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | 1 | Ho├áng Minh Tuß║Ñn Anh | 7 | 7 | 1977 |  | Kinh  | Kh├┤ng | X├ú Th╞░ß╗¥ng T├¡n, TP H├á Nß╗Öi | B├¡ th╞░ ─Éß║úng ß╗ºy, Chß╗º tß╗ïch H─ÉND phß╗¥ng | 27 | 6 | 2006 | Thß║íc s─⌐ | ThS Qua╠ën ly╠ü ─æ├┤ thi╠ú, Ki├¬╠ün tru╠üc s╞░, CN H├ánh ch├¡nh | Cao cß║Ñp | CVC | A | Anh v─ân - Versant English Placement Test | Chuy├¬n vi├¬n ch├¡nh | 
+2 | 2 | Nguyß╗àn V─ân Tuyß╗ün | 1 | 4 | 1979 |  | Kinh  | Kh├┤ng | Xu├ón H├▓a, Nam ─É├án, Nghß╗ç An | Ph├│ B├¡ th╞░ Th╞░ß╗¥ng trß╗▒c ─Éß║úng ß╗ºy | 16 | 1 | 2001 | Thß║íc s─⌐ | ThS Quß║ún l├╜ c├┤ng hß╗ç ─æiß╗üu h├ánh cao cß║Ñp, CN H├ánh ch├¡nh, CN X├óy dß╗▒ng ─Éß║úng v├á Ch├¡nh quyß╗ün Nh├á n╞░ß╗¢c | Cao cß║Ñp | CVC |  | B1 | Chuy├¬n vi├¬n ch├¡nh | 
+ | II | V─éN PH├ÆNG ─Éß║óNG ß╗ªY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+3 | 1 | Nguyß╗àn Bß║úo Trung | 19 | 12 | 1991 |  | Kinh  | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣, TPHCM | UVBTV, Ch├ính V─ân ph├▓ng ─Éß║úng ß╗ºy | 20 | 11 | 2018 | Thß║íc s─⌐ | ThS Quß║ún trß╗ï kinh doanh, CN Quß║ún trß╗ï kinh doanh | Trung cß║Ñp | CV | B | B1 | Chuy├¬n vi├¬n | 
+4 | 2 | Nguyß╗àn Minh Trung  | 15 | 1 | 1984 |  | Kinh  | Kh├┤ng | Ph╞░ß╗¥ng T├ón H╞░ng, TPHCM | ─ÉUV, Ph├│ Ch├ính V─ân ph├▓ng ─Éß║úng ß╗ºy | 20 | 12 | 2005 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ c├┤ng, Cß╗¡ nh├ón X├ú hß╗Öi hß╗ìc | Cao cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | B | Chuy├¬n vi├¬n | 
+5 | 3 | Phß║ím Thß╗ï Hß╗ông Nguy├¬n | 25 | 11 | 1978 | X | Kinh  | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣, TPHCM | Ph├│ Ch├ính V─ân ph├▓ng ─Éß║úng ß╗ºy | 11 | 5 | 2005 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ c├┤ng  | Cao cß║Ñp | CV | A | B | Kß║┐ to├ín vi├¬n | 
+ | III | BAN X├éY Dß╗░NG ─Éß║óNG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+6 | 1 | Ho├áng Hß║úi ─É─âng | 9 | 5 | 1977 |  | Kinh | Kh├┤ng | Thß╗½a Thi├¬n Huß║┐ | UVBTV, Tr╞░ß╗ƒng ban Ban X├óy dß╗▒ng ─Éß║úng  | 23 | 5 | 2004 | Cß╗¡ nh├ón | Luß║¡t | Cao cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | B | Chuy├¬n vi├¬n | 
+7 | 2 | Nguyß╗àn Duy An | 2 | 9 | 1984 |  | Kinh | Kh├┤ng | Bß║┐n Tre | ─ÉUV, Ph├│ Tr╞░ß╗ƒng ban Ban X├óy dß╗▒ng ─Éß║úng | 31 | 7 | 2014 | Thß║íc s─⌐ | Quß║ún l├╜ c├┤ng hß╗ç ─æiß╗üu h├ánh cao cß║Ñp | Cao cß║Ñp | CV | C | C
+TOEIC 550 | Chuy├¬n vi├¬n | 
+8 | 3 | Trß║ºn Thß╗ï Ph╞░╞íng Huy├¬n | 14 | 6 | 1983 | X | Kinh | Kh├┤ng | X├ú Nh├á B├¿, TPHCM | ─ÉUV, Ph├│ Tr╞░ß╗ƒng ban Ban X├óy dß╗▒ng ─Éß║úng | 20 | 7 | 2007 | Thß║íc s─⌐ | Luß║¡t | Cao cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | B | Chuy├¬n vi├¬n | 
+ | IV | ß╗ªY BAN KIß╗éM TRA ─Éß║óNG ß╗ªY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+9 | 1 | D╞░╞íng Ho├áng B├¡ch Ngß╗ìc | 24 | 3 | 1977 | X | Kinh | Kh├┤ng | ─Éß╗ông Th├íp | UVBTV- Chß╗º nhiß╗çm UBKT  | 06 | 2 | 2007 | Thß║íc s─⌐ | Luß║¡t | Cao cß║Ñp | CVC | B | B1 | Chuy├¬n vi├¬n ch├¡nh | 
+10 | 2 | Nguyß╗àn V┼⌐ Nh├ón | 14 | 10 | 1985 |  | Kinh | Kh├┤ng | TPHCM | ─ÉUV- Ph├│ Chß╗º nhiß╗çm UBKT  | 15 | 3 | 2014 | Cß╗¡ nh├ón | H├ánh ch├¡nh hß╗ìc | Trung cß║Ñp | CV | B | B | Chuy├¬n vi├¬n | 
+ | V | C╞á QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+11 | 1 | Phß║ím Thß╗ï Hß║ính T╞░ | 31 | 7 | 1975 | X | Kinh | kh├┤ng | X├ú Nh├á B├¿, TPHCM | UVBTV, Chß╗º tß╗ïch UBMTTQ Viß╗çt Nam ph╞░ß╗¥ng | 2 | 9 | 1999 | Thß║íc s─⌐ | Ths Quß║ún trß╗ï c├┤ng | Cao cß║Ñp | TC | B | B | C├ín sß╗▒ | 
+12 | 2 | Kh╞░u Thi├¬n Th├ánh | 20 | 3 | 1972 |  | Hoa | Kh├┤ng | P. B├¼nh Ti├¬n, TPHCM | ─ÉUV, PCT th╞░ß╗¥ng trß╗▒c UB MTTQ, Chß╗º tß╗ïch C├┤ng ─Éo├án ph╞░ß╗¥ng | 15 | 5 | 1998 | Thß║íc s─⌐ | Ths Quß║ún trß╗ï c├┤ng, | Cao cß║Ñp | CVC | KTV | CN Trung, Anh C | Chuy├¬n vi├¬n | 
+13 | 3 | L├¬ ─Éß╗⌐c ─Éß║ít | 1 | 1 | 1994 |  | Kinh | Kh├┤ng | ─Éß╗⌐c Phß╗ò, Quß║úng Ng├úi | ─ÉUV, PCT UB MTTQ, B├¡ th╞░ ─Éo├án ph╞░ß╗¥ng | 2 | 6 | 2015 | Cß╗¡ nh├ón | Gi├ío dß╗Ñc ch├¡nh trß╗ï | Cao cß║Ñp | CV | C | C | Chuy├¬n vi├¬n | 
+14 | 4 | V├╡ Thß╗ï Ph╞░╞íng Thu├╜ | 25 | 5 | 1978 | X | Kinh | Kh├┤ng | X├ú T├ón H├áo, Tß╗ënh V─⌐nh Long | ─ÉUV, Ph├│ Chß╗º tß╗ïch MTTQ Viß╗çt Nam ph╞░ß╗¥ng, Chß╗º tß╗ïch Hß╗Öi LHPN ph╞░ß╗¥ng | 7 | 7 | 2015 | Thß║íc s─⌐ | Thß║íc s─⌐ QTKD, Cß╗¡ nh├ón ngß╗» v─ân Anh, Cß╗¡ nh├ón QTKD, Cß╗¡ nh├ón Ch├¡nh trß╗ï hß╗ìc | Trung cß║Ñp | Chuy├¬n vi├¬n | B | Cß╗¡ nh├ón | Chuy├¬n vi├¬n | 
+ | VI. TH╞»ß╗£NG TRß╗░C ß╗ªY BAN NH├éN D├éN |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+15 | 1 | L├óm Hß╗»u Ph╞░╞íng | 9 | 8 | 1976 |  | Kinh | Kh├┤ng | Nh├á B├¿, Tp. Hß╗ô Ch├¡ Minh | UVBTV, Ph├│ Chß╗º tß╗ïch H─ÉND ph╞░ß╗¥ng | 5 | 4 | 2003 | Cß╗¡ nh├ón | Kß║┐ to├ín | Cao cß║Ñp | Chuy├¬n vi├¬n | B |  | Chuy├¬n vi├¬n | 
+ | VII. TH╞»ß╗£NG TRß╗░C ß╗ªY BAN NH├éN D├éN |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+16 | 1 | Nguyß╗àn ─Éß╗⌐c Tr├¡ | 1 | 8 | 1978 |  | Kinh | Kh├┤ng | Hß║úi L─âng, Quß║úng Trß╗ï
+  | Ph├│ B├¡ th╞░, Chß╗º tß╗ïch UBND ph╞░ß╗¥ng | 8 | 12 | 2011 | Thß║íc s─⌐ | Kiß║┐n tr├║c, Kiß║┐n tr├║c s╞░, CN ch├¡nh trß╗ï | Cao cß║Ñp | CV |  |  | Chuy├¬n vi├¬n | 
+17 | 2 | Nguyß╗àn Thß╗ï Kim Thanh | 19 | 7 | 1980 | X | Kinh | Kh├┤ng | Cam Lß╗Ö, Quß║úng Trß╗ï | UVBTV, Ph├│ Chß╗º tß╗ïch UBND ph╞░ß╗¥ng | 20 | 3 | 2008 | Thß║íc s─⌐ | Quß║ún l├╜ c├┤ng hß╗ç ─æiß╗üu h├ánh cao cß║Ñp, ThS Luß║¡t, CN Luß║¡t, CN Ch├¡nh trß╗ï hß╗ìc | Cao cß║Ñp | CV |  |  | Chuy├¬n vi├¬n | 
+18 | 3 | Nguyß╗àn Minh Thiß╗çn | 26 | 3 | 1986 |  | Kinh | Kh├┤ng | Duy├¬n Hß║úi,  Tra╠Ç Vinh | ─ÉUV, Ph├│ Chß╗º tß╗ïch UBND ph╞░ß╗¥ng | 19 | 5 | 2011 | Thß║íc s─⌐ | ThS Quß║ún l├╜ c├┤ng, Kß╗╣ s╞░ Quß║ún l├╜ ─æß║Ñt ─æai | Cao cß║Ñp | CV |  |  | Chuy├¬n vi├¬n | 
+ | VIII. V─éN PH├ÆNG H─ÉND V├Ç UBND |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+19 | 1 | Nguyß╗àn Thß╗ï Th├╣y Nguy├¬n | 21 | 3 | 1988 | x | Kinh | Kh├┤ng | V─⌐nh Long | ─ÉUV, Ch├ính V─ân ph├▓ng H─ÉND v├á UBND ph╞░ß╗¥ng | 27 | 5 | 2016 | Cß╗¡ nh├ón | Quß║ún l├╜ v─ân h├│a | Trung cß║Ñp | CV | A | B | Chuy├¬n vi├¬n | 
+ | IX. PH├ÆNG V─éN H├ôA X├â Hß╗ÿI |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+20 | 1 | Trß║ºn Thß╗ï Kß║┐ | 4 | 6 | 1990 | x | Kinh | Kh├┤ng | C├á Mau | ─ÉUV, Tr╞░ß╗ƒng Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 27 | 10 | 2017 | Thß║íc s─⌐ | Quß║ún l├╜ c├┤ng (Hß╗ç ─æiß╗üu h├ánh cao cß║Ñp) | Cao cß║Ñp | CV | B | Cß╗¡ nh├ón Ng├┤n ngß╗» Anh | Chuy├¬n vi├¬n | 
+21 | 2 | ─Éo├án ─Éß╗⌐c Thß║»ng | 28 | 8 | 1980 |  | Kinh | Kh├┤ng | Hß║¡u Giang | Ph├│ Tr╞░ß╗ƒng Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 27 | 11 | 2009 | Thß║íc s─⌐ | Quß║ún trß╗ï kinh doanh | Trung cß║Ñp |  |  | B | Chuy├¬n vi├¬n | 
+22 | 3 | Nguyß╗àn Thß╗ï Ph╞░╞íng Thß║úo | 22 | 9 | 1989 | x | Kinh | Kh├┤ng | Hß║úi Ph├▓ng | Ph├│ Tr╞░ß╗ƒng Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 9 | 9 | 2016 | Cß╗¡ nh├ón | Kß║┐ to├ín | Trung cß║Ñp |  | B | B | Chuy├¬n vi├¬n | 
+ | X. PH├ÆNG KINH Tß║╛, Hß║á Tß║ªNG V├Ç ─É├ö THß╗è |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+23 | 1 | Nguyß╗àn V─ân Nam | 6 | 6 | 1984 |  | Kinh | Kh├┤ng | H├á Nß╗Öi | ─ÉUV, Tr╞░ß╗ƒng Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 25 | 8 | 2008 | Thß║íc s─⌐ | Quß║ún trß╗ï kinh doanh | Trung cß║Ñp | CV | B | B | Chuy├¬n vi├¬n | 
+24 | 2 | V┼⌐ Anh Tuß║Ñn | 13 | 11 | 1988 |  | Kinh | Kh├┤ng | Ninh B├¼nh | Ph├│ Tr╞░ß╗ƒng ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 26 | 8 | 2015 | Kß╗╣ s╞░ | trß║»c ─æß╗ïa bß║ún ─æß╗ô | Trung cß║Ñp | CV | B | B | Chuy├¬n vi├¬n | 
+25 | 3 | Trß║ºn ─Éß╗⌐c H├áo | 14 | 7 | 1979 |  | Kinh | Kh├┤ng | X├ú Tuy├¬n Ph├║, Tß╗ënh Quß║úng Trß╗ï | Ph├│ Tr╞░ß╗ƒng ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 16 | 3 | 2012 | Kiß║┐n tr├║c s╞░ | Kiß║┐n tr├║c s╞░ | Trung cß║Ñp | Trung cß║Ñp | B | A2 | A1 | 
+ | XI.TRUNG T├éM PHß╗ñC Vß╗ñ H├ÇNH CH├ìNH C├öNG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+26 | 1 | Tr╞░╞íng Thanh T├║ | 27 | 10 | 1978 |  | Kinh | Kh├┤ng | T├óy Ninh | ─ÉUV, Gi├ím ─æß╗æc Trung t├óm phß╗Ñc vß╗Ñ h├ánh ch├¡nh c├┤ng | 12 | 4 | 2007 | Kß╗╣ s╞░, Cß╗¡ nh├ón | X├óy dß╗▒ng d├ón dß╗Ñng v├á c├┤ng nghiß╗çp; Quß║ún trß╗ï kinh doanh | Trung cß║Ñp |  | B | B | Chuy├¬n vi├¬n | 
+27 | 2 | Tr╞░╞íng Mß╗Öng Em | 29 | 12 | 1982 |  | Kinh | Kh├┤ng | X├ú Thß║ính H╞░ng, tß╗ënh An Giang | Ph├│ Gi├ím ─æß╗æc Trung T├óm phß╗Ñc vß╗Ñ h├ánh ch├¡nh c├┤ng | 6 | 12 | 2007 | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | A1/Chuy├¬n vi├¬n | 
+ | XII. C├üC BAN H─ÉND PH╞»ß╗£NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+28 | 1 | L├¬ Ha╠Ç Thi├¬n ├é╠ün | 29 | 8 | 1985 |  | Kinh | Kh├┤ng | T╞░ Ngh─⌐a, Quß║úng Ng├úi | ─ÉUV, Ph├│ Ban Kinh tß║┐ - X├ú hß╗Öi, H─ÉND ph╞░ß╗¥ng T├ón H╞░ng | 30 | 8 | 2013 | Thß║íc s─⌐ | T├ái ch├¡nh - Ng├ón h├áng | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+29 | 2 | Nguyß╗àn Ph╞░ß╗¢c D┼⌐ng | 26 | 8 | 1980 |  | Kinh | Kh├┤ng | Cß║ºn Giuß╗Öc, Long An | ─ÉUV, Ph├│ Ban Ph├íp chß║┐, H─ÉND ph╞░ß╗¥ng T├ón H╞░ng | 1 | 10 | 2003 | Cß╗¡ nh├ón | H├ánh ch├¡nh, Gi├ío dß╗Ñc ch├¡nh trß╗ï | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+ | XIII. TRUNG T├éM CUNG ß╗¿NG Dß╗èCH Vß╗ñ C├öNG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+30 | 1 | Nguyß╗àn Anh Tuß║Ñn | 11 | 12 | 1983 |  | Kinh | Kh├┤ng | X├ú Nh├á B├¿, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Gi├ím ─æß╗æc | 27 | 4 | 2012 | Cß╗¡ nh├ón | Kß╗╣ s╞░ | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | A1/Chuy├¬n vi├¬n | 
+ | XIV. BAN QUß║óN L├¥ Dß╗░ ├üN ─Éß║ªU T╞» X├éY Dß╗░NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+31 | 1 | Trß║ºn Minh ─Éiß╗çn | 13 | 5 | 1968 |  | Kinh | Kh├┤ng | x├ú ─É├┤n Xu├ón, tß╗ënh V─⌐nh Long | Gi├ím ─æß╗æc | 13 | 7 | 2006 | Kiß║┐n tr├║c s╞░ | Kiß║┐n tr├║c s╞░ | Cao cß║Ñp | Chuy├¬n vi├¬n | A |  | A1/Chuy├¬n vi├¬n | 
+32 | 2 | Phß║ím H├▓a Tuß║Ñn | 19 | 10 | 1979 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng ─Éiß╗çn B├án ─É├┤ng, Th├ánh phß╗æ ─É├á Nß║╡ng | Ph├│ Gi├ím ─æß╗æc | 19 | 5 | 2011 | Thß║íc s─⌐ | Quß║ún l├╜ c├┤ng (Hß╗ç ─æiß╗üu h├ánh cao cß║Ñp); Kß╗╣ s╞░ X├óy dß╗▒ng; Cß╗¡ nh├ón Ch├¡nh trß╗ï hß╗ìc (Tß╗ò chß╗⌐c); Cß╗¡ nh├ón Anh ngß╗» | Cao cß║Ñp | Chuy├¬n vi├¬n | B | Anh ngß╗» | Chuy├¬n vi├¬n | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+=== Sheet: CBCC ===
+ | ─Éß║óNG Bß╗ÿ TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH |  |  |  |  |  |  |  |  |  |  |  |  |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM |  |  |  |  |  | 
+ | ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | * |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | DANH S├üCH C├üN Bß╗ÿ, C├öNG CHß╗¿C THUß╗ÿC ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+STT | STT | Hß╗ì v├á t├¬n | Ng├áy th├íng n─âm sinh |  |  | Nß╗»
+(─æ├ính dß║Ñu x) | D├ón tß╗Öc | T├┤n gi├ío | Qu├¬ qu├ín | Chß╗⌐c danh, chß╗⌐c vß╗Ñ hiß╗çn tß║íi | Ng├áy v├áo ─æß║úng 
+(dß╗▒ bß╗ï) |  |  | Tr├¼nh ─æß╗Ö chuy├¬n m├┤n, nghiß╗çp vß╗Ñ |  |  |  |  |  | Mß╗⌐c l╞░╞íng hiß╗çn h╞░ß╗ƒng | Ghi ch├║
+ |  |  | Ng├áy | Th├íng | N─âm |  |  |  |  |  |  |  |  | Chuy├¬n m├┤n |  | L├╜ luß║¡n ch├¡nh trß╗ï | Quß║ún l├╜ nh├á n╞░ß╗¢c | Tin hß╗ìc | Ngoß║íi ngß╗» | Ngß║ích/
+Chß╗⌐c danh nghß╗ü nghiß╗çp | 
+ |  |  |  |  |  |  |  |  |  |  | Ng├áy | Th├íng | N─âm | Hß╗ìc h├ám, hß╗ìc vß╗ï | Chuy├¬n ng├ánh ─æ├áo tß║ío |  |  |  |  |  | 
+ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 34
+ | I | V─éN PH├ÆNG ─Éß║óNG ß╗ªY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | 1 | V├╡ ─É├ái Trang | 26 | 4 | 1987 | X | Kinh  | Kh├┤ng | Ph╞░ß╗¥ng Ph├║ Thuß║¡n, TPHCM | Chuy├¬n vi├¬n VP─ÉU | 22 | 6 | 2009 | Thß║íc s─⌐ | Luß║¡t kinh tß║┐ | Trung cß║Ñp |  | B | ─Éß║íi Hß╗ìc |  | 
+ | II | BAN X├éY Dß╗░NG ─Éß║óNG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+2 | 1 | Phan Thß╗ï B├¡ch Ngß╗ìc | 30 | 1 | 1992 | X | Kinh | Kh├┤ng | ph╞░ß╗¥ng T├ón H╞░ng, TP. HCM | Chuy├¬n vi├¬n | 6 | 10 | 2015 | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | TOEIC 455 | Chuy├¬n vi├¬n | 
+3 | 2 | Nguyß╗àn Diß╗çp Gia Bß║úo | 5 | 9 | 1991 |  | Kinh | Kh├┤ng | Ph├║ Xu├ón, TPHCM | Chuy├¬n vi├¬n | 9 | 11 | 2017 | Cß╗¡ nh├ón | T├ái ch├¡nh | Trung cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | B | Chuy├¬n vi├¬n | 
+ | III | ß╗ªY BAN KIß╗éM TRA ─Éß║óNG ß╗ªY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+4 | 1 | Trß║ºn Thß╗ï Kim Thß║úo | 01 | 12 | 1984 | X | Kinh | Kh├┤ng | TPHCM | ß╗ªy vi├¬n UBKT | 03 | 7 | 2015 | Cß╗¡ nh├ón | Kß║┐ to├ín | Trung cß║Ñp | CV | A | B | Chuy├¬n vi├¬n | 
+5 | 2 | L├¬ Xu├ón Sang | 03 | 7 | 1991 |  | Kinh | Kh├┤ng | Ninh B├¼nh | ß╗ªy vi├¬n UBKT | 17 | 7 | 2022 | Thß║íc s─⌐ | Quß║ún trß╗ï kinh doanh | Trung cß║Ñp | CV | Tin hß╗ìc ß╗⌐ng dß╗Ñng | Bß║¡c 2 (khung n─âng lß╗▒c ngoß║íi ngß╗» 6 bß║¡c) | Chuy├¬n vi├¬n | 
+ | IV | C╞á QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+6 | 1 | Nguyß╗àn Hß╗ô Thanh Tuyß╗ün | 28 | 10 | 1982 | X | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Ph├║ An, TP.HCM | Chuy├¬n vi├¬n Uß╗╖ ban MTTQ Viß╗çt Nam ph╞░ß╗¥ng | 10 | 10 | 2007 | Cß╗¡ nh├ón | Kinh tß║┐ Luß║¡t | Trung cß║Ñp | chuy├¬n vi├¬n | KTV | B - Anh v─ân | Chuy├¬n vi├¬n | 
+7 | 2 | ─Éo├án Thß╗ï Huyß╗ün | 20 | 1 | 1999 | X | Kinh | Kh├┤ng | L╞░╞íng Bß║▒ng, H╞░ng Y├¬n | Chuy├¬n vi├¬n Uß╗╖ ban MTTQ Viß╗çt Nam ph╞░ß╗¥ng | - | - | - | Cß╗¡ nh├ón | Quß║ún l├╜ nh├á n╞░├│c | S╞í cß║Ñp | Chuy├¬n vi├¬n | ß╗¿ng dß╗Ñng CNTT C╞í bß║ún | B - Anh v─ân | Chuy├¬n vi├¬n | 
+8 | 3 | Trß║ºn Thß╗ï Xu├ón Uy├¬n | 20 | 11 | 1985 | X | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣ , TP.HCM | Chuy├¬n vi├¬n Uß╗╖ ban MTTQ Viß╗çt Nam ph╞░ß╗¥ng | 24 | 11 | 2012 | Cß╗¡ nh├ón | H├ánh Ch├¡nh hß╗ìc | Trung cß║Ñp | Chuy├¬n vi├¬n | A | A | C├ín sß╗▒ | 
+9 | 4 | Phß║ím Thß╗ï Mß╗╣ Hß║ính | 30 | 10 | 1991 | X | Kinh | Kh├┤ng | X├ú Th╞░ Tr├¼, tß╗ënh H╞░ng Y├¬n | Chuy├¬n vi├¬n Uß╗╖ ban MTTQ Viß╗çt Nam ph╞░ß╗¥ng | 8 | 2 | 2018 | Thß║íc s─⌐ | Luß║¡t D├ón sß╗▒ v├á tß╗æ tß╗Ñng d├ón sß╗▒ | Trung cß║Ñp | Chuy├¬n vi├¬n | B v├á ß╗¿ng dß╗Ñng CNTT C╞í bß║ún | Bß║¡c 3 | Chuy├¬n vi├¬n | 
+10 | 5 | Trß║ºn Thß╗ï Thu Tr├óm | 20 | 9 | 1981 | X | Kinh | Kh├┤ng | Bi├¬n H├▓a - ─Éß╗ông Nai | Ph├│ Chß╗º tß╗ïch c├┤ng ─æo├án ph╞░ß╗¥ng | 4 | 12 | 2009 | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp | CHuy├¬n vi├¬n | B | B | chuy├¬n vi├¬n | 
+ | V. V─éN PH├ÆNG H─ÉND V├Ç UBND |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+11 | 1 | V├╡ Thß╗ï Mß╗╣ Ph╞░ß╗úng | 13 | 5 | 1980 | x | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Cß╗¡ nh├ón V─ân hß╗ìc | Trung cß║Ñp | Chuy├¬n vi├¬n |  |  |  | 
+12 | 2 | L├¬ Thß╗ï Tuyß║┐t Nhung | 28 | 5 | 1973 | x | Kinh | Kh├┤ng | Phong Dinh, Th├ánh phß╗æ Huß║┐ | V─ân ph├▓ng H─ÉND v├á UBND | 25 | 11 | 2010 | Cß╗¡ nh├ón | Luß║¡t, Kß║┐ to├ín | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | 01.003/
+Chuy├¬n vi├¬n | 
+13 | 3 | Trß║ºn Thß╗ï B├¡ch Ngß╗ìc | 13 | 6 | 1982 | x | Kinh | Kh├┤ng | X├ú Cß║ºn Giuß╗Öc, tß╗ënh T├óy Ninh | V─ân ph├▓ng H─ÉND v├á UBND | 28 | 9 | 2022 | Cß╗¡ nh├ón | ─Éß╗ïa l├╜ m├┤i tr╞░ß╗¥ng | S╞í cß║Ñp | Chuy├¬n vi├¬n | B | B | 01.003/
+Chuy├¬n vi├¬n | 
+14 | 4 | B├╣i Thß╗ï Hß║úi An | 5 | 9 | 1979 | x | Kinh | Kh├┤ng | Kh├ính Thiß╗çn, Ninh B├¼nh | V─ân ph├▓ng H─ÉND v├á UBND | 31 | 5 | 2012 | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp | Chuy├¬n vi├¬n | B | A | C├ín sß╗▒ | 
+15 | 5 | Nguyß╗àn V─ân N╞░ß╗¢c | 4 | 12 | 1983 |  | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | H├ánh ch├¡nh hß╗ìc | Trung cß║Ñp | Chuy├¬n vi├¬n |  |  | Chuy├¬n vi├¬n | 
+16 | 6 | ─Éß║╖ng Tß║Ñn Thanh | 5 | 10 | 1972 |  | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Quß║ún trß╗ï kinh doanh |  | Chuy├¬n vi├¬n |  |  | Chuy├¬n vi├¬n | 
+17 | 7 | L├¬ Nguyß╗àn Viß╗çt Anh | 16 | 10 | 1994 | X | Kinh | Kh├┤ng | X├ú Xu├ón Ph├║, Th├ánh phß╗æ ─É├á Nß║╡ng | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Quß║ún trß╗ï kinh doanh | S╞í cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+18 | 8 | L├¬ Thß╗ï Kiß╗üu Nga | 2 | 1 | 1977 | X | Kinh | Kh├┤ng | Ph╞░ß╗¥ng S╞ín T├óy TP. H├á Nß╗Öi | V─ân ph├▓ng H─ÉND v├á UBND | 30 | 9 | 2011 | Cß╗¡ nh├ón | QTKD v├á Kß║┐ to├ín kiß╗âm to├ín | Trung cß║Ñp | S╞í cß║Ñp | ß╗¿ng dß╗Ñng tin hß╗ìc c╞í bß║ún | C | Chuy├¬n vi├¬n | 
+19 | 9 | Nguyß╗àn Thß╗ï Kim Ph╞░ß╗úng | 6 | 9 | 1990 | X | Kinh | Kh├┤ng | Nam Cß╗¡a Viß╗çt, Quß║úng Trß╗ï | V─ân ph├▓ng H─ÉND v├á UBND | 18 | 12 | 2024 | Cß╗¡ nh├ón | T├ái ch├¡nh - Ng├ón h├áng | S╞í cß║Ñp | Chuy├¬n vi├¬n | B | C | Chuy├¬n vi├¬n | 
+20 | 10 | Nguyß╗àn Thß╗ï Ngß╗ìc Ph╞░ß╗úng | 13 | 1 | 1978 | X | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Rß║ích ├öng, TP. Hß╗ô Ch├¡ Minh | V─ân ph├▓ng H─ÉND v├á UBND | 21 | 6 | 2017 | Cß╗¡ nh├ón | L╞░u trß╗» hß╗ìc | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | Chuy├¬n vi├¬n | 
+21 | 11 | Nguyß╗àn Viß╗çt L├óm | 9 | 9 | 1995 |  | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Luß║¡t Kinh tß║┐ |  |  |  |  | Chuy├¬n vi├¬n | 
+22 | 12 | V─ân Thß╗ï Xu├ón Lan | 10 | 2 | 1992 | x | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón
+Thß║íc s─⌐ | Cß╗¡ nh├ón Luß║¡t
+Thß║íc s─⌐ Quß║ún l├╜ c├┤ng | Trung cß║Ñp |  |  |  | Chuy├¬n vi├¬n | 
+23 | 13 | Phß║ím Thß╗ï Mi Qu├╜ | 17 | 8 | 1976 | x | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp |  |  |  | Chuy├¬n vi├¬n | 
+24 | 14 | L├¬ Thß╗ï Hß╗ông Ti├¬n | 27 | 11 | 1980 | x | Kinh | Kh├┤ng |  | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | Kinh tß║┐ luß║¡t | Trung cß║Ñp |  |  |  | Chuy├¬n vi├¬n | 
+25 | 15 | Nguyß╗àn Phi Long | 6 | 7 | 1999 |  | Kinh | Kh├┤ng | X├ú B├¼nh Kh├ính, TP.HCM | V─ân ph├▓ng H─ÉND v├á UBND |  |  |  | Cß╗¡ nh├ón | C├┤ng t├íc x├ú hß╗Öi |  | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+26 | 16 | L├¬ Thß╗ï Hiß╗çp | 10 | 10 | 1986 | x | Kinh | Kh├┤ng | X├ú Thß╗ì Lß║¡p - Thanh H├│a | V─ân ph├▓ng H─ÉND v├á UBND | 15 | 9 | 2015 | Cß╗¡ nh├ón | Kß║┐ To├ín | Trung cß║Ñp | Chuy├¬n vi├¬n ch├¡nh | B | B | Chuy├¬n vi├¬n | 
+ | VI. PH├ÆNG V─éN H├ôA - X├â Hß╗ÿI |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+27 | 1 | ─Éo├án Ngß╗ìc Nh╞░ Quß╗│nh | 27 | 6 | 1996 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Ph├║ Thuß║¡n, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 2 | 9 | 2020 |  | Quß║ún l├╜ nh├á n╞░ß╗¢c | Trung cß║Ñp | ─Éß║íi hß╗ìc | C╞í bß║ún | B | Chuy├¬n vi├¬n | 
+28 | 2 | Nguyß╗àn Ngß╗ìc Th├╣y Giang | 4 | 6 | 1983 | x | kinh | Kh├┤ng | X├ú H├▓a Trß║ích, Tß╗ënh Quß║úng Trß╗ï | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 8 | 5 | 2009 | Thß║íc s─⌐ | Quß║ún l├╜ c├┤ng | trung cß║Ñp | chuy├¬n vi├¬n | A | B | Chuy├¬n vi├¬n | 
+29 | 3 | Tß║í Thß╗ï Xu├ón Hß╗ông | 12 | 7 | 1985 |  | kinh | kh├┤ng | T├ón H╞░ng, TPHCM | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 30 | 7 | 2014 | Cß╗¡ nh├ón | Quß║ún trß╗ï kinh doanh | Trung cß║Ñp | Chuy├¬n vi├¬n | c╞í bß║ún | B | Chuy├¬n vi├¬n | 
+30 | 4 | Hß╗ô Thß╗ï H├á Mi | 23 | 5 | 1991 | x | Kinh | Kh├┤ng | x├ú H╞░ng Nguy├¬n, tß╗ënh Nghß╗ç An | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 31 | 7 | 2020 | Cß╗¡ nh├ón | Cß╗¡ nh├ón Luß║¡t | Trung cß║Ñp | chuy├¬n vi├¬n | A | bß║¡c 2/6
+TOEIC 470 | chuy├¬n vi├¬n | 
+31 | 5 | Trß║ºn Ngß╗ìc Ho├áng Kim | 3 | 2 | 1999 | X | Kinh | Kh├┤ng | TPHCM | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 13 | 11 | 2024 | Cß╗¡ nh├ón | Luß║¡t H├ánh ch├¡nh T╞░ ph├íp | S╞í cß║Ñp |  | C╞í bß║ún | TOEIC 730 | Chuy├¬n vi├¬n | 
+32 | 6 | Trß║ºn Thanh Tr╞░ß╗¥ng |  |  | 1999 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+33 | 7 | Nguyß╗àn Thß╗ï V├ón |  |  | 1988 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+34 | 8 | Nguyß╗àn Hß╗ô Cß║⌐m Chi |  |  | 1995 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+35 | 9 | H├á Bß║úo S╞ín |  |  | 1996 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+36 | 10 | Trß║ºn Ngß╗ìc Diß╗àm |  |  | 1984 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+37 | 11 | L├óm Thanh Tr├║c |  |  | 1978 |  |  |  |  | Ph├▓ng V─ân h├│a - X├ú hß╗Öi |  |  |  |  |  |  |  |  |  |  | 
+38 | 12 | Nguyß╗àn Thß╗ï Ngß╗ìc Hß║ính | 31 | 10 | 1990 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣, TP. HCM | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 26 | 11 | 2011 | Cß╗¡ nh├ón | Luß║¡t | Trung cß║Ñp | Chuy├¬n vi├¬n | C╞í bß║ún | B | Chuy├¬n vi├¬n | 
+39 | 13 | Phß║ím V─ân Tuß║Ñn | 8 | 8 | 1998 |  | Kinh | Kh├┤ng | X├ú Th╞░ Tr├¼, tß╗ënh H╞░ng Y├¬n | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 2 | 9 | 2021 | Cß╗¡ nh├ón | Quß║ún l├╜ nh├á n╞░ß╗¢c, C├┤ng nghß╗ç th├┤ng tin | Trung cß║Ñp | Chuy├¬n vi├¬n | C╞í bß║ún |  | Chuy├¬n vi├¬n | 
+40 | 14 | ─Éß║╖ng Thß╗ï Kim Ng├ón | 5 | 11 | 1996 | x | Kinh | Kh├┤ng | x├ú Cß║ºn Giuß╗Öc, tß╗ënh T├óy Ninh | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 15 | 1 | 2021 | Thß║íc s─⌐ | Luß║¡t Kinh tß║┐ | S╞í cß║Ñp | Chuy├¬n vi├¬n | B | B1 | Chuy├¬n vi├¬n | 
+41 | 15 | Trß║ºn B├í Khß║úi | 18 | 1 | 1986 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Ph├║ thuß║¡n - TPHCM | Ph├▓ng V─ân h├│a - X├ú hß╗Öi | 22 | 2 | 2012 | Cß╗¡ nh├ón | Luß║¡t h├ánh ch├¡nh | Trung cß║Ñp | Chuy├¬n vi├¬n | A | A |  | 
+ | VII. PH├ÆNG KINH Tß║╛, Hß║á Tß║ªNG V├Ç ─É├ö THß╗è |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+42 | 1 | Nguyß╗àn Ph╞░╞íng Thß║úo | 1 | 1 | 1985 | X | kinh | Kh├┤ng | Gia Lß║íi | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  | thß║íc s─⌐ | Kiß║┐n tr├║c c├┤ng tr├¼nh | Trung cß║Ñp | Chuy├¬n vi├¬n | B | S╞░ phß║ím Anh | Chuy├¬n vi├¬n | 
+43 | 2 | ─É├áo V─ân T╞░ß╗¥ng | 9 | 9 | 1978 |  | kinh | C├┤ng gi├ío
+ | X├ú Nam C╞░ß╗¥ng, tß╗ënh H╞░ng Y├¬n
+ | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  | thß║íc s─⌐ | Kiß║┐n tr├║c s╞░ | Trung cß║Ñp | Trung cß║Ñp | B | B | Chuy├¬n vi├¬n | 
+44 | 3 | L├¬ Hß╗»u T├óm | 28 | 6 | 1977 |  | kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Thuß║¡n - TPHCM | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 31 | 1 | 2005 | Cß╗¡ nh├ón | Kß╗╣ s╞░ x├óy dß╗▒ng | Trung cß║Ñp | Trung cß║Ñp | B | B | Chuy├¬n vi├¬n | 
+45 | 4 | ─Éß║╖ng Trung Ki├¬n | 22 | 7 | 1981 |  | kinh | kh├┤ng | ph╞░ß╗¥ng T├ón Thuß║¡n -TP.HCM | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 31 | 12 | 2019 | Thß║íc s─⌐ | X├óy dß╗▒ng D├ón dß╗Ñng v├á C├┤ng nghiß╗çp | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+46 | 5 | Nguyß╗àn Hß╗»u H╞░ng | 12 | 5 | 1971 |  | Kinh | Kh├┤ng | X├ú ─É├┤ng H╞░ng, tß╗ënh H╞░ng Y├¬n | Chuy├¬n vi├¬n Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 9 | 4 | 2009 | Kß╗╣ s╞░ X├óy dß╗▒ng | X├óy dß╗▒ng D├ón dß╗Ñng v├á C├┤ng nghiß╗çp. | Trung cß║Ñp | Trung cß║Ñp | A | B |  | 
+47 | 6 | Trß╗ïnh Ho├áng Anh Tuß║Ñn |  |  | 1988 |  |  |  |  | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  |  |  |  |  |  |  |  | 
+48 | 7 | Trß║ºn Thß╗ï ├ünh Nguyß╗çt | 28 | 10 | 1989 | x | Kinh | Kh├┤ng | X├ú Hß║úi H╞░ng, Tß╗ënh Ninh B├¼nh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 30 | 6 | 2016 | Cß╗¡ nh├ón | Kß║┐ to├ín | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | 3,33/Chuy├¬n vi├¬n | 
+49 | 8 | Nguyß╗àn Thß╗ï Kim Tuyß║┐t | 19 | 9 | 1988 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón H╞░ng, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 10 | 8 | 2012 | Cß╗¡ nh├ón | Kß║┐ to├ín | Trung cß║Ñp | Trung cß║Ñp | B | B | 3.33/Chuy├¬n vi├¬n | 
+50 | 9 | Huß╗│nh Hß╗»u Thiß╗çn | 20 | 6 | 1985 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Ph├║ Thuß║¡n, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 6 | 9 | 2014 | Kß╗╣ s╞░ | X├óy dß╗▒ng d├ón dß╗Ñng v├á c├┤ng nghiß╗çp | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | 3.99 | 
+51 | 10 | B├╣i Minh Bß║úo | 22 | 4 | 1992 |  | Kinh | Kh├┤ng | X├ú Nh├á B├¿, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 1 | 11 | 2018 | Cß╗¡ nh├ón | Luß║¡t | S╞í cß║Ñp | Chuy├¬n vi├¬n | A | B | Chuy├¬n vi├¬n | 
+52 | 11 | Nguyß╗àn Thß╗ï Th├╣y Linh | 20 | 5 | 1988 |  | kinh | kh├┤ng | Ph╞░ß╗¥ng Cß║ºu ├öng L├únh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 31 | 10 | 2019 | Kß╗╣ s╞░ |  |  |  |  |  |  | 
+53 | 12 | Ch├óu ─Éß║╖ng An | 9 | 11 | 1988 |  | Kinh | Tin L├ánh | X├ú Nh├á B├¿, th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 11 | 11 | 2025 | Thß║íc sß╗╣ | Quß║ún l├╜ T├ái nguy├¬n v├á M├┤i tr╞░ß╗¥ng | Trung cß║Ñp | Chuy├¬n vi├¬n | V─ân ph├▓ng | B1 | Chuy├¬n vi├¬n | 
+54 | 13 | Ho├áng ─Éß╗⌐c C╞░ß╗¥ng | 1 | 12 | 1981 |  | Kinh | Kh├┤ng | H├á Nß╗Öi | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 25 | 5 | 2022 | Kß╗╣ s╞░ | Kß╗╣ thuß║¡t c├┤ng tr├¼nh x├óy dß╗▒ng | Trung cß║Ñp | Chuy├¬n vi├¬n | A | B | Chuy├¬n vi├¬n | 
+55 | 14 | Diß╗çp Nguyß╗àn Thanh Phong |  |  | 1978 |  |  |  |  | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  |  |  |  |  |  |  |  | 
+56 | 15 | T├┤n Nß╗» Ph╞░╞íng Anh | 7 | 8 | 1992 | X | Kinh | Kh├┤ng | X├ú ─Éß║íi Lß╗Öc, Th├ánh phß╗æ ─É├á Nß║╡ng | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 31 | 7 | 2014 | Thß║íc s─⌐ | Quß║ún l├╜ t├ái nguy├¬n v├á m├┤i tr╞░ß╗¥ng | Trung cß║Ñp | Chuy├¬n vi├¬n | B | Toeic 550 | Chuy├¬n vi├¬n | 
+57 | 16 | Nguyß╗àn Minh ─Éß║ít | 14 | 2 | 1985 |  | Kinh | Kh├┤ng | X├ú nh├á b├¿, tphcm | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 28 | 11 | 2018 | Kß╗╣ s╞░ | Kß╗╣ s╞░ x├óy dß╗▒ng | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+58 | 17 | Nguyß╗àn Ho├áng Hß║úi | 20 | 2 | 1982 |  | Kinh | C├┤ng gi├ío | X├ú Hß╗ông Phong, tß╗ënh Ninh B├¼nh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 11 | 9 | 2009 | Cß╗¡ nh├ón, Kß╗╖ s╞░ | Luß║¡t h├ánh ch├¡nh, Kß╗╣ thuß║¡t c├┤ng tr├¼nh x├óy dß╗▒ng | Trung cß║Ñp |  | A | B | Chuy├¬n vi├¬n | 
+59 | 18 | Nguyß╗àn L├óm Th├ánh | 17 | 11 | 1974 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón H╞░ng, Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï | 14 | 9 | 2014 | Cß╗¡ nh├ón, kß╗╖ s╞░ | Luß║¡t kinh tß║┐, C├┤ng nghß╗ç kß╗╣ thuß║¡t x├óy dß╗▒ng | S╞í cß║Ñp | Chuy├¬n vi├¬n | A | B | C├ín sß╗▒ | 
+60 | 19 | Tr╞░╞íng Thanh Linh |  |  |  |  |  |  |  | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  |  |  |  |  |  |  |  | 
+61 | 20 | L├¬ Dung |  |  |  |  |  |  |  | Ph├▓ng Kinh tß║┐, Hß║í tß║ºng v├á ─É├┤ thß╗ï |  |  |  |  |  |  |  |  |  |  | 
+ | VIII. PH├ÆNG KINH Tß║╛, Hß║á Tß║ªNG V├Ç ─É├ö THß╗è |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+62 | 1 | Ch├óu Quß╗æc Tuß║Ñn |  |  |  |  |  |  |  | Chuy├¬n vi├¬n TTPVHCC |  |  |  |  |  |  |  |  |  |  | 
+63 | 2 | L╞░u Thß╗ï Tß╗ënh | 13 | 9 | 1988 | X | Kinh | Kh├┤ng | Ea ph├¬ - DakLak | Chuy├¬n vi├¬n TTPVHCC | 23 | 9 | 2020 | Cß╗¡ nh├ón | Quß║ún l├╜ v─ân h├│a | Trung cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+64 | 3 | Nguyß╗àn Trung Hiß║┐u | 30 | 8 | 1998 |  | Kinh | Kh├┤ng | X├ú T├ón Tß║¡p, Tß╗ënh T├óy Ninh | Chuy├¬n vi├¬n TTPVHCC | 26 | 6 | 2025 | cß╗¡ nh├ón | Quß║ún l├╜ Nh├á n╞░ß╗¢c | S╞í cß║Ñp | Chuy├¬n vi├¬n | C╞í bß║ún |  | Chuy├¬n vi├¬n | 
+65 | 4 | Trß╗ïnh Thß╗ï Ngß╗ìc Thu | 29 | 8 | 1991 | x | Kinh | Kh├┤ng | X├ú B├¼nh H╞░ng, | Chuy├¬n vi├¬n TTPVHCC | 7 | 10 | 2020 | cß╗¡ nh├ón | Luß║¡t | S╞í cß║Ñp | Chuy├¬n vi├¬n | B | B | Chuy├¬n vi├¬n | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+=== Sheet: HT-HP TR╞»ß╗£NG Hß╗îC ===
+─Éß║óNG Bß╗ÿ TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH |  |  |  |  |  |  |  |  |  |  |  |  |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM |  |  |  |  |  | 
+─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+* |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+DANH S├üCH L├âNH ─Éß║áO C├üC ─É╞áN Vß╗è Sß╗░ NGHIß╗åP THUß╗ÿC ß╗ªY BAN NH├éN D├éN PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+STT | Hß╗ì v├á t├¬n | Ng├áy th├íng n─âm sinh |  |  | Nß╗»
+(─æ├ính dß║Ñu x) | D├ón tß╗Öc | T├┤n gi├ío | Qu├¬ qu├ín | Chß╗⌐c danh, chß╗⌐c vß╗Ñ hiß╗çn tß║íi | Ng├áy v├áo ─æß║úng 
+(dß╗▒ bß╗ï) |  |  | Tr├¼nh ─æß╗Ö chuy├¬n m├┤n, nghiß╗çp vß╗Ñ |  |  |  |  |  | Mß╗⌐c l╞░╞íng hiß╗çn h╞░ß╗ƒng | Ghi ch├║
+ |  | Ng├áy | Th├íng | N─âm |  |  |  |  |  |  |  |  | Chuy├¬n m├┤n |  | L├╜ luß║¡n ch├¡nh trß╗ï | Quß║ún l├╜ nh├á n╞░ß╗¢c | Tin hß╗ìc | Ngoß║íi ngß╗» | Ngß║ích/
+Chß╗⌐c danh nghß╗ü nghiß╗çp | 
+ |  |  |  |  |  |  |  |  |  | Ng├áy | Th├íng | N─âm | Hß╗ìc h├ám, hß╗ìc vß╗ï | Chuy├¬n ng├ánh ─æ├áo tß║ío |  |  |  |  |  | 
+1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 34
+I | TR╞»ß╗£NG TIß╗éU Hß╗îC L╞»╞áNG THß║╛ VINH |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Nguyß╗àn Song D┼⌐ng | 16 | 8 | 1972 |  | Kinh | Kh├┤ng | X├ú H╞░ng Long,Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Hiß╗çu tr╞░ß╗ƒng | 3 | 2 | 2001 | Thß║íc s─⌐ | Quß║ún l├╜ Gi├ío dß╗Ñc
+S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B1 | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng III
+Nh├│m ngß║ích: A1 
+M├ú sß╗æ ngß║ích: V.07.03.29
+Bß║¡c: 9
+Hß╗ç sß╗æ: 4,98
+Phß╗Ñ cß║Ñp th├óm ni├¬n v╞░ß╗út khung: 8% | 
+2 | Nguyß╗àn V├╡ T╞░ß╗¥ng Uy├¬n | 4 | 9 | 1973 | x | Kinh | Kh├┤ng | X├ú Ph├║ Xuy├¬n, Th├ánh phß╗æ H├á Nß╗Öi | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 14 | 7 | 2006 |  | S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | B | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 5
+Hß╗ç sß╗æ: 5,36
+ | 
+3 | Nguyß╗àn Nhß║¡t Tr╞░ß╗¥ng | 23 | 7 | 1989 |  | Kinh | Kh├┤ng | X├ú L╞░╞íng Ph├║, Tß╗ënh V─⌐nh Long | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 26 | 3 | 2009 |  | S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 2
+Hß╗ç sß╗æ: 4,34 | 
+II | TR╞»ß╗£NG TIß╗éU Hß╗îC T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Trß║ºn Thß╗ï Lan H╞░╞íng | 24 | 12 | 1975 | x | Kinh | Kh├┤ng | X├ú C├ít V─ân, tß╗ënh Nghß╗ç An | Hiß╗çu tr╞░ß╗ƒng | 20 | 11 | 2004 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | UD CNTT n├óng cao | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 5
+Hß╗ç sß╗æ: 5,36 | 
+2 | Nguyß╗àn Thß╗ï Viß╗çt Anh | 1 | 11 | 1981 | X | Kinh | Kh├┤ng | X├ú Thi├¬n Nhß║½n, tß╗ënh Nghß╗ç An | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 3 | 10 | 2008 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc ; S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | UD CNTT n├óng cao | Anh B2 | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 3.
+Hß╗ç sß╗æ: 4,68 | 
+3 | V┼⌐ ─Éß╗⌐c Th├ánh | 27 | 1 | 1971 |  | Kinh | C├┤ng gi├ío | X├ú Ph├ít Diß╗çm, tß╗ënh Ninh B├¼nh | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 4 | 2 | 2013 |  | S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | UDCNTT C╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 5
+Hß╗ç sß╗æ: 5,36 | 
+III | TR╞»ß╗£NG TIß╗éU Hß╗îC T├éN QUY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Nguyß╗àn Hß╗»u Tuß║Ñn | 23 | 11 | 1967 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Duy Ti├¬n, Tß╗ënh Ninh B├¼nh | Hiß╗çu tr╞░ß╗ƒng | 3 | 3 | 1990 |  | Cß╗¡ nh├ón S╞░ phß║ím Ngß╗» v─ân | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 7
+Hß╗ç sß╗æ: 6.04
+ | 
+2 | Phan Thß╗ï Thuß╗│ Ng├ón | 30 | 1 | 1982 | X | Kinh | Kh├┤ng | X├ú Mß╗╣ Lß╗ç, Tß╗ënh T├óy Ninh | Ph├│ hiß╗çu tr╞░ß╗ƒng | 28 | 10 | 2011 |  | Cß╗¡ nh├ón Gi├ío dß╗Ñc tiß╗âu hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 2
+Hß╗ç sß╗æ:4,34
+ | 
+3 | Trß║ºn Ngß╗ìc Lß╗úi | 7 | 11 | 1966 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Thuß║¡n, Tp.HCM | Ph├│ hiß╗çu tr╞░ß╗ƒng | 20 | 4 | 2001 |  | S╞░ phß║ím Tiß╗âu hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 6
+Hß╗ç sß╗æ: 5,7
+ | 
+IV | TR╞»ß╗£NG TIß╗éU Hß╗îC V├ò THß╗è S├üU |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Phan Thanh Phong | 11 | 12 | 1970 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣, TP.HCM | Hiß╗çu tr╞░ß╗ƒng | 20 | 11 | 2004 |  | Cß╗¡ nh├ón Gi├ío dß╗Ñc Tiß╗âu hß╗ìc | Trung cß║Ñp |  | B | Anh B1 | CDNN: GV tiß╗âu hß╗ìc hß║íng III
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V,07,03,29
+Bß║¡c 9, Hß╗ç sß╗æ 4,68
+ | 
+2 | Nguyß╗àn Thß╗ï Hß║¡u | 30 | 10 | 1971 | X | Kinh | Kh├┤ng | X├ú Phong Ho├á, Tß╗ënh ─Éß╗ông Th├íp | Ph├│ hiß╗çu tr╞░ß╗ƒng | 24 | 12 | 2001 |  | Cß╗¡ nh├ón Gi├ío dß╗Ñc Tiß╗âu hß╗ìc | Trung cß║Ñp |  | A | Anh B | CDNN: Gi├ío vi├¬n Tiß╗âu hß╗ìc hß║íng II
+Nh├│m ngß║ích: A2.2
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c: 5
+Hß╗ç sß╗æ: 5,36 | 
+3 | B├╣i Thß╗ï Bß║úo | 27 | 7 | 1976 |  | Kinh | Kh├┤ng | X├ú T├ón Minh, TP Hß║úi Ph├▓ng | Ph├│ hiß╗çu tr╞░ß╗ƒng | 3 | 2 | 2012 |  | Cß╗¡ nh├ón Gi├ío dß╗Ñc Tiß╗âu hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh C | M├ú sß╗æ ngß║ích: V.07.03.29 | 
+V | TR╞»ß╗£NG THCS NGUYß╗äN THß╗è THß║¼P |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | V├╡ Bß║úo ─É├áo Diß╗àm | 14 | 9 | 1984 | x | Kinh | Kh├┤ng |  | Hiß╗çu tr╞░ß╗ƒng | 19 | 6 | 2010 |  | ─Éß║íi hß╗ìc S╞░ phß║ím Ngß╗» V─ân | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 2
+Hß╗ç sß╗æ: 4.34 | 
+2 | L├¬ Ngß╗ìc C├ít | 1 | 2 | 1974 |  | Kinh | Kh├┤ng |  | Ph├│ hiß╗çu tr╞░ß╗ƒng | 3 | 2 | 2012 |  | ─Éß║íi hß╗ìc S╞░ phß║ím H├│a hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 5
+Hß╗ç sß╗æ: 5.36 | 
+3 | Phß║ím Thß╗ï Ngß╗ìc ─Éiß╗çp | 27 | 8 | 1981 | x | Kinh | Kh├┤ng |  | Ph├│ hiß╗çu tr╞░ß╗ƒng | 3 | 11 | 2005 |  | ─Éß║íi hß╗ìc S╞░ phß║ím Sinh hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c:4
+Hß╗ç sß╗æ: 5.02 | 
+VI | TR╞»ß╗£NG THCS TRß║ªN QUß╗ÉC TUß║ñN |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Cao Thß╗ï Lan Ph╞░╞íng | 10 | 1 | 1976 | x | Kinh | Kh├┤ng | X├ú ─Éß║íi Lß╗Öc, Th├ánh phß╗æ ─É├á Nß║╡ng | Hiß╗çu tr╞░ß╗ƒng | 20 | 10 | 2012 | Thß║íc s─⌐ | S╞░ phß║ím Sinh hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Cß╗¡ nh├ón Ng├┤n ngß╗» Anh, Anh B1, Ph├íp B | CDNN: Gi├ío vi├¬n THCS hß║íng II
+M├ú sß╗æ ngß║ích: V.07.04.31 | 
+2 | D╞░╞íng Thß╗ï Hiß╗ün | 4 | 2 | 1971 | x | Kinh | Kh├┤ng | X├ú Y├¬n Thß║┐, Tß╗ënh Bß║»c Ninh (Bß║»c Giang) | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 29 | 11 | 2008 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ Gi├ío dß╗Ñc, ─Éß║íi hß╗ìc S╞░ phß║ím Ngß╗» V─ân | Trung cß║Ñp |  | ß╗¿D CNTT n├óng cao | Anh B1 | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 4
+Hß╗ç sß╗æ: 5.02 | 
+3 | Trß║ºn Thß╗ï Diß╗àm Chi | 21 | 2 | 1989 | x | Kinh | Kh├┤ng | X├ú T╞░ Ngh─⌐a, Tß╗ënh Quß║úng Ng├úi | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 19 |  | 2015 | Thß║íc s─⌐ | S╞░ phß║ím Sinh hß╗ìc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Anh B | CDNN: Gi├ío vi├¬n THCS hß║íng II
+M├ú sß╗æ ngß║ích: V.07.04.31 | 
+VII | TR╞»ß╗£NG THCS NGUYß╗äN Hß╗«U THß╗î |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Ng├┤ V─ân Lß╗Öc | 28 | 3 | 1973 |  | Kinh | Kh├┤ng | T├ón Tß║¡p, Tß╗ënh T├óy Ninh (Long An) | Hiß╗çu tr╞░ß╗ƒng | 15 | 10 | 2009 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | ß╗¿D CNTT n├óng cao | Anh B1 | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 6
+Hß╗ç sß╗æ: 5,70 | 
+2 | Kh╞░╞íng Thß╗ï Thanh | 7 | 2 | 1975 | x | Kinh | Kh├┤ng | x├ú ─Éß║íi S╞ín Hß║úi Ph├▓ng (Hß║úi D╞░╞íng) | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 1 | 7 | 2013 | Thß║íc s─⌐ | L├╜ luß║¡n v├á ph╞░╞íng ph├íp dß║íy hß╗ìc bß╗Ö m├┤n To├ín hß╗ìc | Trung cß║Ñp |  | Tin hß╗ìc ß╗⌐ng dß╗Ñng tr├¼nh ─æß╗Ö B | Anh B1 | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 4
+Hß╗ç sß╗æ: 5.02 | 
+3 | Nguyß╗àn Thß╗ï Th├╣y Dung | 6 | 11 | 1982 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón H╞░ng Th├ánh phß╗æ Hß╗ô Ch├¡ Minh | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 20 | 11 | 2013 | Thß║íc s─⌐ | Khoa hß╗ìc ch├¡nh trß╗ï chuy├¬n ng├ánh ch├¡nh trß╗ï hß╗ìc | Trung cß║Ñp |  | ß╗¿D CNTT n├óng cao | Anh B1 | CDNN: Gi├ío vi├¬n THCS hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.04.31
+Bß║¡c: 2
+Hß╗ç sß╗æ: 4.34 | 
+VIII | TR╞»ß╗£NG Mß║ªM NON T├éN PHONG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Phß║ím Bß║úo Hß║ính | 27 | 5 | 1979 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng Trß║Ñn Bi├¬n
+Tß╗ënh ─Éß╗ông Nai | Hiß╗çu tr╞░ß╗ƒng | 2 | 12 | 2008 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc
+S╞░ phß║ím Mß║ºm non | Trung cß║Ñp |  | ß╗¿D CNTT n├óng cao | Anh B1 | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 9
+Hß╗ç sß╗æ: 4,98 + 5% | 
+2 | Nguyß╗àn Thß╗ï Mß╗╣ Li├¬n | 26 | 3 | 1985 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Mß╗╣
+TP. Hß╗ô Ch├¡ Minh | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 3 | 2 | 2010 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc
+S╞░ phß║ím Mß║ºm non | Trung cß║Ñp |  | ß╗¿D CNTT n├óng cao | Cß╗¡ nh├ón ng├┤n ngß╗» Anh, Anh v─ân B1 | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 6
+Hß╗ç sß╗æ: 3,99 | 
+3 | L├¬ Ph╞░╞íng ─Éan Kh├┤i | 30 | 8 | 1975 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├óy Nha Trang
+Tß╗ënh Kh├ính H├▓a | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 5 | 9 | 2014 |  | S╞░ phß║ím Mß║ºm non | Trung cß║Ñp |  | B | Anh B | CDNN: Gi├ío vi├¬n M├ám non hß║íng III
+Nh├│m ngß║ích: A0
+M├ú sß╗æ ngß║ích: V.07.02.26
+Bß║¡c: 6
+Hß╗ç sß╗æ: 3,65 | 
+IX | TR╞»ß╗£NG Mß║ªM NON T├éN PHONG 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | T├┤ Ngß╗ìc Dung | 27 | 1 | 1975 | x | Kinh | Kh├┤ng | X├ú Long Th├ánh, Tß╗ënh V─⌐nh Long | Hiß╗çu tr╞░ß╗ƒng | 2 | 12 | 2008 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc
+S╞░ phß║ím Mß║ºm non | Trung cß║Ñp |  | B | Anh B1 | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 9
+Hß╗ç sß╗æ: 4,98 + | 
+2 | Nguyß╗àn Thß╗ï Kim Nga | 10 | 10 | 1979 | x | Kinh | Kh├┤ng | X├ú An Ph├║, Tß╗ënh Quß║úng Ng├úi | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 3 | 12 | 2008 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc
+S╞░ phß║ím Mß║ºm non | Trung cß║Ñp |  | B | ─Éß║íi hß╗ìc | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+ | 
+3 | Phß║ím Thß╗ï H├▓a | 6 | 3 | 1983 | x | Kinh | Kh├┤ng | X├ú H╞░ng Y├¬n, Tß╗ënh Ngß╗ç An | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 24 | 6 | 2019 | ─Éß║íi hoc | SP Mß║ºm non | Trung cß║Ñp |  | A | B | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+ | 
+X | TR╞»ß╗£NG Mß║ªM NON T├éN KIß╗éNG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Nguyß╗àn Thß╗ï V├ón | 4 | 6 | 1973 | x | Kinh | Kh├┤ng | X├ú Ti├¬n Lß╗», Ph├║ Thß╗ì | Hiß╗çu tr╞░ß╗ƒng | 16 | 8 | 2012 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | B | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | 
+CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 6
+Hß╗ç sß╗æ: 3,99 | 
+2 | Nguyß╗àn Thß╗ï Ngß╗ìc Bß║ích | 11 | 1 | 1986 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng T├ón Thuß║¡n. TP. HCM | Ph├│ hiß╗çu tr╞░ß╗ƒng | 30 | 4 | 2015 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | B | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú ngß║ích: V.07.02.25
+Bß║¡c: 6
+Hß╗ç sß╗æ: 3.99 | 
+3 | Nguyß╗àn Thß╗ï ├ünh Nguyß╗çt | 17 | 1 | 1981 | x | Kinh | Kh├┤ng | X├ú Cß║ºn Giuß╗Öc ; Tß╗ënh T├óy Ninh | Ph├│ hiß╗çu tr╞░ß╗ƒng | 1 | 4 | 2011 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | B | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú ngß║ích: V.07.02.25
+Bß║¡c: 6
+Hß╗ç sß╗æ: 3,99
+ | 
+XI | TR╞»ß╗£NG Mß║ªM NON T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | L├╜ Thß╗ï Hß║ính Dung | 10 | 7 | 1975 | x | Kinh | Kh├┤ng | Long Xuy├¬n, An Giang | Hiß╗çu tr╞░ß╗ƒng | 12 | 7 | 2006 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | B | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | CDNN: Gi├ío vi├¬n M├ám non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 9
+Hß╗ç sß╗æ: 4,98 + 8% | 
+2 | L├╜ Hß╗ông Nhß╗▒t | 29 | 8 | 1975 | x | Kinh | Kh├┤ng | Thß║ính Ho├á, Cß║ºn Th╞í | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 10 | 7 | 2010 | ─Éß║íi hoc | SP Mß║ºm non | Trung cß║Ñp |  | B |  | CDNN: Gi├ío vi├¬n M├ám non hß║íng III
+Nh├│m ngß║ích: A0
+M├ú sß╗æ ngß║ích: V.07.02.26
+Bß║¡c: 7
+Hß╗ç sß╗æ: 3,96 | 
+3 | V┼⌐ Tr├║c Ph╞░╞íng | 15 | 2 | 1976 | x | Kinh | Kh├┤ng | TPHCM | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 12 | 5 | 2016 | ─Éß║íi hoc | SP Mß║ºm non | Trung cß║Ñp |  | B | B | CDNN: Gi├ío vi├¬n M├ám non hß║íng III
+Nh├│m ngß║ích: A0
+M├ú sß╗æ ngß║ích: V.07.02.26
+Bß║¡c: 8
+Hß╗ç sß╗æ: 4,27 | 
+XII | TR╞»ß╗£NG Mß║ªM NON T├éN QUY |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Tß╗æng Thß╗ï Thuß╗│ Trang | 25 | 11 | 1984 | X | Kinh | Kh├┤ng | Ti├¬n Tiß║┐n, H╞░ng Y├¬n | Hiß╗çu tr╞░ß╗ƒng | 22 | 6 | 2012 | Thß║íc s─⌐ | Quß║ún l├╜ gi├ío dß╗Ñc | Trung cß║Ñp |  | ß╗¿ng dß╗Ñng CNTT n├óng cao | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | 
+CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 7
+Hß╗ç sß╗æ: 4,32 | 
+2 | Nguyß╗àn Thß╗ï Kh├ính Kim | 7 | 3 | 1971 | X | Kinh | Kh├┤ng |  | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 4 | 11 | 2003 | Cß╗¡ nh├ón | S╞░ phß║ím mß║ºm non | Trung cß║Ñp |  | B | B | 
+CDNN: Gi├ío vi├¬n mß║ºm non hß║íng II
+Nh├│m ngß║ích: A1
+M├ú sß╗æ ngß║ích: V.07.02.25
+Bß║¡c: 
+Hß╗ç sß╗æ: | 
+XIII. TR╞»ß╗£NG THPT L├è TH├üNH T├öN |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ | ─Éinh Quang Thanh B├¼nh | 2 | 5 | 1975 |  | Kinh | Kh├┤ng | Phong Doanh - Ninh B├¼nh | Hiß╗çu tr╞░ß╗ƒng | 22 | 12 | 2005 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ gi├ío dß╗Ñc. Kß╗╣ s╞░ kß╗╣ thuß║¡t c├┤ng nghiß╗çp | Cß╗¡ nh├ón |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | ─Éß║íi hß╗ìc ng├┤n ngß╗» Anh | CDNN: Gi├ío vi├¬n THPT hß║íng III M├ú ngß║ích V07.05.15 | 
+ | Nguyß╗àn Hß╗»u H├╣ng H├áo | 13 | 5 | 1972 |  | Kinh | Khoing | T├ón Trß╗Ñ- T├óy Ninh | Ph├│ hiß╗çu tr╞░ß╗ƒng | 22 | 5 | 2005 | Thß║íc s─⌐ | Thß║íc s─⌐ QLGD Cß╗¡ nh├ón Vß║¡t l├╜ | Cß╗¡ nh├ón |  | Tin hß╗ìc c╞í bß║ún | Tiß║┐ng anh B1 | CDNN: GV THPT hß║íng III, M├ú sß╗æ ngß║ích: V.07.05.15 | 
+ | Nguyß╗àn V─ân Hiß║┐n | 29 | 5 | 1977 |  | Kinh | Kh├┤ng | ß╗¿ng H├▓a- H├á Nß╗Öi | Ph├│ hiß╗çu tr╞░ß╗ƒng | 13 | 12 | 2008 | Thß║íc s─⌐ | Thß║íc s─⌐ Vß║¡t L├╜, Cß╗¡ nh├ón kinh tß║┐ | Cß╗¡ nh├ón |  | ß╗¿ng dß╗Ñng CNTT c╞í bß║ún | Cß╗¡ nh├ón | CDNN: Gi├ío vi├¬n THPT hß║íng II M├ú ngß║ích V07.05.14 | 
+ | Ng├┤ Thß╗ï T╞░ß╗¥ng Loan | 14 | 5 | 1974 | x | Kinh | Kh├┤ng | Cß║ºn ─É╞░ß╗¢c, T├óy Ninh | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 4 | 10 | 2007 | Thß║íc s─⌐ | Thß║íc s─⌐ Quß║ún l├╜ Gi├ío dß╗Ñc
+Cß╗¡ nh├ón sinh hß╗ìc | Trung Cß║Ñp |  | Tin hß╗ìc A | Tiß║┐ng anh B1 | CDNN: Gi├ío vi├¬n Trung hß╗ìc phß╗ò th├┤ng hß║íng II
+M├ú sß╗æ ngß║ích: V.07.03.28
+Bß║¡c:4
+Hß╗ç sß╗æ: 5,03 | 
+XIV. TR╞»ß╗£NG THPT T├éN PHONG |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+1 | Trß║ºn C├┤ng B├¼nh | 16 | 9 | 1977 |  | Kinh | Kh├┤ng | Ph╞░ß╗¥ng B├án Cß╗¥, TP. Hß╗ô Ch├¡ Minh | Hiß╗çu tr╞░ß╗ƒng | 20 | 11 | 2007 | Thß║íc s─⌐ | Cß╗¡ nh├ón SP To├ín, Thß║íc s─⌐ quß║ún l├¡ gi├ío dß╗Ñc | Trung cß║Ñp |  | UD CNTT n├óng cao | Tiß║┐ng Anh B1 | CDNN: GV THPT hß║íng III, M├ú sß╗æ ngß║ích: V.07.05.15 | 
+2 | V├╡ Thß╗ï Mß╗Öng Trinh | 28 | 9 | 1978 | x | Kinh | Kh├┤ng | Ph╞░ß╗¥ng C├ít L├íi, TP. Hß╗ô Ch├¡ Minh | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 21 | 11 | 2012 | Thß║íc s─⌐ | Cß╗¡ nh├ón SP L├╜, Thß║íc s─⌐ LL-PPDH L├╜ | Trung cß║Ñp |  | UD CNTT n├óng cao | Tiß║┐ng Anh B1 | CDNN: GV THPT hß║íng III, M├ú sß╗æ ngß║ích: V.07.05.15 | 
+3 | Huß╗│nh Khoa | 9 | 10 | 1981 |  | Kinh | Kh├┤ng | X├ú H├ám Kiß╗çm, Tß╗ënh L├óm ─Éß╗ông | Ph├│ Hiß╗çu tr╞░ß╗ƒng | 16 | 11 | 2017 | Thß║íc s─⌐ | Cß╗¡ nh├ón SP To├ín, Thß║íc s─⌐ To├ín hß╗ìc, Thß║íc s─⌐ QLGD, NCS To├ín giß║úi t├¡ch | Trung cß║Ñp |  | UD CNTT n├óng cao | Cß╗¡ nh├ón Anh v─ân | CDNN: GV THPT hß║íng III, M├ú sß╗æ ngß║ích: V.07.05.15 | 
+---END---
