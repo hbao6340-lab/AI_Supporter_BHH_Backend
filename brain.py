@@ -223,7 +223,7 @@ def get_reply(text):
         # Check if knowledge base has content
         if retriever.has_knowledge():
             # Search for relevant context with lower similarity threshold
-            context, found = retriever.get_answer_context(text, max_chars=3000)
+            context, found = retriever.get_answer_context(text, max_chars=5000)
 
             logger.info(
                 f"Search result for '{text[:30]}...': found={found}, context_len={len(context)}"
@@ -239,7 +239,6 @@ def get_reply(text):
                     "https://phuongtanhung.gov.vn",
                     "https://phuongtanhung.org",
                     "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
-                    "https://thuvienphapluat.vn",
                 ]:
                     content = _fetch_website_content(url, max_chars=2000)
                     if content:
@@ -260,7 +259,10 @@ def get_reply(text):
                             "content": "Bạn là một trợ lý ảo anime dễ thương tên là Đoàn Viên. "
                             "Hãy trả lời bằng tiếng Việt tự nhiên, ngắn gọn, dễ hiểu. "
                             "Sử dụng THÔNG TIN TỪ TÀI LIỆU và TRANG WEB được cung cấp để trả lời câu hỏi. "
-                            "Nếu thông tin không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng.",
+                            "Nếu thông tin không đủ, hãy nói rằng bạn không có thông tin đó và gợi ý liên hệ cơ quan chức năng. "
+                            "Khi trả lời về một người cụ thể, hãy dùng đầy đủ họ tên của người đó như trong tài liệu. "
+                            "Nếu có nhiều người có họ tên giống hoặc gần giống nhau (ví dụ: cùng họ và tên đệm), hãy kiểm tra tên riêng cuối cùng có khớp chính xác với câu hỏi hay tài liệu không. "
+                            "Nếu không chắc chắn người nào là đúng, hãy nói rõ ràng và liệt kê các trường hợp có thể.",
                         },
                         {
                             "role": "system",
@@ -333,9 +335,6 @@ def get_reply(text):
 WEBSITE_KEYWORDS = [
     "phuongtanhung.gov.vn",
     "phuongtanhung.org",
-    "thuvienphapluat.vn",
-    "thư viện pháp luật",
-    "pháp luật",
     "website phường",
     "trang web phường",
     "phuongtanhung",
@@ -624,7 +623,6 @@ def _get_website_answer(text):
 
     for url in [
         "https://dichvucong.gov.vn/p/home/dvc-dich-vu-cong-truc-tuyen-ds.html?pCoQuanId=411312#mainTitle",
-        "https://thuvienphapluat.vn",
     ]:
         if (
             "dichvucong.gov.vn" in text_lower
@@ -632,12 +630,6 @@ def _get_website_answer(text):
             or _is_admin_service_question(text)
         ):
             urls_to_check.append(url)
-        elif "thuvienphapluat.vn" in text_lower or "thư viện pháp luật" in text_lower or "pháp luật" in text_lower:
-            urls_to_check.append("https://thuvienphapluat.vn")
-        # Check for legal document patterns - always search thu vienphapluat.vn
-        elif _is_legal_document_question(text):
-            if "https://thuvienphapluat.vn" not in urls_to_check:
-                urls_to_check.append("https://thuvienphapluat.vn")
 
     if not urls_to_check:
         urls_to_check = ["https://phuongtanhung.gov.vn", "https://phuongtanhung.org"]

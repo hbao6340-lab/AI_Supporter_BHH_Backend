@@ -318,16 +318,32 @@ class KnowledgeRetriever:
             # Check if query terms appear exactly in content
             content_lower = result['content'].lower()
             if query_lower in content_lower:
-                # Boost similarity score for exact query match
-                result['similarity'] = min(1.0, result['similarity'] + 0.3)
+                # Boost similarity score for exact query match (highest priority)
+                result['similarity'] = min(1.0, result['similarity'] + 0.5)
             # Check for individual important words (like names)
             query_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', query_lower))
             content_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', content_lower))
             exact_word_matches = query_words & content_words
             if exact_word_matches:
-                # Boost for each exact word match
-                word_boost = min(0.2, len(exact_word_matches) * 0.05)
-                result['similarity'] = min(1.0, result['similarity'] + word_boost)
+                # Penalize if query has more unique words than content chunk AND not all query words matched
+                # This prevents shorter exact name variants from scoring higher than longer variants
+                query_unique_count = len(query_words)
+                content_match_count = len(exact_word_matches)
+                if query_unique_count > content_match_count:
+                    # Not all query words found in content - this is likely a partial match
+                    # Reduce the score if it has fewer matches than query words
+                    coverage_ratio = content_match_count / query_unique_count
+                    # If coverage is low (< 0.7), reduce the score
+                    if coverage_ratio < 0.7:
+                        word_boost = min(0.1, len(exact_word_matches) * 0.02)
+                        result['similarity'] = min(1.0, result['similarity'] + word_boost) - (1 - coverage_ratio) * 0.2
+                    else:
+                        word_boost = min(0.2, len(exact_word_matches) * 0.05)
+                        result['similarity'] = min(1.0, result['similarity'] + word_boost)
+                else:
+                    # All query words are in content - good match
+                    word_boost = min(0.2, len(exact_word_matches) * 0.05)
+                    result['similarity'] = min(1.0, result['similarity'] + word_boost)
         
         # Re-sort by boosted similarity
         results.sort(key=lambda x: x['similarity'], reverse=True)
