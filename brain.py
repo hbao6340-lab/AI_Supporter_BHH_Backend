@@ -1,8 +1,11 @@
-from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import logging
 import sys
+
+# Configure logging first
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Add the project root to path for imports
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,14 +19,22 @@ load_dotenv()
 # Get API key from environment (Vercel sets this automatically)
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
+# Lazy import OpenAI to avoid import errors at module load time
+_client = None
+
+def _get_client():
+    """Get or create OpenAI client lazily."""
+    global _client
+    if _client is not None:
+        return _client
+    if openai_api_key:
+        from openai import OpenAI
+        _client = OpenAI(api_key=openai_api_key)
+    return _client
+
+# Check if API key exists - log warning but don't crash
 if not openai_api_key:
-    raise ValueError("OPENAI_API_KEY environment variable is not set")
-
-client = OpenAI(api_key=openai_api_key)
-
-# Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+    logger.warning("OPENAI_API_KEY environment variable not set - AI features will be disabled")
 
 # Promotional/spam content patterns to filter
 PROMOTIONAL_PATTERNS = [
@@ -178,6 +189,12 @@ def get_reply(text):
     Get AI reply using knowledge base + website search.
     Always searches both knowledge and the two websites.
     """
+    # Check if client is available (lazy initialization)
+    openai_client = _get_client()
+    if openai_client is None:
+        logger.warning("OpenAI client not configured - returning fallback response")
+        return "Xin lỗi, hệ thống AI chưa được cấu hình. Vui lòng liên hệ quản trị viên."
+
     # Filter out promotional/spam content
     if _is_promotional_content(text):
         return "Xin lỗi, tôi không nghe rõ. Bạn có thể nói lại không?"
@@ -189,7 +206,7 @@ def get_reply(text):
 
         if ai_info:
             try:
-                response = client.chat.completions.create(
+                response = openai_client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
                         {
@@ -251,7 +268,7 @@ def get_reply(text):
                     logger.info(f"Added website content for: {text[:30]}...")
 
                 # Use knowledge + website augmented response
-                response = client.chat.completions.create(
+                response = openai_client.chat.completions.create(
                     model="gpt-4o-mini",
                     messages=[
                         {
@@ -290,7 +307,7 @@ def get_reply(text):
     if google_results:
         logger.info(f"Google search found results, generating answer...")
         try:
-            response = client.chat.completions.create(
+            response = openai_client.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
                     {
@@ -316,7 +333,7 @@ def get_reply(text):
     # Fallback to standard OpenAI response
     logger.info(f"Using OpenAI fallback for: {text[:50]}...")
 
-    response = client.chat.completions.create(
+    response = openai_client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
@@ -473,8 +490,6 @@ def _fetch_website_content(url, max_chars=5000):
             return f"[Lỗi {response.status_code}: {url}]"
 
 
-
-
     except Exception as e:
         logger.warning(f"Failed to fetch {url}: {e}")
         return f"[Lỗi kết nối: {url}]"
@@ -584,7 +599,7 @@ def _get_admin_service_answer(text):
         return None
 
     try:
-        response = client.chat.completions.create(
+        response = _get_client().chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {
@@ -646,7 +661,7 @@ def _get_website_answer(text):
     context = "\n\n".join(all_content)
 
     try:
-        response = client.chat.completions.create(
+        response = _get_client().chat.completions.create(
             model="gpt-4o-mini",
             messages=[
                 {

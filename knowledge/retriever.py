@@ -51,11 +51,11 @@ class KnowledgeRetriever:
                 project_root.parent / "knowledge" / "data",
                 # [3] project-root-aware: vn_testing/knowledge
                 project_root.parent / "knowledge",
-                # [4] Render / Vercel
-                Path("/var/task"),
-                Path("/var/task/knowledge"),
-                Path("/var/task/knowledge/data"),
+                # [4] Vercel deployment paths
                 Path("/var/task/backend/knowledge/data"),
+                Path("/var/task/knowledge/data"),
+                Path("/var/task/knowledge"),
+                Path("/var/task/backend/knowledge"),
                 # [8] via project root chain
                 project_root / "knowledge" / "data",
             ]
