@@ -126,16 +126,21 @@ class KnowledgeRetriever:
         self.document_sources = []
 
         for doc in parsed_docs:
-            # Split long documents into chunks
-            chunks = self._chunk_text(doc['content'], chunk_size=500, overlap=50)
+            # Special-handle file_dong_bo_khu_pho.xlsx — split on KP row boundaries
+            # so that "Khu phố 1", "KP01", "KP 01" always match the right rows,
+            # not every row in the table.
+            if "dong_bo_khu_pho" in doc["filename"]:
+                chunks = self._chunk_kp_table(doc["content"])
+            else:
+                chunks = self._chunk_text(doc["content"], chunk_size=500, overlap=50)
 
             for i, chunk in enumerate(chunks):
                 if chunk.strip():
                     self.documents.append(chunk)
                     self.document_sources.append({
-                        'filename': doc['filename'],
-                        'chunk_id': i,
-                        'filepath': doc['filepath']
+                        "filename": doc["filename"],
+                        "chunk_id": i,
+                        "filepath": doc["filepath"],
                     })
 
         if not self.documents:
@@ -215,6 +220,74 @@ class KnowledgeRetriever:
                 break
 
         return chunks
+
+    def _chunk_kp_table(self, text: str) -> List[str]:
+        """
+        Specialised chunker for file_dong_bo_khu_pho.xlsx
+
+        Produces one chunk per KP row,  enriched with a synthetic  header
+        containing every floor/type string from the table so that the
+        TF-IDF vector for the chunk has enough token mass to compete with
+        dense Tổng hợp dữ liệu blocks.
+
+        Each chunk is tagged with  [KPXX] [Khu phố N]  so that:
+          -get_answer_context  post-filtering can zero in on one KP code, and
+          - keyword search can match  Khu phố 1 , KP01 , KP 01 etc.
+        """
+        # Collapse Excel pipe-delimited cells and normalise whitespace
+        body = re.sub(r"\s*\|\s*", " ", text)
+        body = re.sub(r"\s+", " ", body).strip()
+
+        # Drop the sheet header row  === Sheet: Sheet1 ===
+        header_row_match = re.match(r"===.*?===\s*(.*)", body, re.DOTALL)
+        if header_row_match:
+            body = header_row_match.group(1).strip()
+
+        # Collect every distinct "Loại khu phố" / building-type value
+        # (column 8)  and every distinct  "Khu phố N" label so we can
+        # seed each chunk with full table vocabulary.
+        all_rows = re.findall(r"(KP\d{2})\s+(Khu phố\s+\d+)", body)
+        kp_labels = sorted({label for _, label in all_rows})
+        all_kp_codes = sorted({code for code, _ in all_rows})
+
+        # Find every KPXX anchor in the body
+        anchors = list(re.finditer(r"(KP\d{2})", body))
+        if not anchors:
+            return [body] if body.strip() else []
+
+        rows: List[str] = []
+        for i, m in enumerate(anchors):
+            kp_code = m.group(1)
+            kp_label_full = next(
+                (lbl for cd, lbl in all_rows if cd == kp_code), kp_code
+            )
+
+            # ── Build column header ──────────────────────────────────────
+            # Column names only — do NOT bulk-insert all_kp_codes /
+            # kp_labels here because they would appear in every chunk
+            # and pollute the TF-IDF vector, causing pass-1 and pass-2
+            # KP filters to match every row instead of the requested KP.
+            header_tokens = [
+                "Ma KP", "Ten khu pho", "Ho ten", "Chuc vu", "So dien thoai",
+                "So ho", "Nhan khau", "Loai khu pho", "Ghi chu",
+                "thuong", "chung cu",
+            ]
+            header_str = " ".join(header_tokens)
+
+            # ── Raw row data ─────────────────────────────────────────────
+            start = m.start()
+            end = anchors[i + 1].start() if i + 1 < len(anchors) else len(body)
+            raw_row = body[start:end].strip()
+
+            # ── Final chunk: synthetic header + tagged row data ──────────
+            chunk = (
+                f"[{kp_code}] [{kp_label_full}] "
+                + header_str
+                + " " + raw_row
+            )
+            rows.append(chunk)
+
+        return [r for r in rows if r.strip()]
 
     def search(self, query: str, top_k: int = 3, min_similarity: float = 0.1) -> List[Dict]:
         """Search for relevant documents given a query."""
@@ -300,8 +373,81 @@ class KnowledgeRetriever:
         if not self.documents:
             return "", False
 
-        # Use lower similarity threshold to find more relevant documents
+        # ── Pass 1: regular search ──────────────────────────────────────
         results = self.search(query, top_k=15, min_similarity=0.005)
+        kp_match = re.search(
+            r"(?:khu\s+phố|kp)\s*[:#]?\s*(\d{1,3})", query.lower()
+        )
+        if kp_match:
+            kp_num = int(kp_match.group(1))
+            kp_code = f"KP{kp_num:02d}"
+            kp_label = f"Khu phố {kp_num}"
+            token_pat = re.compile(
+                r"\[" + re.escape(kp_code) + r"\]" + r"|" + re.escape(kp_code) + r"\b|" + re.escape(kp_label) + r"\b",
+                re.IGNORECASE,
+            )
+
+            kp_results = [
+                r for r in results
+                if token_pat.search(r["content"])
+            ]
+
+            # Authoritative KP sources (dong_bo_xlsx, danh_sach_kp_txt) carry
+            # an explicit  [KPXX] tag and are always more precise than generic
+            # table cells that merely mention "Khu phố N" in a list.
+            AUTHORITATIVE_FILES = {
+                "file_dong_bo_khu_pho.xlsx",
+                "danh_sach_khu_pho.txt",
+            }
+            tagged = [r for r in kp_results
+                      if r["source"]["filename"] in AUTHORITATIVE_FILES]
+
+            if not tagged:
+                # Pass 1 missed the authoritative rows — pull them in directly
+                # via a targeted scan, same as the old pass-2 but applied
+                # inside the kp_results path so injected rows are merged with
+                # kp_results rather than overwriting everything.
+                extra = {
+                    i for i, src in enumerate(self.document_sources)
+                    if src["filename"] in AUTHORITATIVE_FILES  # e.g. file_dong_bo_khu_pho.xlsx or danh_sach_khu_pho.txt
+                    and token_pat.search(self.documents[i])
+                    and re.search(rf"Mã KP:\s*{re.escape(kp_code)}", self.documents[i])  # must mention the target KP code first
+                }
+                if extra:
+                    injected = [
+                        {
+                            "content": self.documents[i],
+                            "source": self.document_sources[i],
+                            "similarity": 1.0,
+                        }
+                        for i in sorted(extra)
+                    ]
+                    kp_results = kp_results + injected
+                    tagged = [e for e in injected
+                              if e["source"]["filename"] in AUTHORITATIVE_FILES]
+
+            if kp_results:
+                results = kp_results
+            else:
+                # ── Pass 2: targeted _simple_search over KP-tagged chunks only
+                kp_idx_hits = {
+                    i for i, src in enumerate(self.document_sources)
+                    if "dong_bo" in src["filename"]
+                    and token_pat.search(self.documents[i])
+                }
+                if kp_idx_hits:
+                    kp_pass = [
+                        {
+                            "content": self.documents[i],
+                            "source": self.document_sources[i],
+                            "similarity": 1.0,
+                        }
+                        for i in sorted(kp_idx_hits)
+                    ]
+                    for r in kp_pass:
+                        r["content_lower"] = r["content"].lower()
+                        r["_query_lower"] = query.lower()
+                    results = kp_pass
 
         if not results:
             return "", False
@@ -314,18 +460,41 @@ class KnowledgeRetriever:
         query_lower = query.lower()
         for result in results:
             # Check if query terms appear exactly in content
-            content_lower = result['content'].lower()
+            content_lower = result["content"].lower()
             if query_lower in content_lower:
                 # Boost similarity score for exact query match (highest priority)
-                result['similarity'] = min(1.0, result['similarity'] + 0.5)
+                result["similarity"] = min(1.0, result["similarity"] + 0.5)
+
+            # ──  KP-specific hard match ─────────────────────────────────
+            # If the kp code was injected into this result (pass 2), the
+            # guarantee-boost already raised the score to 1.  Keep the match
+            # when the query also contains the labelled   khu ph o N   phrase.
+            kp_injected = result.get("_query_lower") is not None
+            if kp_injected and kp_match and kp_match.group(1) in content_lower:
+                # We already set similarity=1.0 in the KP pass, but re-apply
+                # the boost to be safe.
+                result["similarity"] = min(
+                    1.0, result["similarity"] + 0.3
+                )
+
             # Check for individual important words (like names)
-            query_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', query_lower))
-            content_words = set(re.findall(r'\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b', content_lower))
-            exact_word_matches = query_words & content_words
+            qw = set(
+                re.findall(
+                    r"\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b",
+                    query_lower,
+                )
+            )
+            cw = set(
+                re.findall(
+                    r"\b[a-zA-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂÂÊÔƠƯ]+\b",
+                    content_lower,
+                )
+            )
+            exact_word_matches = qw & cw
             if exact_word_matches:
                 # Penalize if query has more unique words than content chunk AND not all query words matched
                 # This prevents shorter exact name variants from scoring higher than longer variants
-                query_unique_count = len(query_words)
+                query_unique_count = len(qw)
                 content_match_count = len(exact_word_matches)
                 if query_unique_count > content_match_count:
                     # Not all query words found in content - this is likely a partial match
@@ -334,14 +503,20 @@ class KnowledgeRetriever:
                     # If coverage is low (< 0.7), reduce the score
                     if coverage_ratio < 0.7:
                         word_boost = min(0.1, len(exact_word_matches) * 0.02)
-                        result['similarity'] = min(1.0, result['similarity'] + word_boost) - (1 - coverage_ratio) * 0.2
+                        result["similarity"] = min(
+                            1.0, result["similarity"] + word_boost
+                        ) - (1 - coverage_ratio) * 0.2
                     else:
                         word_boost = min(0.2, len(exact_word_matches) * 0.05)
-                        result['similarity'] = min(1.0, result['similarity'] + word_boost)
+                        result["similarity"] = min(
+                            1.0, result["similarity"] + word_boost
+                        )
                 else:
                     # All query words are in content - good match
                     word_boost = min(0.2, len(exact_word_matches) * 0.05)
-                    result['similarity'] = min(1.0, result['similarity'] + word_boost)
+                    result["similarity"] = min(
+                        1.0, result["similarity"] + word_boost
+                    )
 
         # Re-sort by boosted similarity
         results.sort(key=lambda x: x['similarity'], reverse=True)
