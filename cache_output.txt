@@ -1,0 +1,5 @@
+﻿Cache: 501 chunks, 501 sources
+XLSX files in cache: 1
+  [36 chunks] DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx
+
+Retriever docs: 0

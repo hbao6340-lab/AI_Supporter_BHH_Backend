@@ -1,0 +1,19 @@
+﻿Total unique filenames in DB: 15
+MATCH: 'DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx'
+
+Full list:
+  35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  DANH S├üCH B├ì TH╞», TR╞»ß╗₧NG KHU PHß╗É PH╞»ß╗£NG T├éN H╞»NG Mß╗ÜI (1).xlsx
+  NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  Q─É 1340 Vß╗ü viß╗çc c├┤ng nh├ón ─æß╗òi t├¬n khu phß╗æ tr├¬n ─æß╗ïa b├án Quß║¡n 7.docx
+  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx
+  Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  sample_info.txt

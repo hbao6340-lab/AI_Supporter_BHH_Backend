@@ -1,0 +1,18 @@
+﻿Loaded docs: 501
+Has knowledge: True
+Results: 5
+  SIM=0.2061 FILE=Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+
+  SIM=0.1913 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.1880 FILE=Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.1880 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.1839 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT= Nam ph╞░ß╗¥ng T├ón H╞░ng (danh s├ích ─æ├¡nh k├¿m). ─Éiß╗üu 3. C├┤ng nhß║¡n c├íc chß╗⌐c danh trong Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, gß╗ôm c├íc ├┤ng, b├á c├│ t├¬n sau: B├á Phß║ím Thß╗ï Hß║ính T╞░, Chß╗º 
+

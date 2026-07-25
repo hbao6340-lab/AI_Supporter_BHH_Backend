@@ -1,0 +1,23 @@
+﻿Loaded docs: 501
+Has knowledge: True
+
+QUERY: c├ín bß╗Ö C╞á QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM
+min_similarity for get_answer_context: 0.005
+Results: 5
+  SIM=0.5794 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+
+  SIM=0.5623 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.5623 FILE=Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.5559 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=am ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng thß╗▒c hiß╗çn theo Luß║¡t Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, ─Éiß╗üu lß╗ç Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt
+
+  SIM=0.5553 FILE=Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  TEXT=├│ hiß╗çu lß╗▒c kß╗â tß╗½ ng├áy 30 th├íng 6 n─âm 2025. ─Éiß╗üu 4. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Quß║¡n 7, c├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh v├á c├íc c╞í 
+
+FOUND: True
+CTX LEN: 5513

@@ -1,0 +1,13 @@
+﻿python : C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\worksheet\_reader.py:329: 
+UserWarning: Data Validation extension is not supported and will be removed
+At line:1 char:1
++ python backend/smart_parse.py 2>&1 | Out-File -Encoding utf8 C:\Users ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admin\...will be removed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn(msg)
+Loading: backend\knowledge\data\DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+Sheets: ['L─É CHß╗ª CHß╗ÉT', 'CBCC', 'HT-HP TR╞»ß╗£NG Hß╗îC']
+
+Sheet 'L─É CHß╗ª CHß╗ÉT': 0 sections

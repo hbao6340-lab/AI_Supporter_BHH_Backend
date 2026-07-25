@@ -1,0 +1,10 @@
+﻿Text: c├ín bß╗Ö ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam c╞í quan
+Tokens: ['c├ín', 'bß╗Ö', 'ß╗ºy', 'ban', 'mß║╖t', 'trß║¡n', 'tß╗ò', 'quß╗æc', 'viß╗çt', 'nam', 'c╞í', 'quan']
+
+Test chunk: V. C┼¿ QUAN ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö QUß╗ÉC VIß╗åT NAM | | | | | | | | | | | | | | | | | | | 11 | 1 | Phß║ím Thß╗ï Hß║ính T╞░ | 31 | 7 | 1975
+Tokens: ['v', 'c┼⌐', 'quan', 'ß╗ºy', 'ban', 'mß║╖t', 'trß║¡n', 'tß╗ò', 'quß╗æc', 'viß╗çt', 'nam', '11', '1', 'phß║ím', 'thß╗ï', 'hß║ính', 't╞░', '31', '7', '1975']
+
+Query tokens: {'viet', 'tran', 'ban', 'co', 'nam', 'can', 'quan', 'to', 'quoc', 'uy', 'mat', 'bo'}
+Chunk tokens: {'31', 'mß║╖t', 'c┼⌐', 'ß╗ºy', 'nam', 'quan', '1', 'trß║¡n', 'ban', 't╞░', 'quß╗æc', 'viß╗çt', '7', 'hß║ính', '1975', 'phß║ím', 'thß╗ï', 'tß╗ò', '11', 'v'}
+Overlap: {'quan', 'nam', 'ban'}
+Score: 0.1500

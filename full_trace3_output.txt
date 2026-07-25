@@ -1,0 +1,141 @@
+﻿python : C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\worksheet\_reader.py:329: 
+UserWarning: Data Validation extension is not supported and will be removed
+At line:1 char:1
++ python backend/full_trace2.py 2>&1 | Out-File -Encoding utf8 C:\Users ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admin\...will be removed:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warn(msg)
+PyPDF2 not installed. Install with: pip install PyPDF2
+Scanned files: 29
+  35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  Acronyms
+  C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  DANH S├üCH C├üC L─¿NH Vß╗░C.xlsx
+  Danh s├ích th├┤ng tin c├íc TC─É (050326).xlsx
+  DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+  danh_sach_khu_pho.txt
+  Dß╗ïch vß╗Ñ c├┤ng Uß╗╖ ban nh├ón d├ón TPHCM
+  file_dong_bo_khu_pho.xlsx
+  GIß╗ÜI THIß╗åU Vß╗Ç TRANG WEB PHUONGTANHUNG.GOV.VN.txt
+  Hß╗å THß╗ÉNG AI.txt
+  Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam
+  Khu phß╗æ ph╞░ß╗¥ng T├ón H╞░ng
+  L╞░ß╗út sß╗¡ Th├ánh ─Éo├án, ─Éo├án Thanh ni├¬n TPHCM.pdf
+  Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  Thong tin UBND phuong Tan Hung.txt
+  Th├ánh uß╗╖ TPHCM
+  Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx - F1.docx
+  Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.txt
+  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt
+  ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031
+
+Parsed files: 28
+  [ 8,645]  35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  [ 1,606]  Acronyms
+  [ 3,478]  C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  [ 2,009]  DANH S├üCH C├üC L─¿NH Vß╗░C.xlsx
+  [10,393]  Danh s├ích th├┤ng tin c├íc TC─É (050326).xlsx
+  [38,918]  DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+     !! Tß╗öNG THß╗Ç content preview: === Sheet: L─É CHß╗ª CHß╗ÉT ===
+ | ─Éß║óNG Bß╗ÿ TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH |  |  |  |  |  |  |  |  |  |  |  |  |  | ─Éß║óNG Cß╗ÿNG Sß║óN VIß╗åT NAM |  |  |  |  |  | 
+ | ─Éß║óNG ß╗ªY PH╞»ß╗£NG T├éN H╞»NG |  |  |  |  |  |  |  |  |  |  |
+  [57,239]  danh_sach_khu_pho.txt
+  [ 5,946]  Dß╗ïch vß╗Ñ c├┤ng Uß╗╖ ban nh├ón d├ón TPHCM
+  [28,343]  file_dong_bo_khu_pho.xlsx
+  [ 1,493]  GIß╗ÜI THIß╗åU Vß╗Ç TRANG WEB PHUONGTANHUNG.GOV.VN.txt
+  [   800]  Hß╗å THß╗ÉNG AI.txt
+  [10,700]  Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam
+  [    58]  Khu phß╗æ ph╞░ß╗¥ng T├ón H╞░ng
+  [94,962]  Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  [ 2,692]  NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [ 2,403]  NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [ 2,710]  NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [ 5,994]  Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  [ 3,535]  QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  [ 5,368]  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 1,264]  Thong tin UBND phuong Tan Hung.txt
+  [    75]  Th├ánh uß╗╖ TPHCM
+  [ 4,823]  Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx - F1.docx
+  [ 5,145]  Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  [ 5,143]  Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.txt
+  [34,910]  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 5,176]  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt
+  [ 2,231]  ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031
+
+Total chunks: 847, Unique files: 28
+  [ 23] 35 thß╗º tß╗Ñc h├ánh ch├¡nh l├ám tß║íi c├┤ng an cß║Ñp x├ú.txt
+  [  4] Acronyms
+  [  9] C├íc ─æ╞░ß╗¥ng link dß║½n tß╗¢i c├íc thß╗º tß╗Ñc h├ánh ch├¡nh.docx
+  [  5] DANH S├üCH C├üC L─¿NH Vß╗░C.xlsx
+  [ 88] DANH S├üCH Tß╗öNG THß╗é (HC).xlsx
+  [ 22] Danh s├ích th├┤ng tin c├íc TC─É (050326).xlsx
+  [ 15] Dß╗ïch vß╗Ñ c├┤ng Uß╗╖ ban nh├ón d├ón TPHCM
+  [  4] GIß╗ÜI THIß╗åU Vß╗Ç TRANG WEB PHUONGTANHUNG.GOV.VN.txt
+  [  2] Hß╗å THß╗ÉNG AI.txt
+  [ 29] Hß╗Öi Li├¬n hiß╗çp Thanh ni├¬n Viß╗çt Nam
+  [  1] Khu phß╗æ ph╞░ß╗¥ng T├ón H╞░ng
+  [  7] NQ 158 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch, Tr╞░ß╗ƒng Ban cß╗ºa Hß╗Öi ─æß╗ông nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón h╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  6] NQ 260 Chß╗ë ─æß╗ïnh Chß╗º tß╗ïch, Ph├│ chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [  7] NQ 56 Vß╗ü viß╗çc chß╗ë ─æß╗ïnh ─æß║íi biß╗âu Hß╗Öi ─æß╗ông Nh├ón d├ón l├óm thß╗¥i ph╞░ß╗¥ng T├ón H╞░ng, nhiß╗çm kß╗│ 2021-2026.docx
+  [246] Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx
+  [  9] QUYß║╛T ─Éß╗èNH 61.Q─É-TL─É- ─ÉIß╗ÇU CHß╗êNH GIß║óM Mß╗¿C ─É├ôNG ─ÉO├ÇN PH├ì - Copy.docx
+  [ 16] Quy ─æß╗ïnh mß╗¢i vß╗ü c├┤ng chß╗⌐ng, chß╗⌐ng thß╗▒c.docx
+  [ 14] Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [  3] Thong tin UBND phuong Tan Hung.txt
+  [  1] Th├ánh uß╗╖ TPHCM
+  [ 12] Th├┤ng tin ph╞░ß╗¥ng T├ón H╞░ng.docx - F1.docx
+  [ 14] Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.docx
+  [ 14] Thß╗º tß╗Ñc ─É─âng k├╜ th├ánh lß║¡p hß╗Ö kinh doanh.txt
+  [ 86] Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx
+  [ 13] Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt
+  [128] danh_sach_khu_pho.txt
+  [ 63] file_dong_bo_khu_pho.xlsx
+  [  6] ─Éß║íi Hß╗Öi ─Éß║íi Biß╗âu Hß╗Öi LHTN Viß╗çt Nam Ph╞░ß╗¥ng T├ón H╞░ng Lß║ºn Thß╗⌐ I, Nhiß╗çm Kß╗│ 2026 - 2031
+
+TF-IDF search: 20 results
+  SIM=0.2906  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |   luß║¡t v├á c╞í quan chuy├¬n m├┤n c├│ thß║⌐m quyß╗ün. ─Éiß╗üu 3. Quyß║┐t ─æß╗ïnh n├áy c├│ hiß╗çu lß╗▒c kß╗â tß╗½ ng├áy 30 th├íng 6 n─âm 2025. ─Éiß╗üu 4. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam c├íc ph╞░ß╗¥ng tß║íi ─Éiß╗üu 1, Ban Th╞░ß╗¥ng
+  SIM=0.2685  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├│ hiß╗çu lß╗▒c kß╗â tß╗½ ng├áy 30 th├íng 6 n─âm 2025. ─Éiß╗üu 4. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Quß║¡n 7, c├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh v├á c├íc c╞í 
+  SIM=0.2578  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+  SIM=0.2476  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt  |  ß╗ªY BAN MTTQ VIß╗åT NAM TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH BAN TH╞»ß╗£NG TRß╗░C Cß╗ÿNG H├ÆA X├â Hß╗ÿI CHß╗ª NGH─¿A VIß╗åT NAM ─Éß╗Öc lß║¡p ΓÇô Tß╗▒ do ΓÇô Hß║ính Ph├║c Sß╗æ: 326/Q─É-MTTQ-BTT TP. Hß╗ô Ch├¡ Minh, ng├áy 27 th├íng 6 n─âm 2025 QUYß║╛T ─Éß╗èNH Th├ánh
+  SIM=0.2314  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+  SIM=0.2186  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├¬n quan chß╗ïu tr├ích nhiß╗çm thß╗▒c hiß╗çn quyß║┐t ─æß╗ïnh n├áy. QUYß║╛T ─Éß╗èNH Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam p
+  SIM=0.2126  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  iß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, QUYß║╛T ─Éß╗èNH: ─Éiß╗üu 1. Kß║┐t th├║c hoß║ít ─æß╗Öng cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam 10 ph╞░ß╗¥ng cß╗ºa Quß║¡n 7 (theo danh s├ích ─æ├¡nh k├¿m). ─Éiß╗üu 2. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò qu
+  SIM=0.2110  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+  SIM=0.2083  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+  SIM=0.2079  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├¬n quan chß╗ïu tr├ích nhiß╗çm thß╗▒c hiß╗çn quyß║┐t ─æß╗ïnh n├áy. N╞íi nhß║¡n: - Nh╞░ ─Éiß╗üu 4; - Ban Tß╗ò chß╗⌐c Th├ánh ß╗ºy TP.HCM; - Ban Th╞░ß╗¥ng vß╗Ñ Quß║¡n ß╗ºy Quß║¡n 7; - BTT ß╗ªy ban MTTQ Viß╗çt Nam TP.HCM; - Luu: VT, BTC (V). QUYß║╛T ─É
+  SIM=0.2054  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt  |  iß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, QUYß║╛T ─Éß╗èNH: ─Éiß╗üu 1. Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. Chß╗⌐c n─âng, nhiß╗çm vß╗Ñ cß╗ºa ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam p
+  SIM=0.1988  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├│ hiß╗çu lß╗▒c thi h├ánh tß╗½ ng├áy 01 th├íng 7 n─âm 2025./. QUYß║╛T ─Éß╗èNH Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam p
+  SIM=0.1954  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx  |  QUYß║╛T ─Éß╗èNH Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng BAN TH╞»ß╗£NG TRß╗░C ß╗ªY BAN Mß║╢T TRß║¼N Tß╗ö Q
+  SIM=0.1923  Uß╗╖ ban mß║╖t trß║¡n tß╗ò quß╗æc viß╗çt nam ph╞░ß╗¥ng t├ón h╞░ng.txt  |   Nam ph╞░ß╗¥ng T├ón H╞░ng (danh s├ích ─æ├¡nh k├¿m). ─Éiß╗üu 3. C├┤ng nhß║¡n c├íc chß╗⌐c danh trong Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, gß╗ôm c├íc ├┤ng, b├á c├│ t├¬n sau: 1. B├á Phß║ím Thß╗ï Hß║ính T╞░, C
+  SIM=0.1898  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx  |   trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, c├íc tß╗ò chß╗⌐c ch├¡nh trß╗ï - x├ú hß╗Öi, c├íc Hß╗Öi quß║ºn ch├║ng do ─Éß║úng v├á Nh├á n╞░ß╗¢c giao nhiß╗çm vß╗Ñ (cß║Ñp tß╗ënh, cß║Ñp x├ú); - X├⌐t ─æß╗ü nghß╗ï cß╗ºa Ban Tß╗ò chß╗⌐c, kiß╗âm tra C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc
+
+Simple search: 20 results
+  SIM=0.0652  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├│ hiß╗çu lß╗▒c kß╗â tß╗½ ng├áy 30 th├íng 6 n─âm 2025. ─Éiß╗üu 4. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Quß║¡n 7, c├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh v├á c├íc c╞í 
+  SIM=0.0638  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  nhiß╗çm vß╗Ñ ─æß╗ông bß╗Ö vß╗¢i sß║»p xß║┐p, hß╗úp nhß║Ñt ─æ╞ín vß╗ï h├ánh ch├¡nh cß║Ñp tß╗ënh, cß║Ñp x├ú; - X├⌐t ─æß╗ü nghß╗ï cß╗ºa Ban Tß╗ò chß╗⌐c C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, QUYß║╛T ─Éß╗èNH: ─Éiß╗üu 1. Kß║┐t th├║c ho
+  SIM=0.0606  DANH S├üCH Tß╗öNG THß╗é (HC).xlsx  |   | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | === Sheet: HT-HP TR
+  SIM=0.0588  Nghß╗ï ─æß╗ïnh 118_2025_N─É-CP.docx  |  c h├ánh ch├¡nh thuß╗Öc thß║⌐m quyß╗ün giß║úi quyß║┐t hoß║╖c li├¬n th├┤ng giß║úi quyß║┐t cß╗ºa ß╗ªy ban nh├ón d├ón cß║Ñp tß╗ënh, Chß╗º tß╗ïch ß╗ªy ban nh├ón d├ón cß║Ñp tß╗ënh, c├íc c╞í quan chuy├¬n m├┤n thuß╗Öc ß╗ªy ban nh├ón d├ón cß║Ñp tß╗ënh; b) Thß╗º tß╗Ñc h
+  SIM=0.0556  Danh s├ích th├┤ng tin c├íc TC─É (050326).xlsx  |   | | | | | | | | | | | Tß╗òng quan: 119 tß╗ò chß╗⌐c ─Éß║úng thuß╗Öc ─Éß║úng bß╗Ö ph╞░ß╗¥ng, trong ─æ├│: - 8 ─Éß║úng bß╗Ö c╞í sß╗ƒ gß╗ôm 41 chi bß╗Ö trß╗▒c thuß╗Öc v├á 1 ─Éß║úng bß╗Ö Bß╗Ö phß║¡n (3 chi bß╗Ö trß╗▒c thuß╗Öc ─ÉBBP) - 7 Chi bß╗Ö c╞í sß╗ƒ - 104 Chi
+  SIM=0.0545  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx  |   trß║¡n Tß╗ò quß╗æc Viß╗çt Nam, c├íc tß╗ò chß╗⌐c ch├¡nh trß╗ï - x├ú hß╗Öi, c├íc Hß╗Öi quß║ºn ch├║ng do ─Éß║úng v├á Nh├á n╞░ß╗¢c giao nhiß╗çm vß╗Ñ (cß║Ñp tß╗ënh, cß║Ñp x├ú); - X├⌐t ─æß╗ü nghß╗ï cß╗ºa Ban Tß╗ò chß╗⌐c, kiß╗âm tra C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc
+  SIM=0.0545  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |   luß║¡t v├á c╞í quan chuy├¬n m├┤n c├│ thß║⌐m quyß╗ün. ─Éiß╗üu 3. Quyß║┐t ─æß╗ïnh n├áy c├│ hiß╗çu lß╗▒c kß╗â tß╗½ ng├áy 30 th├íng 6 n─âm 2025. ─Éiß╗üu 4. Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam c├íc ph╞░ß╗¥ng tß║íi ─Éiß╗üu 1, Ban Th╞░ß╗¥ng
+  SIM=0.0536  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+  SIM=0.0513  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  A X├â Hß╗ÿI CHß╗ª NGH─¿A VIß╗åT NAM ─Éß╗Öc lß║¡p ΓÇô Tß╗▒ do ΓÇô Hß║ính Ph├║c Sß╗æ: 260/NQ-TTH─ÉND | TP. Hß╗ô Ch├¡ Minh, ng├áy 22 th├íng 6 n─âm 2025 ß╗ªY BAN MTTQ VIß╗åT NAM TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH BAN TH╞»ß╗£NG TRß╗░C | Cß╗ÿNG H├ÆA X├â Hß╗ÿI CHß╗ª N
+  SIM=0.0508  Q─É 326 Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng.docx  |   c├┤ng nhß║¡n kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. ─Éiß╗üu 4. ß╗ªy ban, Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng c├│ tr├ích nhiß╗çm thß╗▒c hiß╗çn chß╗⌐c n─âng, nhiß╗çm vß╗Ñ ─æ╞░ß╗úc quy ─æß╗ïnh tß║íi ─Éiß╗üu lß╗ç Mß║╖t t
+  SIM=0.0508  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |   c├┤ng nhß║¡n kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. ─Éiß╗üu 4. ß╗ªy ban, Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng c├│ tr├ích nhiß╗çm thß╗▒c hiß╗çn chß╗⌐c n─âng, nhiß╗çm vß╗Ñ ─æ╞░ß╗úc quy ─æß╗ïnh tß║íi ─Éiß╗üu lß╗ç Mß║╖t t
+  SIM=0.0508  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |   c├┤ng nhß║¡n kß╗â tß╗½ ng├áy 01 th├íng 7 n─âm 2025. ─Éiß╗üu 4. ß╗ªy ban, Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng c├│ tr├ích nhiß╗çm thß╗▒c hiß╗çn chß╗⌐c n─âng, nhiß╗çm vß╗Ñ ─æ╞░ß╗úc quy ─æß╗ïnh tß║íi ─Éiß╗üu lß╗ç Mß║╖t t
+  SIM=0.0488  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh) ß╗ªY BAN MTTQ VIß╗åT NAM TH├ÇNH PHß╗É Hß╗Æ CH├ì MINH BAN TH╞»ß╗£NG TRß╗░C | Cß╗ÿNG H├ÆA X├â Hß╗ÿI CHß╗ª NGH─¿A VIß╗åT NAM ─Éß╗Öc lß║¡p ΓÇô Tß╗▒ do ΓÇô Hß║ính Ph├║c Sß╗æ: 214/Q─É-MTTQ-BTT | TP. Hß╗ô Ch├¡ Minh
+  SIM=0.0484  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  ├¬n quan chß╗ïu tr├ích nhiß╗çm thß╗▒c hiß╗çn quyß║┐t ─æß╗ïnh n├áy. QUYß║╛T ─Éß╗èNH Th├ánh lß║¡p ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng, c├┤ng nhß║¡n ß╗ªy vi├¬n ß╗ªy ban v├á Ban Th╞░ß╗¥ng trß╗▒c ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam p
+  SIM=0.0484  Tß╗òng hß╗úp dß╗» liß╗çu ph╞░ß╗¥ng T├ón H╞░ng.docx  |  n H╞░ng lß║ºn thß╗⌐ nhß║Ñt, nhiß╗çm kß╗│ 2025 - 2030. ─Éiß╗üu 5. C├íc ban, V─ân ph├▓ng C╞í quan ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam Th├ánh phß╗æ Hß╗ô Ch├¡ Minh, ß╗ªy ban Mß║╖t trß║¡n Tß╗ò quß╗æc Viß╗çt Nam ph╞░ß╗¥ng T├ón H╞░ng v├á c├íc ├┤ng, b├á c├│
+
+=== XLSX chunks in top-15 results ===
+  XLSX FOUND (simple): SIM=0.0606  CHUNK_ID=56
+     | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | === Sheet: HT-HP TR
